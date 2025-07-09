@@ -26,3 +26,6 @@ C:\PRN212\Assignment\DNASystem\DNASystem\obj\Debug\net9.0-windows\BlogWindow.g.c
 C:\PRN212\Assignment\DNASystem\DNASystem\obj\Debug\net9.0-windows\HomeWindow.g.cs
 C:\PRN212\Assignment\DNASystem\DNASystem\obj\Debug\net9.0-windows\BlogWindow.baml
 C:\PRN212\Assignment\DNASystem\DNASystem\obj\Debug\net9.0-windows\HomeWindow.baml
+C:\PRN212\Assignment\DNASystem\DNASystem\obj\Debug\net9.0-windows\ContactWindow.g.cs
+C:\PRN212\Assignment\DNASystem\DNASystem\obj\Debug\net9.0-windows\ContactWindow.baml
+C:\PRN212\Assignment\DNASystem\DNASystem\obj\Debug\net9.0-windows\DNASystem.sourcelink.json

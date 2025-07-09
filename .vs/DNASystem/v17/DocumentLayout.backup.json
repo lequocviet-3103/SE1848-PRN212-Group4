@@ -3,20 +3,32 @@
   "WorkspaceRootPath": "C:\\PRN212\\Assignment\\DNASystem\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EC711F52-189A-4BE9-9C79-0FF21D3E6445}|DNASystem\\DNASystem.csproj|c:\\prn212\\assignment\\dnasystem\\dnasystem\\contactwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EC711F52-189A-4BE9-9C79-0FF21D3E6445}|DNASystem\\DNASystem.csproj|solutionrelative:dnasystem\\contactwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC711F52-189A-4BE9-9C79-0FF21D3E6445}|DNASystem\\DNASystem.csproj|c:\\prn212\\assignment\\dnasystem\\dnasystem\\contactwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC711F52-189A-4BE9-9C79-0FF21D3E6445}|DNASystem\\DNASystem.csproj|solutionrelative:dnasystem\\contactwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC711F52-189A-4BE9-9C79-0FF21D3E6445}|DNASystem\\DNASystem.csproj|c:\\prn212\\assignment\\dnasystem\\dnasystem\\blogwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EC711F52-189A-4BE9-9C79-0FF21D3E6445}|DNASystem\\DNASystem.csproj|solutionrelative:dnasystem\\blogwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EC711F52-189A-4BE9-9C79-0FF21D3E6445}|DNASystem\\DNASystem.csproj|c:\\prn212\\assignment\\dnasystem\\dnasystem\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{EC711F52-189A-4BE9-9C79-0FF21D3E6445}|DNASystem\\DNASystem.csproj|solutionrelative:dnasystem\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC711F52-189A-4BE9-9C79-0FF21D3E6445}|DNASystem\\DNASystem.csproj|c:\\prn212\\assignment\\dnasystem\\dnasystem\\homewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC711F52-189A-4BE9-9C79-0FF21D3E6445}|DNASystem\\DNASystem.csproj|solutionrelative:dnasystem\\homewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EC711F52-189A-4BE9-9C79-0FF21D3E6445}|DNASystem\\DNASystem.csproj|c:\\prn212\\assignment\\dnasystem\\dnasystem\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC711F52-189A-4BE9-9C79-0FF21D3E6445}|DNASystem\\DNASystem.csproj|solutionrelative:dnasystem\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EC711F52-189A-4BE9-9C79-0FF21D3E6445}|DNASystem\\DNASystem.csproj|c:\\prn212\\assignment\\dnasystem\\dnasystem\\homewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{EC711F52-189A-4BE9-9C79-0FF21D3E6445}|DNASystem\\DNASystem.csproj|solutionrelative:dnasystem\\homewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC711F52-189A-4BE9-9C79-0FF21D3E6445}|DNASystem\\DNASystem.csproj|c:\\prn212\\assignment\\dnasystem\\dnasystem\\blogwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{EC711F52-189A-4BE9-9C79-0FF21D3E6445}|DNASystem\\DNASystem.csproj|solutionrelative:dnasystem\\blogwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{EC711F52-189A-4BE9-9C79-0FF21D3E6445}|DNASystem\\DNASystem.csproj|c:\\prn212\\assignment\\dnasystem\\dnasystem\\homewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC711F52-189A-4BE9-9C79-0FF21D3E6445}|DNASystem\\DNASystem.csproj|solutionrelative:dnasystem\\homewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EC711F52-189A-4BE9-9C79-0FF21D3E6445}|DNASystem\\DNASystem.csproj|c:\\prn212\\assignment\\dnasystem\\dnasystem\\blogwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -45,10 +57,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{EC711F52-189A-4BE9-9C79-0FF21D3E6445}|DNASystem\\DNASystem.csproj|c:\\prn212\\assignment\\dnasystem\\dnasystem\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EC711F52-189A-4BE9-9C79-0FF21D3E6445}|DNASystem\\DNASystem.csproj|solutionrelative:dnasystem\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC711F52-189A-4BE9-9C79-0FF21D3E6445}|DNASystem\\DNASystem.csproj|c:\\prn212\\assignment\\dnasystem\\dnasystem\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC711F52-189A-4BE9-9C79-0FF21D3E6445}|DNASystem\\DNASystem.csproj|solutionrelative:dnasystem\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EC711F52-189A-4BE9-9C79-0FF21D3E6445}|DNASystem\\DNASystem.csproj|c:\\prn212\\assignment\\dnasystem\\dnasystem\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -87,6 +95,18 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ContactWindow.xaml",
+              "DocumentMoniker": "C:\\PRN212\\Assignment\\DNASystem\\DNASystem\\ContactWindow.xaml",
+              "RelativeDocumentMoniker": "DNASystem\\ContactWindow.xaml",
+              "ToolTip": "C:\\PRN212\\Assignment\\DNASystem\\DNASystem\\ContactWindow.xaml",
+              "RelativeToolTip": "DNASystem\\ContactWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-09T03:44:50.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\PRN212\\Assignment\\DNASystem\\DNASystem\\App.xaml",
               "RelativeDocumentMoniker": "DNASystem\\App.xaml",
@@ -98,56 +118,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "LoginWindow.xaml",
-              "DocumentMoniker": "C:\\PRN212\\Assignment\\DNASystem\\DNASystem\\LoginWindow.xaml",
-              "RelativeDocumentMoniker": "DNASystem\\LoginWindow.xaml",
-              "ToolTip": "C:\\PRN212\\Assignment\\DNASystem\\DNASystem\\LoginWindow.xaml",
-              "RelativeToolTip": "DNASystem\\LoginWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-02T08:48:33.498Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "AccountCreationWindow.xaml",
               "DocumentMoniker": "C:\\PRN212\\Assignment\\DNASystem\\DNASystem\\AccountCreationWindow.xaml",
               "RelativeDocumentMoniker": "DNASystem\\AccountCreationWindow.xaml",
               "ToolTip": "C:\\PRN212\\Assignment\\DNASystem\\DNASystem\\AccountCreationWindow.xaml",
               "RelativeToolTip": "DNASystem\\AccountCreationWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-08T14:57:54.031Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "HomeWindow.xaml.cs",
-              "DocumentMoniker": "C:\\PRN212\\Assignment\\DNASystem\\DNASystem\\HomeWindow.xaml.cs",
-              "RelativeDocumentMoniker": "DNASystem\\HomeWindow.xaml.cs",
-              "ToolTip": "C:\\PRN212\\Assignment\\DNASystem\\DNASystem\\HomeWindow.xaml.cs",
-              "RelativeToolTip": "DNASystem\\HomeWindow.xaml.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAkwEkAAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T01:56:26.035Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-08T14:57:54.031Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "HomeWindow.xaml",
-              "DocumentMoniker": "C:\\PRN212\\Assignment\\DNASystem\\DNASystem\\HomeWindow.xaml",
-              "RelativeDocumentMoniker": "DNASystem\\HomeWindow.xaml",
-              "ToolTip": "C:\\PRN212\\Assignment\\DNASystem\\DNASystem\\HomeWindow.xaml",
-              "RelativeToolTip": "DNASystem\\HomeWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-08T17:02:59.623Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "BlogWindow.xaml",
               "DocumentMoniker": "C:\\PRN212\\Assignment\\DNASystem\\DNASystem\\BlogWindow.xaml",
               "RelativeDocumentMoniker": "DNASystem\\BlogWindow.xaml",
@@ -159,7 +141,68 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ContactWindow.xaml.cs",
+              "DocumentMoniker": "C:\\PRN212\\Assignment\\DNASystem\\DNASystem\\ContactWindow.xaml.cs",
+              "RelativeDocumentMoniker": "DNASystem\\ContactWindow.xaml.cs",
+              "ToolTip": "C:\\PRN212\\Assignment\\DNASystem\\DNASystem\\ContactWindow.xaml.cs*",
+              "RelativeToolTip": "DNASystem\\ContactWindow.xaml.cs*",
+              "ViewState": "AgIAADgAAAAAAAAAAAA0wEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T04:10:45.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeWindow.xaml",
+              "DocumentMoniker": "C:\\PRN212\\Assignment\\DNASystem\\DNASystem\\HomeWindow.xaml",
+              "RelativeDocumentMoniker": "DNASystem\\HomeWindow.xaml",
+              "ToolTip": "C:\\PRN212\\Assignment\\DNASystem\\DNASystem\\HomeWindow.xaml",
+              "RelativeToolTip": "DNASystem\\HomeWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-08T17:02:59.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LoginWindow.xaml",
+              "DocumentMoniker": "C:\\PRN212\\Assignment\\DNASystem\\DNASystem\\LoginWindow.xaml",
+              "RelativeDocumentMoniker": "DNASystem\\LoginWindow.xaml",
+              "ToolTip": "C:\\PRN212\\Assignment\\DNASystem\\DNASystem\\LoginWindow.xaml",
+              "RelativeToolTip": "DNASystem\\LoginWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-02T08:48:33.498Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\PRN212\\Assignment\\DNASystem\\DNASystem\\App.xaml.cs",
+              "RelativeDocumentMoniker": "DNASystem\\App.xaml.cs",
+              "ToolTip": "C:\\PRN212\\Assignment\\DNASystem\\DNASystem\\App.xaml.cs",
+              "RelativeToolTip": "DNASystem\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T14:42:37.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeWindow.xaml.cs",
+              "DocumentMoniker": "C:\\PRN212\\Assignment\\DNASystem\\DNASystem\\HomeWindow.xaml.cs",
+              "RelativeDocumentMoniker": "DNASystem\\HomeWindow.xaml.cs",
+              "ToolTip": "C:\\PRN212\\Assignment\\DNASystem\\DNASystem\\HomeWindow.xaml.cs",
+              "RelativeToolTip": "DNASystem\\HomeWindow.xaml.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAkwEkAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T01:56:26.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "BlogWindow.xaml.cs",
               "DocumentMoniker": "C:\\PRN212\\Assignment\\DNASystem\\DNASystem\\BlogWindow.xaml.cs",
               "RelativeDocumentMoniker": "DNASystem\\BlogWindow.xaml.cs",
@@ -167,12 +210,11 @@
               "RelativeToolTip": "DNASystem\\BlogWindow.xaml.cs",
               "ViewState": "AgIAAF0AAAAAAAAAAAAgwMYAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T02:40:28.676Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-09T02:40:28.676Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "AccountCreationWindow.xaml.cs",
               "DocumentMoniker": "C:\\PRN212\\Assignment\\DNASystem\\DNASystem\\AccountCreationWindow.xaml.cs",
               "RelativeDocumentMoniker": "DNASystem\\AccountCreationWindow.xaml.cs",
@@ -180,12 +222,11 @@
               "RelativeToolTip": "DNASystem\\AccountCreationWindow.xaml.cs",
               "ViewState": "AgIAADYAAAAAAAAAAAAiwDsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-08T15:31:08.793Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-08T15:31:08.793Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "LoginWindow.xaml.cs",
               "DocumentMoniker": "C:\\PRN212\\Assignment\\DNASystem\\DNASystem\\LoginWindow.xaml.cs",
               "RelativeDocumentMoniker": "DNASystem\\LoginWindow.xaml.cs",
@@ -193,12 +234,11 @@
               "RelativeToolTip": "DNASystem\\LoginWindow.xaml.cs",
               "ViewState": "AgIAABoAAAAAAAAAAAAqwCIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-08T14:26:06.319Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-08T14:26:06.319Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "AssemblyInfo.cs",
               "DocumentMoniker": "C:\\PRN212\\Assignment\\DNASystem\\DNASystem\\AssemblyInfo.cs",
               "RelativeDocumentMoniker": "DNASystem\\AssemblyInfo.cs",
@@ -210,31 +250,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\PRN212\\Assignment\\DNASystem\\DNASystem\\App.xaml.cs",
-              "RelativeDocumentMoniker": "DNASystem\\App.xaml.cs",
-              "ToolTip": "C:\\PRN212\\Assignment\\DNASystem\\DNASystem\\App.xaml.cs",
-              "RelativeToolTip": "DNASystem\\App.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-08T14:42:37.097Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\PRN212\\Assignment\\DNASystem\\DNASystem\\MainWindow.xaml",
               "RelativeDocumentMoniker": "DNASystem\\MainWindow.xaml",
               "ToolTip": "C:\\PRN212\\Assignment\\DNASystem\\DNASystem\\MainWindow.xaml",
               "RelativeToolTip": "DNASystem\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-02T08:42:33.283Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-02T08:42:33.283Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\PRN212\\Assignment\\DNASystem\\DNASystem\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "DNASystem\\MainWindow.xaml.cs",
