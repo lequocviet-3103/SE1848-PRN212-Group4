@@ -4,6 +4,8 @@ namespace Repositories
 {
     public interface IUserRepository
     {
-        public User GetAccountByEmail(string email);
+        public User GetAccountByUsername(string username);
+        public void Register(User user);
+        public string GenerateNewUserId(); // Assuming this method exists in IUserRepository
     }
 }

@@ -14,9 +14,19 @@ namespace Services
             this.iUserRepository = new UserRepository();
         }
 
-        public User GetAccountByEmail(string email)
+        public User GetAccountByUsername(string username)
         {
-            return iUserRepository.GetAccountByEmail(email);
+            return iUserRepository.GetAccountByUsername(username);
+        }
+
+        public void Register(User user)
+        {
+            if(GetAccountByUsername(user.Username) != null)
+            {
+                throw new Exception("Username already exists.");
+            }
+            user.UserId = iUserRepository.GenerateNewUserId(); // Assuming this method exists in IUserRepository
+            iUserRepository.Register(user);
         }
     }
 }

@@ -9,6 +9,7 @@ namespace Services
 {
     public interface IUserService
     {
-        public User GetAccountByEmail(string email);
+        public User GetAccountByUsername(string username);
+        public void Register(User user);
     }
 }
