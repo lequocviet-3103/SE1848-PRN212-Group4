@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\PRN212-DNA\\SE1848-PRN212-Group4\\DNASystem\\DataAccessLayer\\DataAccessLayer.csproj": {}
+    "D:\\Ki5\\PRN212\\DNASystem\\DNASystem\\DataAccessLayer\\DataAccessLayer.csproj": {}
   },
   "projects": {
-    "D:\\PRN212-DNA\\SE1848-PRN212-Group4\\DNASystem\\BusinessObjects\\BusinessObjects.csproj": {
+    "D:\\Ki5\\PRN212\\DNASystem\\DNASystem\\BusinessObjects\\BusinessObjects.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PRN212-DNA\\SE1848-PRN212-Group4\\DNASystem\\BusinessObjects\\BusinessObjects.csproj",
+        "projectUniqueName": "D:\\Ki5\\PRN212\\DNASystem\\DNASystem\\BusinessObjects\\BusinessObjects.csproj",
         "projectName": "BusinessObjects",
-        "projectPath": "D:\\PRN212-DNA\\SE1848-PRN212-Group4\\DNASystem\\BusinessObjects\\BusinessObjects.csproj",
-        "packagesPath": "C:\\Users\\LE QUOC VIET\\.nuget\\packages\\",
-        "outputPath": "D:\\PRN212-DNA\\SE1848-PRN212-Group4\\DNASystem\\BusinessObjects\\obj\\",
+        "projectPath": "D:\\Ki5\\PRN212\\DNASystem\\DNASystem\\BusinessObjects\\BusinessObjects.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\Ki5\\PRN212\\DNASystem\\DNASystem\\BusinessObjects\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\LE QUOC VIET\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -44,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -65,24 +65,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\PRN212-DNA\\SE1848-PRN212-Group4\\DNASystem\\DataAccessLayer\\DataAccessLayer.csproj": {
+    "D:\\Ki5\\PRN212\\DNASystem\\DNASystem\\DataAccessLayer\\DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PRN212-DNA\\SE1848-PRN212-Group4\\DNASystem\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectUniqueName": "D:\\Ki5\\PRN212\\DNASystem\\DNASystem\\DataAccessLayer\\DataAccessLayer.csproj",
         "projectName": "DataAccessLayer",
-        "projectPath": "D:\\PRN212-DNA\\SE1848-PRN212-Group4\\DNASystem\\DataAccessLayer\\DataAccessLayer.csproj",
-        "packagesPath": "C:\\Users\\LE QUOC VIET\\.nuget\\packages\\",
-        "outputPath": "D:\\PRN212-DNA\\SE1848-PRN212-Group4\\DNASystem\\DataAccessLayer\\obj\\",
+        "projectPath": "D:\\Ki5\\PRN212\\DNASystem\\DNASystem\\DataAccessLayer\\DataAccessLayer.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\Ki5\\PRN212\\DNASystem\\DNASystem\\DataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\LE QUOC VIET\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -97,8 +97,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\PRN212-DNA\\SE1848-PRN212-Group4\\DNASystem\\BusinessObjects\\BusinessObjects.csproj": {
-                "projectPath": "D:\\PRN212-DNA\\SE1848-PRN212-Group4\\DNASystem\\BusinessObjects\\BusinessObjects.csproj"
+              "D:\\Ki5\\PRN212\\DNASystem\\DNASystem\\BusinessObjects\\BusinessObjects.csproj": {
+                "projectPath": "D:\\Ki5\\PRN212\\DNASystem\\DNASystem\\BusinessObjects\\BusinessObjects.csproj"
               }
             }
           }
@@ -113,7 +113,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -164,7 +164,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
