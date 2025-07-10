@@ -5,24 +5,40 @@ using Services;
 
 public class ServiceService : IServiceService
 {
-    private readonly IServiceRepository repository;
-
+    private readonly IServiceRepository iServiceRepository;
     public ServiceService()
     {
-        repository = new ServiceRepository();
+        iServiceRepository = new ServiceRepository();
     }
 
-    public List<Service> GetAllServices() => repository.GetAllServices();
+    
 
-    public List<Service> GetServicesByType(string type) => repository.GetServicesByType(type);
+    public List<Service> GetServicesByType(string type) => iServiceRepository.GetServicesByType(type);
 
-    public Service? GetServiceById(string id) => repository.GetServiceById(id);
+    public void AddService(Service service)
+    {
+        service.ServiceId = iServiceRepository.GenerateNewServiceId();
 
-    public void AddService(Service service) => repository.AddService(service);
+        iServiceRepository.AddService(service);
+    }
 
-    public void UpdateService(Service service) => repository.UpdateService(service);
+    public void DeleteService(Service service)
+    {
+        iServiceRepository.DeleteService(service);
+    }
 
-    public void DeleteService(string id) => repository.DeleteService(id);
+    public List<Service> GetAllServices()
+    {
+        return iServiceRepository.GetAllServices();
+    }
 
-    public string GenerateNewServiceId() => repository.GenerateNewServiceId();
+    public Service GetServiceById(string serviceId)
+    {
+        return iServiceRepository.GetServiceById(serviceId);
+    }
+
+    public void UpdateService(Service service)
+    {
+        iServiceRepository.UpdateService(service);
+    }
 }

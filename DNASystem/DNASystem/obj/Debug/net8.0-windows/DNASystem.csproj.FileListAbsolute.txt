@@ -190,3 +190,5 @@ D:\PRN212-Group_Project\PRN212\DNASystem\DNASystem\obj\Debug\net8.0-windows\DNAS
 D:\PRN212-Group_Project\PRN212\DNASystem\DNASystem\obj\Debug\net8.0-windows\ref\DNASystem.dll
 D:\PRN212-Group_Project\PRN212\DNASystem\DNASystem\obj\Debug\net8.0-windows\BookingWindow.g.cs
 D:\PRN212-Group_Project\PRN212\DNASystem\DNASystem\obj\Debug\net8.0-windows\BookingWindow.baml
+D:\PRN212-Group_Project\PRN212\DNASystem\DNASystem\obj\Debug\net8.0-windows\CreateAndUpdateServiceWindow.g.cs
+D:\PRN212-Group_Project\PRN212\DNASystem\DNASystem\obj\Debug\net8.0-windows\CreateAndUpdateServiceWindow.baml

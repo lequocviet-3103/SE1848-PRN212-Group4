@@ -5,12 +5,15 @@ namespace DataAccessLayer
 {
     public interface IServiceRepository
     {
-        List<Service> GetAllServices();
-        List<Service> GetServicesByType(string type);
-        Service? GetServiceById(string serviceId);
-        void AddService(Service service);
-        void UpdateService(Service service);
-        void DeleteService(string serviceId);
-        string GenerateNewServiceId();
+        public List<Service> GetAllServices();
+
+        public Service GetServiceById(string serviceId);
+        public void AddService(Service service);
+        public void UpdateService(Service service);
+        public void DeleteService(Service service);
+
+        public string GenerateNewServiceId();
+        public List<Service> GetServicesByType(string type);
+        
     }
 }

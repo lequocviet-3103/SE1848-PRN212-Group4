@@ -5,9 +5,32 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DNASystem"
         mc:Ignorable="d"
-        Title="AdminWindow" Height="450" Width="800">
+        Title="AdminWindow" Height="450" Width="800" Loaded="Window_Loaded">
     <Grid>
-        <Label Content="admin" HorizontalAlignment="Left" Margin="172,145,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Margin="84,99,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="277" FontSize="20"/>
+        <Label Content="Search" HorizontalAlignment="Left" Margin="0,95,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Margin="689,57,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="74" FontSize="20"/>
+        <Label Content="Service Managerment" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" Width="296" FontSize="24"/>
+
+        <Button x:Name="btnSearch" Content="Search" HorizontalAlignment="Left" Margin="400,99,0,0" VerticalAlignment="Top" FontSize="20" Width="108"/>
+        <Button x:Name="btnCreate" Content="Create" HorizontalAlignment="Left" Margin="655,150,0,0" VerticalAlignment="Top" FontSize="20" Width="108" Click="btnCreate_Click"/>
+        <Button x:Name="btnUpdate" Content="Update" HorizontalAlignment="Left" Margin="655,0,0,0" VerticalAlignment="Center" FontSize="20" Width="108" Click="btnUpdate_Click"/>
+        <Button x:Name="btnDelete" Content="Delete" HorizontalAlignment="Left" Margin="655,260,0,0" VerticalAlignment="Top" FontSize="20" Width="108" Click="btnDelete_Click"/>
+        <Button x:Name="btnExit" Content="Exit" HorizontalAlignment="Left" Margin="655,325,0,0" VerticalAlignment="Top" FontSize="20" Width="108" Click="btnExit_Click"/>
+        <ListView x:Name="lvService" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="34,165,188,39" FontSize="20">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Mã dịch vụ" DisplayMemberBinding="{Binding ServiceId}"/>
+                    <GridViewColumn Header="Kiểu dịch vụ" DisplayMemberBinding="{Binding Type}"/>
+                    <GridViewColumn Header="Tên dịch vụ" DisplayMemberBinding="{Binding Name}"/>
+                    <GridViewColumn Header="Giá dịch vụ" DisplayMemberBinding="{Binding Price}"/>
+                    <GridViewColumn Header="Mô tả" DisplayMemberBinding="{Binding Description}"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+
+
+
 
     </Grid>
 </Window>

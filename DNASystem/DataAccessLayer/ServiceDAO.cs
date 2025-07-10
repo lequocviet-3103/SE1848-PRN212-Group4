@@ -21,50 +21,32 @@ namespace DataAccessLayer
         public List<Service> GetAllServices()
         {
             using var context = new DnasystemContext();
-            return context.Services
-                          .OrderBy(s => s.Name)
-                          .ToList();
+            return context.Services.ToList();
         }
 
-        public Service? GetServiceById(string serviceId)
+        public Service GetServiceById(string serviceId)
         {
             using var context = new DnasystemContext();
-            return context.Services.FirstOrDefault(s => s.ServiceId == serviceId);
+            return context.Services.FirstOrDefault(s => s.ServiceId.Equals(serviceId));
         }
-
         public void AddService(Service service)
         {
             using var context = new DnasystemContext();
             context.Services.Add(service);
             context.SaveChanges();
         }
-
-        public void UpdateService(Service updatedService)
+        public void UpdateService(Service service)
         {
             using var context = new DnasystemContext();
-            var existing = context.Services.FirstOrDefault(s => s.ServiceId == updatedService.ServiceId);
-            if (existing != null)
-            {
-                existing.Name = updatedService.Name;
-                existing.Price = updatedService.Price;
-                existing.Type = updatedService.Type;
-                existing.Description = updatedService.Description;
-                existing.Image = updatedService.Image;
-
-                context.SaveChanges();
-            }
+            context.Services.Update(service);
+            context.SaveChanges();
         }
 
-
-        public void DeleteService(string serviceId)
+        public void DeleteService(Service service)
         {
             using var context = new DnasystemContext();
-            var service = context.Services.FirstOrDefault(s => s.ServiceId == serviceId);
-            if (service != null)
-            {
-                context.Services.Remove(service);
-                context.SaveChanges();
-            }
+            context.Services.Remove(service);
+            context.SaveChanges();
         }
 
         public string GenerateNewServiceId()
@@ -81,11 +63,9 @@ namespace DataAccessLayer
                 return "S001";
             }
 
-            var numberPart = int.TryParse(lastService.ServiceId.Substring(1), out int number)
-                ? number
-                : 0;
-
-            return "S" + (number + 1).ToString("D3");
+            // Tách phần số và tăng lên
+            var numberPart = int.Parse(lastService.ServiceId.Substring(1));
+            return "S" + (numberPart + 1).ToString("D3");
         }
     }
 }

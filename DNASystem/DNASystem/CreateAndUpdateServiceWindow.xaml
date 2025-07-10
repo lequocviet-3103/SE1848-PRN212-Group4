@@ -1,0 +1,24 @@
+﻿<Window x:Class="DNASystem.CreateAndUpdateServiceWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DNASystem"
+        mc:Ignorable="d"
+        Title="CreateAndUpdateServiceWindow" Height="450" Width="800" Loaded="Window_Loaded">
+    <Grid>
+        <Label Content="Create | Update" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="298" FontSize="24"/>
+        <Label Content="Service ID" HorizontalAlignment="Left" Margin="10,67,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <TextBox x:Name="txtServiceID" HorizontalAlignment="Left" Margin="159,71,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="453" FontSize="20"/>
+        <Label Content="Service Type" HorizontalAlignment="Left" Margin="10,114,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <TextBox x:Name="txtServiceType" HorizontalAlignment="Left" Margin="159,118,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="453" FontSize="20"/>
+        <Label Content="Service Name" HorizontalAlignment="Left" Margin="10,166,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <TextBox x:Name="txtServiceName" HorizontalAlignment="Left" Margin="159,170,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="453" FontSize="20"/>
+        <Label Content="Service Price" HorizontalAlignment="Left" Margin="10,226,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <TextBox x:Name="txtPrice" HorizontalAlignment="Left" Margin="159,230,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="453" FontSize="20"/>
+        <Label Content="Description" HorizontalAlignment="Left" Margin="10,286,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <TextBox x:Name="txtDescription" HorizontalAlignment="Left" Margin="159,290,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="453" FontSize="20"/>
+        <Button x:Name="txtSave" Content="Save" HorizontalAlignment="Left" Height="48" Margin="658,67,0,0" VerticalAlignment="Top" Width="117" Click="txtSave_Click"/>
+        <Button x:Name="txtExit" Content="Exit" HorizontalAlignment="Left" Height="56" Margin="658,147,0,0" VerticalAlignment="Top" Width="117" Click="txtExit_Click"/>
+    </Grid>
+</Window>
