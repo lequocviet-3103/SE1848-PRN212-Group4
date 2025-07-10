@@ -63,7 +63,7 @@
             </Style.Triggers>
         </Style>
     </Window.Resources>
-    
+
     <ScrollViewer VerticalScrollBarVisibility="Auto">
         <StackPanel>
 
@@ -120,31 +120,24 @@
             </StackPanel>
 
             <!-- DANH SÁCH DỊCH VỤ -->
-            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10">
-                <Border Width="200" Height="180" Margin="10" BorderBrush="Gray" BorderThickness="1" CornerRadius="10" Padding="10">
-                    <StackPanel>
-                        <TextBlock Text="Xét nghiệm cha con" FontWeight="Bold" FontSize="14"/>
-                        <TextBlock Text="2.500.000 VNĐ" Margin="0,10,0,0" FontSize="12"/>
-                        <Button x:Name="btnXemChiTietChaCon" Content="Xem chi tiết" Margin="0,10,0,0" Background="#1E90FF" Foreground="White" Height="30" Click="btnXemChiTietChaCon_Click"/>
-                    </StackPanel>
-                </Border>
-
-                <Border Width="200" Height="180" Margin="10" BorderBrush="Gray" BorderThickness="1" CornerRadius="10" Padding="10">
-                    <StackPanel>
-                        <TextBlock Text="Xét nghiệm mẹ con" FontWeight="Bold" FontSize="14"/>
-                        <TextBlock Text="2.400.000 VNĐ" Margin="0,10,0,0" FontSize="12"/>
-                        <Button x:Name="btnXemChiTietMeCon" Content="Xem chi tiết" Margin="0,10,0,0" Background="#1E90FF" Foreground="White" Height="30" Click="btnXemChiTietMeCon_Click"/>
-                    </StackPanel>
-                </Border>
-
-                <Border Width="200" Height="180" Margin="10" BorderBrush="Gray" BorderThickness="1" CornerRadius="10" Padding="10">
-                    <StackPanel>
-                        <TextBlock Text="Xét nghiệm anh chị em ruột" FontWeight="Bold" FontSize="14"/>
-                        <TextBlock Text="2.900.000 VNĐ" Margin="0,10,0,0" FontSize="12"/>
-                        <Button x:Name="btnXemChiTietAnhEm" Content="Xem chi tiết" Margin="0,10,0,0" Background="#1E90FF" Foreground="White" Height="30" Click="btnXemChiTietAnhEm_Click"/>
-                    </StackPanel>
-                </Border>
-            </StackPanel>
+            <ItemsControl x:Name="icServiceList" Margin="20" HorizontalAlignment="Center">
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <WrapPanel/>
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <Border Width="200" Height="180" Margin="10" BorderBrush="Gray" BorderThickness="1" CornerRadius="10" Padding="10">
+                            <StackPanel>
+                                <TextBlock Text="{Binding Name}" FontWeight="Bold" FontSize="14"/>
+                                <TextBlock Text="{Binding Price, StringFormat={}{0:N0} VNĐ}" Margin="0,10,0,0" FontSize="12"/>
+                                <Button x:Name="btnChiTiet" Content="Xem chi tiết" Margin="0,10,0,0" Background="#1E90FF" Foreground="White" Height="30" Click="btnChiTiet_Click"/>
+                            </StackPanel>
+                        </Border>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
 
             <!-- PHƯƠNG THỨC THU MẪU -->
             <StackPanel Margin="20">

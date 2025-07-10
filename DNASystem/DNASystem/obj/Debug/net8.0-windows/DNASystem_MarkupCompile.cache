@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\PRN212-DNA\SE1848-PRN212-Group4\DNASystem\DNASystem\obj\Debug\net8.0-windows\
+D:\PRN212-Group_Project\PRN212\DNASystem\DNASystem\obj\Debug\net8.0-windows\
 DNASystem
 none
 false
-TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
-D:\PRN212-DNA\SE1848-PRN212-Group4\DNASystem\DNASystem\App.xaml
-11918525564
+TRACE;DEBUG;NET;NET8_0;NETCOREAPP
+D:\PRN212-Group_Project\PRN212\DNASystem\DNASystem\App.xaml
+12989354397
 
-141561286254
-237675213088
-AboutUsWindow.xaml;AccountCreationWindow.xaml;AdminWindow.xaml;BlogWindow.xaml;ContactWindow.xaml;DNATestingServiceLanding.xaml;HomeWindow.xaml;LoginWindow.xaml;MainWindow.xaml;RegisterWindow.xaml;SatffWindow.xaml;
+15-1373205543
+237-1729608581
+AboutUsWindow.xaml;AccountCreationWindow.xaml;AdminWindow.xaml;BlogWindow.xaml;BookingWindow.xaml;ContactWindow.xaml;DNATestingServiceLanding.xaml;HomeWindow.xaml;LoginWindow.xaml;MainWindow.xaml;RegisterWindow.xaml;SatffWindow.xaml;
 
 False
 
