@@ -1,0 +1,215 @@
+﻿<Window x:Class="DNASystem.BlogWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DNASystem"
+        mc:Ignorable="d"
+        Title="DNA Blog" Height="1350" Width="1200" Loaded="Window_Loaded">
+    <Window.Resources>
+        <Style x:Key="TextLikeButton" TargetType="Button">
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Foreground" Value="LightGray"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Padding" Value="0"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <TextBlock Text="{TemplateBinding Content}"
+                           Foreground="{TemplateBinding Foreground}"
+                           FontSize="{TemplateBinding FontSize}"
+                           FontWeight="{TemplateBinding FontWeight}"
+                           TextWrapping="Wrap"/>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Foreground" Value="White"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
+    <ScrollViewer VerticalScrollBarVisibility="Auto">
+        <StackPanel>
+
+            <!-- Header giữ nguyên -->
+            <Grid Height="60" Background="White" VerticalAlignment="Top">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+
+                <TextBlock Grid.Column="0" Text="DNA Testing VN"
+               FontSize="18" FontWeight="Bold"
+               VerticalAlignment="Center" Margin="20,0"/>
+
+                <StackPanel Grid.Column="2" Orientation="Horizontal"
+                VerticalAlignment="Center" Margin="0,0,10,0" >
+                    <Button x:Name="btnTrangChu" Content="Trang chủ" Style="{StaticResource TextLikeButton}" Margin="10,0" Foreground="Black" Click="btnTrangChu_Click"/>
+                    <Button x:Name="btnDichVu" Content="Dịch vụ" Style="{StaticResource TextLikeButton}" Margin="10,0" Foreground="Black" Click="btnDichVu_Click"/>
+                    <Button x:Name="btnVeChungToi" Content="Về chúng tôi" Style="{StaticResource TextLikeButton}" Margin="10,0" Foreground="Black" Click="btnVeChungToi_Click"/>
+                    <Button x:Name="btnBlog" Content="Blog" Style="{StaticResource TextLikeButton}" Margin="10,0" Foreground="Black" Click="btnBlog_Click"/>
+                    <Button x:Name="btnLienHeHeader" Content="Liên hệ" Style="{StaticResource TextLikeButton}" Margin="10,0" Foreground="Black" Click="btnLienHe_Click"/>
+                </StackPanel>
+
+                <StackPanel Grid.Column="3" Orientation="Horizontal"
+                VerticalAlignment="Center" Margin="10,0,20,0">
+                    <Button x:Name="btnDangNhapHeader" Content="Đăng nhập" Background="White"
+                Foreground="Black" Padding="10,5" Margin="5,0" Click="btnDangNhap_Click"/>
+                    <Button x:Name="btnDangKyHeader" Content="Đăng ký ngay" Background="#00BFFF"
+                Foreground="White" Padding="10,5" Margin="5,0" Click="btnDangKy_Click"/>
+                </StackPanel>
+            </Grid>
+
+            <!-- BANNER -->
+            <Border Background="#1D4ED8" Padding="40" Margin="0,10">
+                <StackPanel HorizontalAlignment="Center">
+                    <TextBlock Text="Blog DNA Testing VN"
+                               FontSize="30" FontWeight="Bold"
+                               Foreground="White" TextAlignment="Center"/>
+                    <TextBlock Text="Thông tin, kiến thức về xét nghiệm ADN và di truyền học"
+                               FontSize="14" Foreground="White" TextAlignment="Center"/>
+                </StackPanel>
+            </Border>
+
+            <!-- BÀI VIẾT NỔI BẬT -->
+            <TextBlock Text="Bài viết nổi bật"
+                       FontSize="22" FontWeight="Bold"
+                       Margin="30,20,0,10" Foreground="#1E293B"/>
+
+            <Grid Margin="20">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <!-- Bài viết nổi bật chính -->
+                <Border Background="White" CornerRadius="10" BorderBrush="#E5E7EB" BorderThickness="1" Padding="10" Margin="10">
+                    <StackPanel>
+                        <Image Source="https://cdn.pixabay.com/photo/2020/04/04/21/38/dna-5008260_960_720.jpg" Height="200" Stretch="UniformToFill" />
+                        <TextBlock Text="Hiểu về xét nghiệm ADN: Từ cơ bản đến nâng cao"
+                                   FontWeight="Bold" FontSize="16" Margin="0,10,0,5" TextWrapping="Wrap" />
+                        <TextBlock Text="Cùng khám phá các phương pháp, ứng dụng của xét nghiệm ADN trong cuộc sống..."
+                                   FontSize="13" Foreground="Gray" TextWrapping="Wrap" />
+                    </StackPanel>
+                </Border>
+
+                <!-- Bài viết phụ -->
+                <StackPanel Grid.Column="1" Margin="10">
+                    <Border Background="White" CornerRadius="10" BorderBrush="#E5E7EB" BorderThickness="1" Padding="10" Margin="0,0,0,10">
+                        <StackPanel>
+                            <Image Source="https://cdn.pixabay.com/photo/2016/03/05/19/02/child-1235108_960_720.jpg" Height="80" Stretch="UniformToFill"/>
+                            <TextBlock Text="Hướng dẫn xét nghiệm huyết thống cha con" FontSize="13" FontWeight="Bold" TextWrapping="Wrap"/>
+                        </StackPanel>
+                    </Border>
+                </StackPanel>
+            </Grid>
+
+            <!-- THANH TÌM KIẾM -->
+            <StackPanel Orientation="Horizontal" Margin="30,10,30,0" HorizontalAlignment="Stretch">
+                <TextBox x:Name="txtSearch"
+             Width="300"
+             Height="35"
+             VerticalAlignment="Center"
+             Margin="0,0,10,0"
+             Padding="10"
+             FontSize="14"
+             Background="White"
+             BorderBrush="#CBD5E1"
+             BorderThickness="1"
+           />
+                <Button x:Name="btnTimKiem" Content="Tìm kiếm"
+            Width="100"
+            Height="35"
+            Background="#1D4ED8"
+            Foreground="White"
+            FontWeight="Bold"
+            Click="btnTimKiem_Click"/>
+            </StackPanel>
+
+            <!-- DANH SÁCH BÀI VIẾT -->
+            <WrapPanel x:Name="ArticlePanel" Margin="20">
+                <!-- Card bài viết -->
+                <Border Width="280" Margin="10" Background="White" CornerRadius="10" BorderBrush="#E5E7EB" BorderThickness="1">
+                    <StackPanel>
+                        <Image Source="https://cdn.pixabay.com/photo/2017/03/12/19/16/dna-2137090_960_720.jpg" Height="140" Stretch="UniformToFill" />
+                        <StackPanel Margin="10">
+                            <TextBlock Text="Xét nghiệm ADN cho trẻ sơ sinh có an toàn không?" FontWeight="Bold" FontSize="14" TextWrapping="Wrap"/>
+                            <TextBlock Text="Sức khỏe và Đời sống" FontSize="12" Foreground="Gray" />
+                            <Button x:Name="btnDocBaiViet" Content="Đọc bài viết" Background="#1D4ED8" Foreground="White" Margin="0,10,0,0"
+                                    Tag="https://example.com/bai-viet-1" Click="OpenArticle_Click"/>
+                        </StackPanel>
+                    </StackPanel>
+                </Border>
+
+                <!-- Thêm nhiều card tương tự -->
+                <!-- ... -->
+                <Border Width="280" Margin="10" Background="White" CornerRadius="10" BorderBrush="#E5E7EB" BorderThickness="1">
+                    <StackPanel>
+                        <Image Source="https://cdn.pixabay.com/photo/2017/03/12/19/16/dna-2137090_960_720.jpg" Height="140" Stretch="UniformToFill" />
+                        <StackPanel Margin="10">
+                            <TextBlock Text="Xét nghiệm ADN cho trẻ sơ sinh có an toàn không?" FontWeight="Bold" FontSize="14" TextWrapping="Wrap"/>
+                            <TextBlock Text="Sức khỏe và Đời sống" FontSize="12" Foreground="Gray" />
+                            <Button Content="Đọc bài viết" Background="#1D4ED8" Foreground="White" Margin="0,10,0,0"
+                    Tag="https://example.com/bai-viet-1" Click="OpenArticle_Click"/>
+                        </StackPanel>
+                    </StackPanel>
+                </Border>
+            </WrapPanel>
+
+            <!-- ĐĂNG KÝ NHẬN BẢN TIN -->
+            <Border Background="#E0F2FE" Padding="40" Margin="20" CornerRadius="10">
+                <StackPanel HorizontalAlignment="Center">
+                    <TextBlock Text="Đăng ký nhận bản tin" FontSize="20" FontWeight="Bold" Foreground="#1E293B"/>
+                    <TextBlock Text="Nhận thông tin mới nhất về xét nghiệm ADN và kiến thức di truyền học" FontSize="14" Foreground="#334155" TextAlignment="Center" Margin="0,10"/>
+                    <Button x:Name="btnDangKy" Content="Đăng ký ngay" Width="160" Height="40" Background="#1D4ED8" Foreground="White" Margin="0,10" Click="btnDangKy_Click"/>
+                </StackPanel>
+            </Border>
+
+            <!-- FOOTER -->
+            <Border Background="#0D1B2A" Margin="0,10,0,0" Padding="30">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <StackPanel Grid.Column="0">
+                        <TextBlock Text="DNA Testing VN" Foreground="White" FontWeight="Bold" FontSize="14"/>
+                        <TextBlock Text="Chuyên nghiệp - Uy tín - Chính xác" Foreground="White" FontSize="12"/>
+                        <TextBlock Text="Trung tâm xét nghiệm ADN hàng đầu Việt Nam với hơn 10 năm kinh nghiệm." Foreground="White" FontSize="12" TextWrapping="Wrap"/>
+                    </StackPanel>
+
+                    <StackPanel Grid.Column="1">
+                        <TextBlock Text="Dịch vụ" Foreground="White" FontWeight="Bold" FontSize="14"/>
+                        <TextBlock Text="Xét nghiệm huyết thống" Foreground="White" FontSize="12"/>
+                        <TextBlock Text="Xét nghiệm ADN hành chính" Foreground="White" FontSize="12"/>
+                        <TextBlock Text="Xét nghiệm ADN dân sự" Foreground="White" FontSize="12"/>
+                    </StackPanel>
+
+                    <StackPanel Grid.Column="2">
+                        <TextBlock Text="Về chúng tôi" Foreground="White" FontWeight="Bold" FontSize="14"/>
+                        <TextBlock Text="Giới thiệu" Foreground="White" FontSize="12"/>
+                        <TextBlock Text="Tin tức" Foreground="White" FontSize="12"/>
+                        <TextBlock Text="Liên hệ" Foreground="White" FontSize="12"/>
+                    </StackPanel>
+
+                    <StackPanel Grid.Column="3">
+                        <TextBlock Text="Thông tin liên hệ" Foreground="White" FontWeight="Bold" FontSize="14"/>
+                        <TextBlock Text="123 Đường XYZ, Quận ABC, TP. HCM" Foreground="White" FontSize="12"/>
+                        <TextBlock Text="Hotline 1900 1234 567" Foreground="White" FontSize="12"/>
+                        <TextBlock Text="info@dnatestingvn.com" Foreground="White" FontSize="12"/>
+                    </StackPanel>
+                </Grid>
+            </Border>
+        </StackPanel>
+    </ScrollViewer>
+</Window>
