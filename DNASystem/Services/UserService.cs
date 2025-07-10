@@ -25,7 +25,7 @@ namespace Services
             {
                 throw new Exception("Username already exists.");
             }
-            user.UserId = iUserRepository.GenerateNewUserId(); // Assuming this method exists in IUserRepository
+            user.UserId = iUserRepository.GenerateNewUserId(); 
             iUserRepository.Register(user);
         }
     }
