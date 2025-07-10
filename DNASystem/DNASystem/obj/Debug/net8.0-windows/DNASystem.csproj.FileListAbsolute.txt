@@ -91,3 +91,5 @@ D:\PRN212-DNA\SE1848-PRN212-Group4\DNASystem\DNASystem\obj\Debug\net8.0-windows\
 D:\PRN212-DNA\SE1848-PRN212-Group4\DNASystem\DNASystem\obj\Debug\net8.0-windows\SatffWindow.g.cs
 D:\PRN212-DNA\SE1848-PRN212-Group4\DNASystem\DNASystem\obj\Debug\net8.0-windows\AdminWindow.baml
 D:\PRN212-DNA\SE1848-PRN212-Group4\DNASystem\DNASystem\obj\Debug\net8.0-windows\SatffWindow.baml
+D:\PRN212-DNA\SE1848-PRN212-Group4\DNASystem\DNASystem\obj\Debug\net8.0-windows\RegisterWindow.g.cs
+D:\PRN212-DNA\SE1848-PRN212-Group4\DNASystem\DNASystem\obj\Debug\net8.0-windows\RegisterWindow.baml
