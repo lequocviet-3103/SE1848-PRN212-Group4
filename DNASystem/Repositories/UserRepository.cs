@@ -12,9 +12,19 @@ namespace Repositories
     {
         UserDAO userDAO = new UserDAO();
 
-        public User GetAccountByEmail(string email)
+        public string GenerateNewUserId()
         {
-            return userDAO.GetAccountByEmail(email);
+            return userDAO.GenerateNewUserId();
+        }
+
+        public User GetAccountByUsername(string username)
+        {
+            return userDAO.GetAccountByUsername(username);
+        }
+
+        public void Register(User user)
+        {
+            userDAO.Register(user);
         }
     }
 }

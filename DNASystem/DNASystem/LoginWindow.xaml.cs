@@ -60,7 +60,7 @@ namespace DNASystem
 
         private void btnDangNhap_Click(object sender, RoutedEventArgs e)
         {
-            User user = iUserService.GetAccountByEmail(txtTenDangNhap.Text);
+            User user = iUserService.GetAccountByUsername(txtTenDangNhap.Text);
             if (user != null && user.Password.Equals(txtPassword.Password) && user.RoleId.Equals("R001"))
             {
                 this.Hide();
@@ -86,7 +86,8 @@ namespace DNASystem
 
         private void btnDangKy_Click(object sender, RoutedEventArgs e)
         {
-
+            RegisterWindow registerWindow = new RegisterWindow();   
+            registerWindow.ShowDialog();
         }
 
         private void btnQuenMatKhau_Click(object sender, RoutedEventArgs e)
