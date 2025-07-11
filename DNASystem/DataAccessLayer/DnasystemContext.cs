@@ -38,7 +38,7 @@ public partial class DnasystemContext : DbContext
         IConfiguration configuration = new ConfigurationBuilder()
             .SetBasePath(Directory.GetCurrentDirectory())
             .AddJsonFile("appsettings.json", true, true).Build();
-        return configuration["ConnectionStrings:DefaultConnectionString"];
+        return configuration["ConnectionStrings:AnotherConnection"];
     }
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         => optionsBuilder.UseSqlServer(GetConnectionString());

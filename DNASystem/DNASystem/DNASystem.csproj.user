@@ -14,5 +14,8 @@
     <Compile Update="SatffWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="UserManagementPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
 </Project>
