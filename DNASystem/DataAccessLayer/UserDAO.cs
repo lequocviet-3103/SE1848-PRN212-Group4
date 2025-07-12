@@ -35,6 +35,40 @@ namespace DataAccessLayer
             return "C" + (numberPart + 1).ToString("D3");
         }
 
+        public List<User> GetAllUsers()
+        {
+            using var context = new DnasystemContext();
+            var users = context.Users.ToList();
+
+            foreach (var user in users)
+            {
+                user.RoleName = user.RoleId switch
+                {
+                    "R001" => "Quản trị viên",
+                    "R002" => "Khách hàng",
+                    "R003" => "Nhân viên",
+                    _ => "Không xác định"
+                };
+            }
+
+            return users;
+        }
+
+        public static bool DeleteUser(string userId)
+        {
+            // Ví dụ với Entity Framework
+            using (var context = new DnasystemContext())
+            {
+                var user = context.Users.FirstOrDefault(u => u.UserId == userId);
+                if (user != null)
+                {
+                    context.Users.Remove(user);
+                    context.SaveChanges();
+                    return true;
+                }
+                return false;
+            }
+        }
 
     }
 }

@@ -66,4 +66,28 @@ nunit-*.xml
 # Publish output
 publish/
 
+<<<<<<< HEAD
 **/appsettings*.json
+=======
+**/appsettings*.json
+
+## Ignore Visual Studio build results
+bin/
+obj/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Ignore build output
+*.dll
+*.exe
+*.cache
+*.pdb
+*.mdb
+
+## Others
+*.log
+*.vs/
+>>>>>>> Admin-branch
