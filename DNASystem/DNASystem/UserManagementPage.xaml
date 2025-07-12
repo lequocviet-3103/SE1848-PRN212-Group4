@@ -1,104 +1,76 @@
 ﻿<UserControl x:Class="DNASystem.UserManagementPage"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
-             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-             xmlns:local="clr-namespace:DNASystem"
-             mc:Ignorable="d" Height="545" Width="963">
-    <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="220"/>
-            <ColumnDefinition Width="*"/>
-        </Grid.ColumnDefinitions>
-
-        <!-- Sidebar -->
-        <DockPanel Grid.Column="0" Background="White" LastChildFill="True" Margin="-103,0,0,0">
-            <StackPanel Margin="16" VerticalAlignment="Top">
-                <TextBlock Text="Dịch vụ xét nghiệm DNA" FontWeight="Bold" FontSize="18" Foreground="#7C3AED" Margin="0,0,0,32"/>
-                <Button Content="Trang chủ" Margin="0,0,0,8" Padding="8,4"/>
-                <Button Content="Hồ sơ cá nhân" Margin="0,0,0,8" Padding="8,4"/>
-                <Button Content="Dashboard" Margin="0,0,0,8" Padding="8,4"/>
-                <Button Content="Quản lý tài khoản" Background="#7C3AED" Foreground="White" Margin="0,0,0,8" Padding="8,4"/>
-            </StackPanel>
-        </DockPanel>
-
-        <!-- Main Content -->
-        <StackPanel Grid.Column="1" Margin="0,0,10,0" Background="White">
+             Height="871" Width="1479">
+    <Grid Background="#F8FAFC" Margin="0,0,0,-253">
+        <StackPanel Margin="0,40,0,323" HorizontalAlignment="Center" Width="1200">
             <!-- Header -->
-            <TextBlock Text="Quản lý tài khoản" FontWeight="Bold" FontSize="28" Margin="0,0,0,8"/>
-            <TextBlock Text="Quản lý người dùng và phân quyền hệ thống" Foreground="Gray" Margin="0,0,0,24"/>
+            <TextBlock Text="Quản lý tài khoản" FontWeight="Bold" FontSize="36" Foreground="#1E293B" Margin="0,0,0,8" HorizontalAlignment="Center"/>
+            <TextBlock Text="Quản lý người dùng và phân quyền hệ thống" Foreground="#64748B" FontSize="16" Margin="0,0,0,32" HorizontalAlignment="Center"/>
 
-            <!-- Stats Cards -->
-            <UniformGrid Columns="4" Margin="0,0,0,24">
-                <Border Background="#EEF2FF" CornerRadius="12" Padding="16" Margin="8">
-                    <StackPanel>
-                        <TextBlock Text="Tổng số người dùng" Foreground="Gray"/>
-                        <TextBlock Text="{Binding TotalUsers}" FontWeight="Bold" FontSize="24"/>
-                    </StackPanel>
-                </Border>
-                <Border Background="#ECFDF5" CornerRadius="12" Padding="16" Margin="8">
-                    <StackPanel>
-                        <TextBlock Text="Người dùng hoạt động" Foreground="Gray"/>
-                        <TextBlock Text="{Binding ActiveUsers}" FontWeight="Bold" FontSize="24"/>
-                    </StackPanel>
-                </Border>
-                <Border Background="#FEF2F2" CornerRadius="12" Padding="16" Margin="8">
-                    <StackPanel>
-                        <TextBlock Text="Tài khoản bị khóa" Foreground="Gray"/>
-                        <TextBlock Text="{Binding LockedUsers}" FontWeight="Bold" FontSize="24"/>
-                    </StackPanel>
-                </Border>
-                <Border Background="#F5F3FF" CornerRadius="12" Padding="16" Margin="8">
-                    <StackPanel>
-                        <TextBlock Text="Người dùng mới trong tháng" Foreground="Gray"/>
-                        <TextBlock Text="{Binding NewUsersThisMonth}" FontWeight="Bold" FontSize="24"/>
-                    </StackPanel>
-                </Border>
-            </UniformGrid>
+            <!-- Stats Card -->
+            <Border Background="#EEF2FF" Padding="24" Margin="0,0,0,32" Width="320" HorizontalAlignment="Center">
+                <StackPanel>
+                    <TextBlock Text="Tổng số người dùng" Foreground="#64748B" FontSize="16" HorizontalAlignment="Center"/>
+                    <TextBlock x:Name="txtTotalUsers"
+           Text="{Binding TotalUsers}"
+           FontWeight="Bold"
+           FontSize="32"
+           Foreground="#7C3AED"
+           HorizontalAlignment="Center"/>
+                    
+                </StackPanel>
+            </Border>
 
             <!-- Search and Filter -->
-            <StackPanel Orientation="Horizontal" Margin="0,0,0,16" VerticalAlignment="Center">
-                <TextBox Width="300" Margin="0,0,8,0" Padding="8,4" Foreground="Black" 
-                         Text="" Tag="Tìm kiếm theo tên hoặc email..."/>
-                <ComboBox Width="150" Margin="0,0,8,0" Padding="8,4" SelectedIndex="0">
+            <StackPanel Orientation="Horizontal" Margin="0,0,0,24" HorizontalAlignment="Center">
+                <TextBox Width="300" Margin="0,0,12,0" Padding="10,6" Foreground="Black"
+                         Background="White" BorderBrush="#CBD5E1" BorderThickness="1"
+                         FontSize="15" Tag="Tìm kiếm theo tên hoặc email..."/>
+                <ComboBox x:Name="cbRole" Width="150" Margin="0,0,12,0" Padding="10,6" FontSize="15" Background="White" BorderBrush="#CBD5E1" BorderThickness="1" SelectedIndex="0" SelectionChanged="cbRole_SelectionChanged">
                     <ComboBoxItem Content="Tất cả vai trò"/>
                     <ComboBoxItem Content="Quản trị viên"/>
-                    <ComboBoxItem Content="Người dùng"/>
+                    <ComboBoxItem Content="Nhân viên"/>
+                    <ComboBoxItem Content="Khách hàng"/>
                 </ComboBox>
-                <ComboBox Width="150" Margin="0,0,8,0" Padding="8,4" SelectedIndex="0">
-                    <ComboBoxItem Content="Tất cả trạng thái"/>
-                    <ComboBoxItem Content="Hoạt động"/>
-                    <ComboBoxItem Content="Bị khóa"/>
-                </ComboBox>
-                <Button Content="Thêm mới" Background="#7C3AED" Foreground="White" Padding="12,4"/>
+                
+                <Button x:Name="btnThemmoi" Content="Thêm mới" Background="#7C3AED" Foreground="White" Padding="18,6" FontSize="15" BorderThickness="0" Click="btnThemmoi_Click"/>
             </StackPanel>
 
-            <!-- DataGrid -->
-            <DataGrid ItemsSource="{Binding Users}" AutoGenerateColumns="False" CanUserAddRows="False" IsReadOnly="True"
-                      HeadersVisibility="Column" RowHeight="48" Margin="0,0,0,8" Width="730" RenderTransformOrigin="0.496,0.499">
-                <DataGrid.Columns>
-                    <DataGridTextColumn Header="USER ID" Binding="{Binding UserId}" MinWidth="15"/>
-                    <DataGridTextColumn Header="USERNAME" Binding="{Binding Username}" MinWidth="120"/>
-                    <DataGridTextColumn Header="HỌ TÊN" Binding="{Binding Fullname}" MinWidth="180"/>
-                    <DataGridTextColumn Header="GIỚI TÍNH" Binding="{Binding Gender}" MinWidth="80"/>
-                    <DataGridTextColumn Header="VAI TRÒ" Binding="{Binding RoleName}" MinWidth="120"/>
-                    <DataGridTextColumn Header="EMAIL" Binding="{Binding Email}" MinWidth="180"/>
-                    <DataGridTextColumn Header="SỐ ĐIỆN THOẠI" Binding="{Binding Phone}" MinWidth="120"/>
-                    <DataGridTextColumn Header="NGÀY SINH" Binding="{Binding Birthdate}" MinWidth="120"/>
-                    <DataGridTextColumn Header="ĐỊA CHỈ" Binding="{Binding Address}" MinWidth="200"/>
-                    <DataGridTemplateColumn Header="THAO TÁC" MinWidth="100">
-                        <DataGridTemplateColumn.CellTemplate>
-                            <DataTemplate>
-                                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
-                                    <Button Content="👁" Margin="2" ToolTip="Xem"/>
-                                    <Button Content="✏️" Margin="2" ToolTip="Sửa"/>
-                                    <Button Content="🗑" Margin="2" ToolTip="Xóa"/>
-                                </StackPanel>
-                            </DataTemplate>
-                        </DataGridTemplateColumn.CellTemplate>
-                    </DataGridTemplateColumn>
-                </DataGrid.Columns>
-            </DataGrid>
+            <!-- ListView -->
+            <ListView x:Name="UserListView" ItemsSource="{Binding Users}" Height="400"
+          ScrollViewer.HorizontalScrollBarVisibility="Auto"
+          ScrollViewer.VerticalScrollBarVisibility="Auto"
+          FontSize="15"
+          Background="White"
+          >
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="USER ID" DisplayMemberBinding="{Binding UserId}" Width="80"/>
+                        <GridViewColumn Header="USERNAME" DisplayMemberBinding="{Binding Username}" Width="120"/>
+                        <GridViewColumn Header="HỌ TÊN" DisplayMemberBinding="{Binding Fullname}" Width="180"/>
+                        <GridViewColumn Header="GIỚI TÍNH" DisplayMemberBinding="{Binding Gender}" Width="80"/>
+                        <GridViewColumn Header="VAI TRÒ" DisplayMemberBinding="{Binding RoleName}" Width="120"/>
+                        <GridViewColumn Header="EMAIL" DisplayMemberBinding="{Binding Email}" Width="180"/>
+                        <GridViewColumn Header="SỐ ĐIỆN THOẠI" DisplayMemberBinding="{Binding Phone}" Width="120"/>
+                        <GridViewColumn Header="NGÀY SINH" DisplayMemberBinding="{Binding Birthdate}" Width="120"/>
+                        <GridViewColumn Header="ĐỊA CHỈ" DisplayMemberBinding="{Binding Address}" Width="200"/>
+                        <!-- Thêm cột nút Xóa -->
+                        <GridViewColumn Header="XÓA" Width="80">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Button x:Name="btnXoa" Content="Xóa"
+                    Background="#EF4444"
+                    Foreground="White"
+                    Padding="6,2"
+                    Click="BtnXoa_Click"
+                    Tag="{Binding UserId}"/>
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                    </GridView>
+                </ListView.View>
+            </ListView>
         </StackPanel>
     </Grid>
 </UserControl>

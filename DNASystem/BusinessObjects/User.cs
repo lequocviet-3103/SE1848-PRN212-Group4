@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace BusinessObjects;
 
@@ -16,6 +17,9 @@ public partial class User
     public string? Gender { get; set; }
 
     public string? RoleId { get; set; }
+
+    [NotMapped]
+    public string RoleName { get; set; } = string.Empty;
 
     public string? Email { get; set; }
 

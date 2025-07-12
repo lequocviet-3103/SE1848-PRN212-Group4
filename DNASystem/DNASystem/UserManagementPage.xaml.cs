@@ -1,28 +1,120 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
+using BusinessObjects;
+using Services;
 
 namespace DNASystem
 {
-    /// <summary>
-    /// Interaction logic for UserManagementPage.xaml
-    /// </summary>
     public partial class UserManagementPage : UserControl
     {
+        public ObservableCollection<User> Users { get; set; } = new();
+        private List<User> allUsers = new();
+
         public UserManagementPage()
         {
             InitializeComponent();
+            DataContext = this;
+
+            cbRole.Loaded += (s, e) =>
+            {
+                LoadUsers();
+                ApplyRoleFilter();
+                UpdateTotalUsers();
+            };
+            cbRole.SelectionChanged += cbRole_SelectionChanged;
+        }
+
+        private void LoadUsers()
+        {
+            var userService = new UserService();
+            allUsers = userService.GetAllUsers();
+
+            Users.Clear();
+            foreach (var user in allUsers)
+                Users.Add(user);
+
+            // UserListView.ItemsSource = allUsers;
+            UpdateTotalUsers();
+        }
+
+        private void ApplyRoleFilter()
+        {
+            string selectedRole = (cbRole.SelectedItem as ComboBoxItem)?.Content?.ToString() ?? "";
+            IEnumerable<User> filtered = selectedRole switch
+            {
+                "Quản trị viên" => allUsers.Where(u => u.RoleName == "Quản trị viên"),
+                "Nhân viên" => allUsers.Where(u => u.RoleName == "Nhân viên"),
+                "Khách hàng" => allUsers.Where(u => u.RoleName == "Khách hàng"),
+                _ => allUsers
+            };
+
+            Users.Clear();
+            foreach (var user in filtered)
+                Users.Add(user);
+
+            UpdateTotalUsers();
+        }
+
+
+        private void BtnXoa_Click(object sender, RoutedEventArgs e)
+        {
+            if (sender is Button button && button.Tag is string userId)
+            {
+                var confirm = MessageBox.Show(
+                    "Bạn có chắc muốn xóa tài khoản này?",
+                    "Xác nhận",
+                    MessageBoxButton.YesNo,
+                    MessageBoxImage.Warning);
+
+                if (confirm == MessageBoxResult.Yes)
+                {
+                    var userService = new UserService();
+                    bool success = userService.DeleteUser(userId);
+
+                    if (success)
+                    {
+                        LoadUsers();
+                        ApplyRoleFilter();
+                        MessageBox.Show("Xóa tài khoản thành công!", "Thông báo", MessageBoxButton.OK, MessageBoxImage.Information);
+                    }
+                    else
+                    {
+                        MessageBox.Show("Xóa tài khoản thất bại!", "Lỗi", MessageBoxButton.OK, MessageBoxImage.Error);
+                    }
+                }
+            }
+        }
+
+        private void cbRole_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            ApplyRoleFilter();
+        }
+
+        private void UpdateTotalUsers()
+        {
+            if (UserListView != null)
+            {
+                txtTotalUsers.Text = (UserListView.ItemsSource as IEnumerable<User>)?.Count()
+                    .ToString() ?? "0";
+            }
+            else
+            {
+                txtTotalUsers.Text = "0";
+            }
+        }
+
+        private void btnThemmoi_Click(object sender, RoutedEventArgs e)
+        {
+            var addUserWindow = new AddUserWindow();
+            if (addUserWindow.ShowDialog() == true)
+            {
+                LoadUsers();
+                ApplyRoleFilter();
+            }
         }
     }
 }

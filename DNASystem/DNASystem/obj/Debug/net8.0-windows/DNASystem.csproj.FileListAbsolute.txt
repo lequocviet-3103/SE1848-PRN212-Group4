@@ -153,8 +153,10 @@ D:\Ki5\PRN212\DNASystem\DNASystem\DNASystem\bin\Debug\net8.0-windows\Services.pd
 D:\Ki5\PRN212\DNASystem\DNASystem\DNASystem\bin\Debug\net8.0-windows\DataAccessLayer.pdb
 D:\Ki5\PRN212\DNASystem\DNASystem\DNASystem\bin\Debug\net8.0-windows\Repositories.pdb
 D:\Ki5\PRN212\DNASystem\DNASystem\DNASystem\obj\Debug\net8.0-windows\DNASystem.csproj.AssemblyReference.cache
+D:\Ki5\PRN212\DNASystem\DNASystem\DNASystem\obj\Debug\net8.0-windows\UserManagementPage.baml
 D:\Ki5\PRN212\DNASystem\DNASystem\DNASystem\obj\Debug\net8.0-windows\AboutUsWindow.g.cs
 D:\Ki5\PRN212\DNASystem\DNASystem\DNASystem\obj\Debug\net8.0-windows\AccountCreationWindow.g.cs
+D:\Ki5\PRN212\DNASystem\DNASystem\DNASystem\obj\Debug\net8.0-windows\AdminHomePage.g.cs
 D:\Ki5\PRN212\DNASystem\DNASystem\DNASystem\obj\Debug\net8.0-windows\AdminWindow.g.cs
 D:\Ki5\PRN212\DNASystem\DNASystem\DNASystem\obj\Debug\net8.0-windows\BlogWindow.g.cs
 D:\Ki5\PRN212\DNASystem\DNASystem\DNASystem\obj\Debug\net8.0-windows\ContactWindow.g.cs
@@ -171,6 +173,7 @@ D:\Ki5\PRN212\DNASystem\DNASystem\DNASystem\obj\Debug\net8.0-windows\DNASystem_M
 D:\Ki5\PRN212\DNASystem\DNASystem\DNASystem\obj\Debug\net8.0-windows\DNASystem_MarkupCompile.lref
 D:\Ki5\PRN212\DNASystem\DNASystem\DNASystem\obj\Debug\net8.0-windows\AboutUsWindow.baml
 D:\Ki5\PRN212\DNASystem\DNASystem\DNASystem\obj\Debug\net8.0-windows\AccountCreationWindow.baml
+D:\Ki5\PRN212\DNASystem\DNASystem\DNASystem\obj\Debug\net8.0-windows\AdminHomePage.baml
 D:\Ki5\PRN212\DNASystem\DNASystem\DNASystem\obj\Debug\net8.0-windows\AdminWindow.baml
 D:\Ki5\PRN212\DNASystem\DNASystem\DNASystem\obj\Debug\net8.0-windows\BlogWindow.baml
 D:\Ki5\PRN212\DNASystem\DNASystem\DNASystem\obj\Debug\net8.0-windows\ContactWindow.baml
@@ -181,7 +184,6 @@ D:\Ki5\PRN212\DNASystem\DNASystem\DNASystem\obj\Debug\net8.0-windows\LoginWindow
 D:\Ki5\PRN212\DNASystem\DNASystem\DNASystem\obj\Debug\net8.0-windows\MainWindow.baml
 D:\Ki5\PRN212\DNASystem\DNASystem\DNASystem\obj\Debug\net8.0-windows\RegisterWindow.baml
 D:\Ki5\PRN212\DNASystem\DNASystem\DNASystem\obj\Debug\net8.0-windows\SatffWindow.baml
-D:\Ki5\PRN212\DNASystem\DNASystem\DNASystem\obj\Debug\net8.0-windows\UserManagementPage.baml
 D:\Ki5\PRN212\DNASystem\DNASystem\DNASystem\obj\Debug\net8.0-windows\DNASystem.g.resources
 D:\Ki5\PRN212\DNASystem\DNASystem\DNASystem\obj\Debug\net8.0-windows\DNASystem.GeneratedMSBuildEditorConfig.editorconfig
 D:\Ki5\PRN212\DNASystem\DNASystem\DNASystem\obj\Debug\net8.0-windows\DNASystem.AssemblyInfoInputs.cache
@@ -194,3 +196,5 @@ D:\Ki5\PRN212\DNASystem\DNASystem\DNASystem\obj\Debug\net8.0-windows\refint\DNAS
 D:\Ki5\PRN212\DNASystem\DNASystem\DNASystem\obj\Debug\net8.0-windows\DNASystem.pdb
 D:\Ki5\PRN212\DNASystem\DNASystem\DNASystem\obj\Debug\net8.0-windows\DNASystem.genruntimeconfig.cache
 D:\Ki5\PRN212\DNASystem\DNASystem\DNASystem\obj\Debug\net8.0-windows\ref\DNASystem.dll
+D:\Ki5\PRN212\DNASystem\DNASystem\DNASystem\obj\Debug\net8.0-windows\AddUserWindow.g.cs
+D:\Ki5\PRN212\DNASystem\DNASystem\DNASystem\obj\Debug\net8.0-windows\AddUserWindow.baml

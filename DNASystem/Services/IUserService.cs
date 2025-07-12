@@ -11,5 +11,11 @@ namespace Services
     {
         public User GetAccountByUsername(string username);
         public void Register(User user);
+
+        public List<User> GetAllUsers();
+
+        public bool DeleteUser(string userId);
+
+        public bool AddUser(User user);
     }
 }

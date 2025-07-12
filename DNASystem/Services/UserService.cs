@@ -1,4 +1,5 @@
 ﻿using BusinessObjects;
+using DataAccessLayer;
 using Repositories;
 
 namespace Services
@@ -19,6 +20,11 @@ namespace Services
             return iUserRepository.GetAccountByUsername(username);
         }
 
+        public List<User> GetAllUsers()
+        {
+            return iUserRepository.GetAllUsers();
+        }
+
         public void Register(User user)
         {
             if(GetAccountByUsername(user.Username) != null)
@@ -27,6 +33,27 @@ namespace Services
             }
             user.UserId = iUserRepository.GenerateNewUserId(); 
             iUserRepository.Register(user);
+        }
+
+        public bool DeleteUser(string userId)
+        {
+            return iUserRepository.DeleteUser(userId);
+        }
+
+        public bool AddUser(User user)
+        {
+            if (GetAccountByUsername(user.Username) != null)
+                return false; // Username đã tồn tại
+
+            try
+            {
+                iUserRepository.Register(user);
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
         }
     }
 }
