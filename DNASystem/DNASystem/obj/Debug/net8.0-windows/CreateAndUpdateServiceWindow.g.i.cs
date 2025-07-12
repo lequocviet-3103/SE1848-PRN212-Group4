@@ -109,7 +109,7 @@ namespace DNASystem {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/DNASystem;component/createandupdateservicewindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/DNASystem;V1.0.0.0;component/createandupdateservicewindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\CreateAndUpdateServiceWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
