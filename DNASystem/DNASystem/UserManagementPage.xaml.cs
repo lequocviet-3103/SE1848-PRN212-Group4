@@ -116,5 +116,38 @@ namespace DNASystem
                 ApplyRoleFilter();
             }
         }
+
+        private void txtSearch_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            tbPlaceholder.Visibility = string.IsNullOrEmpty(txtSearch.Text)
+        ? Visibility.Visible
+        : Visibility.Collapsed;
+
+            string keyword = txtSearch.Text.Trim().ToLower();
+            string selectedRole = (cbRole.SelectedItem as ComboBoxItem)?.Content?.ToString() ?? "";
+
+            IEnumerable<User> filtered = allUsers;
+
+            // Lọc theo vai trò nếu không phải "Tất cả vai trò"
+            if (selectedRole == "Quản trị viên" || selectedRole == "Nhân viên" || selectedRole == "Khách hàng")
+            {
+                filtered = filtered.Where(u => u.RoleName == selectedRole);
+            }
+
+            // Lọc theo từ khóa tên hoặc email
+            if (!string.IsNullOrEmpty(keyword))
+            {
+                filtered = filtered.Where(u =>
+                    (!string.IsNullOrEmpty(u.Fullname) && u.Fullname.ToLower().Contains(keyword)) ||
+                    (!string.IsNullOrEmpty(u.Email) && u.Email.ToLower().Contains(keyword))
+                );
+            }
+
+            Users.Clear();
+            foreach (var user in filtered)
+                Users.Add(user);
+
+            UpdateTotalUsers();
+        }
     }
 }
