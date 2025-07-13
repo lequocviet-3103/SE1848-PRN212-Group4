@@ -6,14 +6,14 @@
              xmlns:local="clr-namespace:DNASystem"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
-    <Grid>
+    <Grid Background="#F8FAFC">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="263"/>
+            <ColumnDefinition Width="253"/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
 
         <!-- Sidebar -->
-        <Border Grid.Column="0" Background="White">
+        <Border Grid.Column="0" Background="White" Margin="0,0,10,0" CornerRadius="8">
             <StackPanel Margin="16" VerticalAlignment="Top">
                 <TextBlock Text="Dịch vụ xét nghiệm DNA" FontWeight="Bold" FontSize="18" Foreground="#7C3AED" Margin="0,0,0,32"/>
                 <Button x:Name="btnTrangchu" Content="Trang chủ" Margin="0,0,0,8" Padding="8,4" Click="Home_Click"/>
@@ -24,6 +24,8 @@
         </Border>
 
         <!-- Main Content Area -->
-        <ContentControl x:Name="MainContent" Grid.Column="1"/>
+        <Border Grid.Column="1" Background="#F8FAFC" Padding="24" CornerRadius="12">
+            <ContentControl x:Name="MainContent"/>
+        </Border>
     </Grid>
 </UserControl>
