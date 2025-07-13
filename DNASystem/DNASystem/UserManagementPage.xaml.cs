@@ -128,6 +128,7 @@ namespace DNASystem
 
             IEnumerable<User> filtered = allUsers;
 
+            // Search theo vai trò nếu có chọn
             // Lọc theo vai trò nếu không phải "Tất cả vai trò"
             if (selectedRole == "Quản trị viên" || selectedRole == "Nhân viên" || selectedRole == "Khách hàng")
             {
