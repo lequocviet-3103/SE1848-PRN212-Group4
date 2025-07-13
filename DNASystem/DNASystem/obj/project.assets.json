@@ -3160,11 +3160,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Ki5\\PRN212\\DNASystem\\DNASystem\\DNASystem\\DNASystem.csproj",
+      "projectUniqueName": "D:\\Ki5\\PRN212\\ProjectGroup\\DNASystem\\DNASystem\\DNASystem.csproj",
       "projectName": "DNASystem",
-      "projectPath": "D:\\Ki5\\PRN212\\DNASystem\\DNASystem\\DNASystem\\DNASystem.csproj",
+      "projectPath": "D:\\Ki5\\PRN212\\ProjectGroup\\DNASystem\\DNASystem\\DNASystem.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "D:\\Ki5\\PRN212\\DNASystem\\DNASystem\\DNASystem\\obj\\",
+      "outputPath": "D:\\Ki5\\PRN212\\ProjectGroup\\DNASystem\\DNASystem\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3185,11 +3185,11 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "D:\\Ki5\\PRN212\\DNASystem\\DNASystem\\BusinessObjects\\BusinessObjects.csproj": {
-              "projectPath": "D:\\Ki5\\PRN212\\DNASystem\\DNASystem\\BusinessObjects\\BusinessObjects.csproj"
+            "D:\\Ki5\\PRN212\\ProjectGroup\\DNASystem\\BusinessObjects\\BusinessObjects.csproj": {
+              "projectPath": "D:\\Ki5\\PRN212\\ProjectGroup\\DNASystem\\BusinessObjects\\BusinessObjects.csproj"
             },
-            "D:\\Ki5\\PRN212\\DNASystem\\DNASystem\\Services\\Services.csproj": {
-              "projectPath": "D:\\Ki5\\PRN212\\DNASystem\\DNASystem\\Services\\Services.csproj"
+            "D:\\Ki5\\PRN212\\ProjectGroup\\DNASystem\\Services\\Services.csproj": {
+              "projectPath": "D:\\Ki5\\PRN212\\ProjectGroup\\DNASystem\\Services\\Services.csproj"
             }
           }
         }
