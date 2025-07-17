@@ -15,6 +15,6 @@ namespace Services
         public void AddService(Service service);
         public void UpdateService(Service service);
         public void DeleteService(Service service);
-
+        public List<Service> GetServicesByType(string type);
     }
 }

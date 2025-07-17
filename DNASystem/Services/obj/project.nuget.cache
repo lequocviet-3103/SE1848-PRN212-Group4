@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zUpFJdIxg+0=",
+  "dgSpecHash": "f0wGfElXlgk=",
   "success": true,
-  "projectFilePath": "D:\\PRN212-DNA\\SE1848-PRN212-Group4\\DNASystem\\Services\\Services.csproj",
+  "projectFilePath": "D:\\PRN212-DNA\\DNASystem (1)\\DNASystem\\Services\\Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LE QUOC VIET\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\LE QUOC VIET\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

@@ -19,9 +19,9 @@
                 <Setter.Value>
                     <ControlTemplate TargetType="ToggleButton">
                         <Border Background="{TemplateBinding Background}"
-                        BorderBrush="{TemplateBinding BorderBrush}"
-                        BorderThickness="{TemplateBinding BorderThickness}"
-                        CornerRadius="5">
+                    BorderBrush="{TemplateBinding BorderBrush}"
+                    BorderThickness="{TemplateBinding BorderThickness}"
+                    CornerRadius="5">
                             <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" Margin="5"/>
                         </Border>
                     </ControlTemplate>
@@ -49,10 +49,10 @@
                 <Setter.Value>
                     <ControlTemplate TargetType="Button">
                         <TextBlock Text="{TemplateBinding Content}"
-                           Foreground="{TemplateBinding Foreground}"
-                           FontSize="{TemplateBinding FontSize}"
-                           FontWeight="{TemplateBinding FontWeight}"
-                           TextWrapping="Wrap"/>
+                       Foreground="{TemplateBinding Foreground}"
+                       FontSize="{TemplateBinding FontSize}"
+                       FontWeight="{TemplateBinding FontWeight}"
+                       TextWrapping="Wrap"/>
                     </ControlTemplate>
                 </Setter.Value>
             </Setter>
@@ -63,7 +63,7 @@
             </Style.Triggers>
         </Style>
     </Window.Resources>
-    
+
     <ScrollViewer VerticalScrollBarVisibility="Auto">
         <StackPanel>
 
@@ -77,11 +77,11 @@
                 </Grid.ColumnDefinitions>
 
                 <TextBlock Grid.Column="0" Text="DNA Testing VN"
-               FontSize="18" FontWeight="Bold"
-               VerticalAlignment="Center" Margin="20,0"/>
+           FontSize="18" FontWeight="Bold"
+           VerticalAlignment="Center" Margin="20,0"/>
 
                 <StackPanel Grid.Column="2" Orientation="Horizontal"
-                VerticalAlignment="Center" Margin="0,0,10,0" >
+            VerticalAlignment="Center" Margin="0,0,10,0" >
                     <Button x:Name="btnTrangChu" Content="Trang chủ" Style="{StaticResource TextLikeButton}" Margin="10,0" Foreground="Black" Click="btnTrangChu_Click"/>
                     <Button x:Name="btnDichVu" Content="Dịch vụ" Style="{StaticResource TextLikeButton}" Margin="10,0" Foreground="Black" Click="btnDichVu_Click"/>
                     <Button x:Name="btnVeChungToi" Content="Về chúng tôi" Style="{StaticResource TextLikeButton}" Margin="10,0" Foreground="Black" Click="btnVeChungToi_Click"/>
@@ -90,11 +90,11 @@
                 </StackPanel>
 
                 <StackPanel Grid.Column="3" Orientation="Horizontal"
-                VerticalAlignment="Center" Margin="10,0,20,0">
+            VerticalAlignment="Center" Margin="10,0,20,0">
                     <Button x:Name="btnDangNhapHeader" Content="Đăng nhập" Background="White"
-                Foreground="Black" Padding="10,5" Margin="5,0" Click="btnDangNhap_Click"/>
+            Foreground="Black" Padding="10,5" Margin="5,0" Click="btnDangNhap_Click"/>
                     <Button x:Name="btnDangKyHeader" Content="Đăng ký ngay" Background="#00BFFF"
-                Foreground="White" Padding="10,5" Margin="5,0" Click="btnDangKy_Click"/>
+            Foreground="White" Padding="10,5" Margin="5,0" Click="btnDangKy_Click"/>
                 </StackPanel>
             </Grid>
 
@@ -111,40 +111,33 @@
             <StackPanel Margin="0,30,0,10" HorizontalAlignment="Center">
                 <StackPanel Orientation="Horizontal">
                     <ToggleButton x:Name="btnHuyetThong" Content="Huyết thống" Style="{StaticResource ServiceTabToggle}" 
-                      IsChecked="True" Checked="ServiceTab_Checked"/>
+                  IsChecked="True" Checked="ServiceTab_Checked"/>
                     <ToggleButton x:Name="btnHanhChinh" Content="Hành chính" Style="{StaticResource ServiceTabToggle}" 
-                      Checked="ServiceTab_Checked"/>
+                  Checked="ServiceTab_Checked"/>
                     <ToggleButton x:Name="btnDanSu" Content="Dân sự" Style="{StaticResource ServiceTabToggle}" 
-                      Checked="ServiceTab_Checked"/>
+                  Checked="ServiceTab_Checked"/>
                 </StackPanel>
             </StackPanel>
 
             <!-- DANH SÁCH DỊCH VỤ -->
-            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10">
-                <Border Width="200" Height="180" Margin="10" BorderBrush="Gray" BorderThickness="1" CornerRadius="10" Padding="10">
-                    <StackPanel>
-                        <TextBlock Text="Xét nghiệm cha con" FontWeight="Bold" FontSize="14"/>
-                        <TextBlock Text="2.500.000 VNĐ" Margin="0,10,0,0" FontSize="12"/>
-                        <Button x:Name="btnXemChiTietChaCon" Content="Xem chi tiết" Margin="0,10,0,0" Background="#1E90FF" Foreground="White" Height="30" Click="btnXemChiTietChaCon_Click"/>
-                    </StackPanel>
-                </Border>
-
-                <Border Width="200" Height="180" Margin="10" BorderBrush="Gray" BorderThickness="1" CornerRadius="10" Padding="10">
-                    <StackPanel>
-                        <TextBlock Text="Xét nghiệm mẹ con" FontWeight="Bold" FontSize="14"/>
-                        <TextBlock Text="2.400.000 VNĐ" Margin="0,10,0,0" FontSize="12"/>
-                        <Button x:Name="btnXemChiTietMeCon" Content="Xem chi tiết" Margin="0,10,0,0" Background="#1E90FF" Foreground="White" Height="30" Click="btnXemChiTietMeCon_Click"/>
-                    </StackPanel>
-                </Border>
-
-                <Border Width="200" Height="180" Margin="10" BorderBrush="Gray" BorderThickness="1" CornerRadius="10" Padding="10">
-                    <StackPanel>
-                        <TextBlock Text="Xét nghiệm anh chị em ruột" FontWeight="Bold" FontSize="14"/>
-                        <TextBlock Text="2.900.000 VNĐ" Margin="0,10,0,0" FontSize="12"/>
-                        <Button x:Name="btnXemChiTietAnhEm" Content="Xem chi tiết" Margin="0,10,0,0" Background="#1E90FF" Foreground="White" Height="30" Click="btnXemChiTietAnhEm_Click"/>
-                    </StackPanel>
-                </Border>
-            </StackPanel>
+            <ItemsControl x:Name="icServiceList" Margin="20" HorizontalAlignment="Center">
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <WrapPanel/>
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <Border Width="200" Height="180" Margin="10" BorderBrush="Gray" BorderThickness="1" CornerRadius="10" Padding="10">
+                            <StackPanel>
+                                <TextBlock Text="{Binding Name}" FontWeight="Bold" FontSize="14"/>
+                                <TextBlock Text="{Binding Price, StringFormat={}{0:N0} VNĐ}" Margin="0,10,0,0" FontSize="12"/>
+                                <Button x:Name="btnChiTiet" Content="Xem chi tiết" Margin="0,10,0,0" Background="#1E90FF" Foreground="White" Height="30" Click="btnChiTiet_Click"/>
+                            </StackPanel>
+                        </Border>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
 
             <!-- PHƯƠNG THỨC THU MẪU -->
             <StackPanel Margin="20">

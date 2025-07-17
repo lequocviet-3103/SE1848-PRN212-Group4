@@ -42,5 +42,10 @@ namespace Services
         {
             iServiceRepository.UpdateService(service);
         }
+
+        public List<Service> GetServicesByType(string type)
+        {
+            return iServiceRepository.GetServicesByType(type);
+        }
     }
 }

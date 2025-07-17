@@ -10,6 +10,16 @@ namespace DataAccessLayer
     public class ServiceDAO
     {
 
+
+        public List<Service> GetServicesByType(string type)
+        {
+            using var context = new DnasystemContext();
+            var test = context.Services.ToList();
+            return context.Services
+                          .Where(s => s.Type != null && s.Type == type)
+                          .OrderBy(s => s.Name)
+                          .ToList();
+        }
         public List<Service> GetAllServices()
         {
             using var context = new DnasystemContext();

@@ -16,6 +16,10 @@ namespace Repositories
             serviceDAO.AddService(service);
         }
 
+        public List<Service> GetServicesByType(string type)
+        {
+            return serviceDAO.GetServicesByType(type);
+        }
         public void DeleteService(Service service)
         {
             serviceDAO.DeleteService(service);

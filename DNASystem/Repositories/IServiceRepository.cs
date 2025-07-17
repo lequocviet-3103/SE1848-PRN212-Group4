@@ -18,5 +18,6 @@ namespace Repositories
         public void DeleteService(Service service);
 
         public string GenerateNewServiceId();
+        public List<Service> GetServicesByType(string type);
     }
 }

@@ -12,6 +12,8 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using BusinessObjects;
+using Services;
 
 namespace DNASystem
 {
@@ -20,9 +22,42 @@ namespace DNASystem
     /// </summary>
     public partial class HomeWindow : Window
     {
+        private readonly IServiceService serviceService;
         public HomeWindow()
         {
             InitializeComponent();
+            serviceService = new ServiceService();
+            this.WindowState = WindowState.Maximized;   // Toàn màn hình
+
+            btnHuyetThong.IsChecked = true;
+            LoadServices("Huyết thống");
+        }
+
+        private void LoadServices(string type)
+        {
+            try
+            {
+                if (serviceService == null)
+                {
+
+                    return;
+                }
+
+                var services = serviceService.GetServicesByType(type);
+
+                if (services == null)
+                {
+                    MessageBox.Show("❌ Services list is NULL");
+                }
+                else
+                {
+                    icServiceList.ItemsSource = services;
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi LoadServices: " + ex.Message);
+            }
         }
 
         private void btnTrangChu_Click(object sender, RoutedEventArgs e)
@@ -62,18 +97,16 @@ namespace DNASystem
 
         private void ServiceTab_Checked(object sender, RoutedEventArgs e)
         {
-            //ToggleButton clicked = sender as ToggleButton;
+            var clicked = sender as ToggleButton;
 
-            //// Chỉ giữ ToggleButton đang chọn
-            //if (btnHuyetThong != clicked) btnHuyetThong.IsChecked = false;
-            //if (btnHanhChinh != clicked) btnHanhChinh.IsChecked = false;
-            //if (btnDanSu != clicked) btnDanSu.IsChecked = false;
+            if (btnHuyetThong != null && clicked != btnHuyetThong) btnHuyetThong.IsChecked = false;
+            if (btnHanhChinh != null && clicked != btnHanhChinh) btnHanhChinh.IsChecked = false;
+            if (btnDanSu != null && clicked != btnDanSu) btnDanSu.IsChecked = false;
 
-            //// Tùy chọn: xử lý theo nội dung được chọn
-            //string selectedTab = clicked.Content.ToString();
-            //Console.WriteLine($"Đã chọn tab: {selectedTab}");
-
-            //// TODO: Ẩn/hiện nội dung tương ứng
+            if (clicked?.Content is string type)
+            {
+                LoadServices(type);
+            }
         }
 
         private void btnXemChiTietChaCon_Click(object sender, RoutedEventArgs e)
@@ -94,6 +127,17 @@ namespace DNASystem
         private void btnDangKyTuVan_Click(object sender, RoutedEventArgs e)
         {
 
+        }
+
+        private void btnChiTiet_Click(object sender, RoutedEventArgs e)
+        {
+            if (sender is Button btn && btn.DataContext is Service selectedService)
+            {
+                // Gọi BookingWindow, truyền selectedService nếu cần
+                var bookingWindow = new BookingWindow(selectedService);
+                bookingWindow.Show();
+                this.Hide();
+            }
         }
     }
 }
