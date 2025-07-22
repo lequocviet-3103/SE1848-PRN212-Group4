@@ -405,3 +405,15 @@ D:\PRN212-DNA\DNASystem (1)\DNASystem\DNASystem\obj\Debug\net8.0-windows\DNASyst
 D:\PRN212-DNA\DNASystem (1)\DNASystem\DNASystem\obj\Debug\net8.0-windows\ref\DNASystem.dll
 D:\PRN212-DNA\DNASystem (1)\DNASystem\DNASystem\obj\Debug\net8.0-windows\BookingWindow.baml
 D:\PRN212-DNA\DNASystem (1)\DNASystem\DNASystem\obj\Debug\net8.0-windows\BookingWindow.g.cs
+D:\PRN212-DNA\SE1848-PRN212-Group4\DNASystem\DNASystem\obj\Debug\net8.0-windows\BookingWindow.baml
+D:\PRN212-DNA\SE1848-PRN212-Group4\DNASystem\DNASystem\obj\Debug\net8.0-windows\UserManagementPage.baml
+D:\PRN212-DNA\SE1848-PRN212-Group4\DNASystem\DNASystem\obj\Debug\net8.0-windows\AddUserWindow.g.cs
+D:\PRN212-DNA\SE1848-PRN212-Group4\DNASystem\DNASystem\obj\Debug\net8.0-windows\AdminHomePage.g.cs
+D:\PRN212-DNA\SE1848-PRN212-Group4\DNASystem\DNASystem\obj\Debug\net8.0-windows\BookingWindow.g.cs
+D:\PRN212-DNA\SE1848-PRN212-Group4\DNASystem\DNASystem\obj\Debug\net8.0-windows\UserManagementPage.g.cs
+D:\PRN212-DNA\SE1848-PRN212-Group4\DNASystem\DNASystem\obj\Debug\net8.0-windows\AddUserWindow.baml
+D:\PRN212-DNA\SE1848-PRN212-Group4\DNASystem\DNASystem\obj\Debug\net8.0-windows\AdminHomePage.baml
+D:\PRN212-DNA\SE1848-PRN212-Group4\DNASystem\DNASystem\obj\Debug\net8.0-windows\KitWindow.g.cs
+D:\PRN212-DNA\SE1848-PRN212-Group4\DNASystem\DNASystem\obj\Debug\net8.0-windows\KitWindow.baml
+D:\PRN212-DNA\SE1848-PRN212-Group4\DNASystem\DNASystem\obj\Debug\net8.0-windows\TestResultWindow.g.cs
+D:\PRN212-DNA\SE1848-PRN212-Group4\DNASystem\DNASystem\obj\Debug\net8.0-windows\TestResultWindow.baml

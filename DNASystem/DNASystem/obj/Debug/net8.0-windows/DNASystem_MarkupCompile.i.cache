@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\PRN212-DNA\DNASystem (1)\DNASystem\DNASystem\obj\Debug\net8.0-windows\
+D:\PRN212-DNA\SE1848-PRN212-Group4\DNASystem\DNASystem\obj\Debug\net8.0-windows\
 DNASystem
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
-D:\PRN212-DNA\DNASystem (1)\DNASystem\DNASystem\App.xaml
-16-586375447
+D:\PRN212-DNA\SE1848-PRN212-Group4\DNASystem\DNASystem\App.xaml
+18-1128978559
 
-21-17124116
-2371545728761
-AboutUsWindow.xaml;AccountCreationWindow.xaml;AddUserWindow.xaml;AdminHomePage.xaml;AdminWindow.xaml;BlogWindow.xaml;BookingWindow.xaml;ContactWindow.xaml;CreateAndUpdateServiceWindow.xaml;DNATestingServiceLanding.xaml;HomeWindow.xaml;LoginWindow.xaml;MainWindow.xaml;RegisterWindow.xaml;SatffWindow.xaml;UserManagementPage.xaml;
+23-1581522971
+237675213088
+AboutUsWindow.xaml;AccountCreationWindow.xaml;AddUserWindow.xaml;AdminHomePage.xaml;AdminWindow.xaml;BlogWindow.xaml;BookingWindow.xaml;ContactWindow.xaml;CreateAndUpdateServiceWindow.xaml;DNATestingServiceLanding.xaml;HomeWindow.xaml;KitWindow.xaml;LoginWindow.xaml;MainWindow.xaml;RegisterWindow.xaml;SatffWindow.xaml;TestResultWindow.xaml;UserManagementPage.xaml;
 
 False
 

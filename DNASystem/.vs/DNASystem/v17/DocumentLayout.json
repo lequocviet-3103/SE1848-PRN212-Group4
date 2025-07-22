@@ -1,77 +1,98 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\PRN212-DNA\\DNASystem (1)\\DNASystem\\",
+  "WorkspaceRootPath": "D:\\PRN212-DNA\\SE1848-PRN212-Group4\\DNASystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|d:\\prn212-dna\\dnasystem (1)\\dnasystem\\dnasystem\\homewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|solutionrelative:dnasystem\\homewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|d:\\prn212-dna\\se1848-prn212-group4\\dnasystem\\dnasystem\\testresultwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|solutionrelative:dnasystem\\testresultwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|d:\\prn212-dna\\dnasystem (1)\\dnasystem\\dnasystem\\homewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|solutionrelative:dnasystem\\homewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6F49F04D-9F2A-4AD2-A2BB-A64AA0D620E6}|BusinessObjects\\BusinessObjects.csproj|d:\\prn212-dna\\se1848-prn212-group4\\dnasystem\\businessobjects\\testresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F49F04D-9F2A-4AD2-A2BB-A64AA0D620E6}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\testresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E22B87F5-4E76-460A-993B-A0AD8449FAA6}|Services\\Services.csproj|d:\\prn212-dna\\dnasystem (1)\\dnasystem\\services\\serviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|d:\\prn212-dna\\se1848-prn212-group4\\dnasystem\\dnasystem\\testresultwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|solutionrelative:dnasystem\\testresultwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|d:\\prn212-dna\\se1848-prn212-group4\\dnasystem\\dnasystem\\kitwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|solutionrelative:dnasystem\\kitwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|d:\\prn212-dna\\se1848-prn212-group4\\dnasystem\\dnasystem\\satffwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|solutionrelative:dnasystem\\satffwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|d:\\prn212-dna\\se1848-prn212-group4\\dnasystem\\dnasystem\\satffwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|solutionrelative:dnasystem\\satffwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|d:\\prn212-dna\\se1848-prn212-group4\\dnasystem\\dnasystem\\kitwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|solutionrelative:dnasystem\\kitwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE60582F-949F-4047-96D6-D54801D9254A}|DataAccessLayer\\DataAccessLayer.csproj|d:\\prn212-dna\\se1848-prn212-group4\\dnasystem\\dataaccesslayer\\testresultdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE60582F-949F-4047-96D6-D54801D9254A}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\testresultdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE60582F-949F-4047-96D6-D54801D9254A}|DataAccessLayer\\DataAccessLayer.csproj|d:\\prn212-dna\\se1848-prn212-group4\\dnasystem\\dataaccesslayer\\kitdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE60582F-949F-4047-96D6-D54801D9254A}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\kitdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E22B87F5-4E76-460A-993B-A0AD8449FAA6}|Services\\Services.csproj|d:\\prn212-dna\\se1848-prn212-group4\\dnasystem\\services\\itestresultservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E22B87F5-4E76-460A-993B-A0AD8449FAA6}|Services\\Services.csproj|solutionrelative:services\\itestresultservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E22B87F5-4E76-460A-993B-A0AD8449FAA6}|Services\\Services.csproj|d:\\prn212-dna\\se1848-prn212-group4\\dnasystem\\services\\ikitservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E22B87F5-4E76-460A-993B-A0AD8449FAA6}|Services\\Services.csproj|solutionrelative:services\\ikitservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|d:\\prn212-dna\\se1848-prn212-group4\\dnasystem\\dnasystem\\createandupdateservicewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|solutionrelative:dnasystem\\createandupdateservicewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F49F04D-9F2A-4AD2-A2BB-A64AA0D620E6}|BusinessObjects\\BusinessObjects.csproj|d:\\prn212-dna\\se1848-prn212-group4\\dnasystem\\businessobjects\\kit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F49F04D-9F2A-4AD2-A2BB-A64AA0D620E6}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\kit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E22B87F5-4E76-460A-993B-A0AD8449FAA6}|Services\\Services.csproj|d:\\prn212-dna\\se1848-prn212-group4\\dnasystem\\services\\serviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E22B87F5-4E76-460A-993B-A0AD8449FAA6}|Services\\Services.csproj|solutionrelative:services\\serviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E22B87F5-4E76-460A-993B-A0AD8449FAA6}|Services\\Services.csproj|d:\\prn212-dna\\dnasystem (1)\\dnasystem\\services\\iserviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E22B87F5-4E76-460A-993B-A0AD8449FAA6}|Services\\Services.csproj|solutionrelative:services\\iserviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C03CF4E-A3B5-4271-8429-F453A4776EC0}|Repositories\\Repositories.csproj|d:\\prn212-dna\\dnasystem (1)\\dnasystem\\repositories\\servicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8C03CF4E-A3B5-4271-8429-F453A4776EC0}|Repositories\\Repositories.csproj|d:\\prn212-dna\\se1848-prn212-group4\\dnasystem\\repositories\\servicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8C03CF4E-A3B5-4271-8429-F453A4776EC0}|Repositories\\Repositories.csproj|solutionrelative:repositories\\servicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8C03CF4E-A3B5-4271-8429-F453A4776EC0}|Repositories\\Repositories.csproj|d:\\prn212-dna\\dnasystem (1)\\dnasystem\\repositories\\iservicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C03CF4E-A3B5-4271-8429-F453A4776EC0}|Repositories\\Repositories.csproj|solutionrelative:repositories\\iservicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E22B87F5-4E76-460A-993B-A0AD8449FAA6}|Services\\Services.csproj|d:\\prn212-dna\\se1848-prn212-group4\\dnasystem\\services\\iserviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E22B87F5-4E76-460A-993B-A0AD8449FAA6}|Services\\Services.csproj|solutionrelative:services\\iserviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8C03CF4E-A3B5-4271-8429-F453A4776EC0}|Repositories\\Repositories.csproj|d:\\prn212-dna\\dnasystem (1)\\dnasystem\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C03CF4E-A3B5-4271-8429-F453A4776EC0}|Repositories\\Repositories.csproj|solutionrelative:repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C03CF4E-A3B5-4271-8429-F453A4776EC0}|Repositories\\Repositories.csproj|d:\\prn212-dna\\dnasystem (1)\\dnasystem\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C03CF4E-A3B5-4271-8429-F453A4776EC0}|Repositories\\Repositories.csproj|solutionrelative:repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE60582F-949F-4047-96D6-D54801D9254A}|DataAccessLayer\\DataAccessLayer.csproj|d:\\prn212-dna\\dnasystem (1)\\dnasystem\\dataaccesslayer\\servicedao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FE60582F-949F-4047-96D6-D54801D9254A}|DataAccessLayer\\DataAccessLayer.csproj|d:\\prn212-dna\\se1848-prn212-group4\\dnasystem\\dataaccesslayer\\servicedao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FE60582F-949F-4047-96D6-D54801D9254A}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\servicedao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FE60582F-949F-4047-96D6-D54801D9254A}|DataAccessLayer\\DataAccessLayer.csproj|d:\\prn212-dna\\dnasystem (1)\\dnasystem\\dataaccesslayer\\bookingdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8C03CF4E-A3B5-4271-8429-F453A4776EC0}|Repositories\\Repositories.csproj|d:\\prn212-dna\\se1848-prn212-group4\\dnasystem\\repositories\\kitrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C03CF4E-A3B5-4271-8429-F453A4776EC0}|Repositories\\Repositories.csproj|solutionrelative:repositories\\kitrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C03CF4E-A3B5-4271-8429-F453A4776EC0}|Repositories\\Repositories.csproj|d:\\prn212-dna\\se1848-prn212-group4\\dnasystem\\repositories\\ikitrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C03CF4E-A3B5-4271-8429-F453A4776EC0}|Repositories\\Repositories.csproj|solutionrelative:repositories\\ikitrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C03CF4E-A3B5-4271-8429-F453A4776EC0}|Repositories\\Repositories.csproj|d:\\prn212-dna\\se1848-prn212-group4\\dnasystem\\repositories\\testresultrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C03CF4E-A3B5-4271-8429-F453A4776EC0}|Repositories\\Repositories.csproj|solutionrelative:repositories\\testresultrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C03CF4E-A3B5-4271-8429-F453A4776EC0}|Repositories\\Repositories.csproj|d:\\prn212-dna\\se1848-prn212-group4\\dnasystem\\repositories\\itestresultrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C03CF4E-A3B5-4271-8429-F453A4776EC0}|Repositories\\Repositories.csproj|solutionrelative:repositories\\itestresultrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE60582F-949F-4047-96D6-D54801D9254A}|DataAccessLayer\\DataAccessLayer.csproj|d:\\prn212-dna\\se1848-prn212-group4\\dnasystem\\dataaccesslayer\\bookingdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FE60582F-949F-4047-96D6-D54801D9254A}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\bookingdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|d:\\prn212-dna\\dnasystem (1)\\dnasystem\\dnasystem\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|d:\\prn212-dna\\se1848-prn212-group4\\dnasystem\\dnasystem\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|solutionrelative:dnasystem\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE60582F-949F-4047-96D6-D54801D9254A}|DataAccessLayer\\DataAccessLayer.csproj|d:\\prn212-dna\\dnasystem (1)\\dnasystem\\dataaccesslayer\\dnasystemcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE60582F-949F-4047-96D6-D54801D9254A}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\dnasystemcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|d:\\prn212-dna\\dnasystem (1)\\dnasystem\\dnasystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|solutionrelative:dnasystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F49F04D-9F2A-4AD2-A2BB-A64AA0D620E6}|BusinessObjects\\BusinessObjects.csproj|d:\\prn212-dna\\dnasystem (1)\\dnasystem\\businessobjects\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F49F04D-9F2A-4AD2-A2BB-A64AA0D620E6}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\admin\\AppData\\Local\\SourceServer\\cc8f6eab50a3834c4585f78e3110768176eb3da36c25ac5ce26bd6397b77cbb5\\DNASystem\\DataAccessLayer\\ServiceDAO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|d:\\prn212-dna\\dnasystem (1)\\dnasystem\\dnasystem\\adminhomepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|solutionrelative:dnasystem\\adminhomepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|d:\\prn212-dna\\dnasystem (1)\\dnasystem\\dnasystem\\usermanagementpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|solutionrelative:dnasystem\\usermanagementpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|d:\\prn212-dna\\dnasystem (1)\\dnasystem\\dnasystem\\adminwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|solutionrelative:dnasystem\\adminwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -81,228 +102,301 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "HomeWindow.xaml.cs",
-              "DocumentMoniker": "D:\\PRN212-DNA\\DNASystem (1)\\DNASystem\\DNASystem\\HomeWindow.xaml.cs",
-              "RelativeDocumentMoniker": "DNASystem\\HomeWindow.xaml.cs",
-              "ToolTip": "D:\\PRN212-DNA\\DNASystem (1)\\DNASystem\\DNASystem\\HomeWindow.xaml.cs",
-              "RelativeToolTip": "DNASystem\\HomeWindow.xaml.cs",
-              "ViewState": "AgIAAHgAAAAAAAAAAAAAAI8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T06:52:53.865Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "HomeWindow.xaml",
-              "DocumentMoniker": "D:\\PRN212-DNA\\DNASystem (1)\\DNASystem\\DNASystem\\HomeWindow.xaml",
-              "RelativeDocumentMoniker": "DNASystem\\HomeWindow.xaml",
-              "ToolTip": "D:\\PRN212-DNA\\DNASystem (1)\\DNASystem\\DNASystem\\HomeWindow.xaml",
-              "RelativeToolTip": "DNASystem\\HomeWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-17T06:51:36.6Z",
+              "Title": "TestResultWindow.xaml.cs",
+              "DocumentMoniker": "D:\\PRN212-DNA\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\TestResultWindow.xaml.cs",
+              "RelativeDocumentMoniker": "DNASystem\\TestResultWindow.xaml.cs",
+              "ToolTip": "D:\\PRN212-DNA\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\TestResultWindow.xaml.cs",
+              "RelativeToolTip": "DNASystem\\TestResultWindow.xaml.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAnwDEAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T18:57:35.82Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ServiceService.cs",
-              "DocumentMoniker": "D:\\PRN212-DNA\\DNASystem (1)\\DNASystem\\Services\\ServiceService.cs",
-              "RelativeDocumentMoniker": "Services\\ServiceService.cs",
-              "ToolTip": "D:\\PRN212-DNA\\DNASystem (1)\\DNASystem\\Services\\ServiceService.cs",
-              "RelativeToolTip": "Services\\ServiceService.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAkwC8AAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T06:50:11.935Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IServiceService.cs",
-              "DocumentMoniker": "D:\\PRN212-DNA\\DNASystem (1)\\DNASystem\\Services\\IServiceService.cs",
-              "RelativeDocumentMoniker": "Services\\IServiceService.cs",
-              "ToolTip": "D:\\PRN212-DNA\\DNASystem (1)\\DNASystem\\Services\\IServiceService.cs",
-              "RelativeToolTip": "Services\\IServiceService.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAUwBEAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T06:50:02.684Z",
+              "Title": "TestResultWindow.xaml",
+              "DocumentMoniker": "D:\\PRN212-DNA\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\TestResultWindow.xaml",
+              "RelativeDocumentMoniker": "DNASystem\\TestResultWindow.xaml",
+              "ToolTip": "D:\\PRN212-DNA\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\TestResultWindow.xaml",
+              "RelativeToolTip": "DNASystem\\TestResultWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-22T17:18:38.032Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ServiceRepository.cs",
-              "DocumentMoniker": "D:\\PRN212-DNA\\DNASystem (1)\\DNASystem\\Repositories\\ServiceRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\ServiceRepository.cs",
-              "ToolTip": "D:\\PRN212-DNA\\DNASystem (1)\\DNASystem\\Repositories\\ServiceRepository.cs",
-              "RelativeToolTip": "Repositories\\ServiceRepository.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAA2AAAAAAAAAA==",
+              "Title": "SatffWindow.xaml.cs",
+              "DocumentMoniker": "D:\\PRN212-DNA\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\SatffWindow.xaml.cs",
+              "RelativeDocumentMoniker": "DNASystem\\SatffWindow.xaml.cs",
+              "ToolTip": "D:\\PRN212-DNA\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\SatffWindow.xaml.cs",
+              "RelativeToolTip": "DNASystem\\SatffWindow.xaml.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAArwEgAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T06:49:12.28Z",
+              "WhenOpened": "2025-07-22T14:35:03.422Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "IServiceRepository.cs",
-              "DocumentMoniker": "D:\\PRN212-DNA\\DNASystem (1)\\DNASystem\\Repositories\\IServiceRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\IServiceRepository.cs",
-              "ToolTip": "D:\\PRN212-DNA\\DNASystem (1)\\DNASystem\\Repositories\\IServiceRepository.cs",
-              "RelativeToolTip": "Repositories\\IServiceRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T06:48:40.988Z",
+              "Title": "SatffWindow.xaml",
+              "DocumentMoniker": "D:\\PRN212-DNA\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\SatffWindow.xaml",
+              "RelativeDocumentMoniker": "DNASystem\\SatffWindow.xaml",
+              "ToolTip": "D:\\PRN212-DNA\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\SatffWindow.xaml",
+              "RelativeToolTip": "DNASystem\\SatffWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-22T15:06:36.349Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "D:\\PRN212-DNA\\DNASystem (1)\\DNASystem\\Repositories\\UserRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\UserRepository.cs",
-              "ToolTip": "D:\\PRN212-DNA\\DNASystem (1)\\DNASystem\\Repositories\\UserRepository.cs",
-              "RelativeToolTip": "Repositories\\UserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "KitWindow.xaml.cs",
+              "DocumentMoniker": "D:\\PRN212-DNA\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\KitWindow.xaml.cs",
+              "RelativeDocumentMoniker": "DNASystem\\KitWindow.xaml.cs",
+              "ToolTip": "D:\\PRN212-DNA\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\KitWindow.xaml.cs",
+              "RelativeToolTip": "DNASystem\\KitWindow.xaml.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAqwEoAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T06:48:11.985Z",
+              "WhenOpened": "2025-07-22T14:39:25.166Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "D:\\PRN212-DNA\\DNASystem (1)\\DNASystem\\Repositories\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\IUserRepository.cs",
-              "ToolTip": "D:\\PRN212-DNA\\DNASystem (1)\\DNASystem\\Repositories\\IUserRepository.cs",
-              "RelativeToolTip": "Repositories\\IUserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAuAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "TestResult.cs",
+              "DocumentMoniker": "D:\\PRN212-DNA\\SE1848-PRN212-Group4\\DNASystem\\BusinessObjects\\TestResult.cs",
+              "RelativeDocumentMoniker": "BusinessObjects\\TestResult.cs",
+              "ToolTip": "D:\\PRN212-DNA\\SE1848-PRN212-Group4\\DNASystem\\BusinessObjects\\TestResult.cs",
+              "RelativeToolTip": "BusinessObjects\\TestResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T06:47:35.253Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ServiceDAO.cs",
-              "DocumentMoniker": "D:\\PRN212-DNA\\DNASystem (1)\\DNASystem\\DataAccessLayer\\ServiceDAO.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer\\ServiceDAO.cs",
-              "ToolTip": "D:\\PRN212-DNA\\DNASystem (1)\\DNASystem\\DataAccessLayer\\ServiceDAO.cs",
-              "RelativeToolTip": "DataAccessLayer\\ServiceDAO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T06:47:20.49Z",
+              "WhenOpened": "2025-07-22T15:46:33.161Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "BookingDAO.cs",
-              "DocumentMoniker": "D:\\PRN212-DNA\\DNASystem (1)\\DNASystem\\DataAccessLayer\\BookingDAO.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer\\BookingDAO.cs",
-              "ToolTip": "D:\\PRN212-DNA\\DNASystem (1)\\DNASystem\\DataAccessLayer\\BookingDAO.cs",
-              "RelativeToolTip": "DataAccessLayer\\BookingDAO.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Title": "ITestResultService.cs",
+              "DocumentMoniker": "D:\\PRN212-DNA\\SE1848-PRN212-Group4\\DNASystem\\Services\\ITestResultService.cs",
+              "RelativeDocumentMoniker": "Services\\ITestResultService.cs",
+              "ToolTip": "D:\\PRN212-DNA\\SE1848-PRN212-Group4\\DNASystem\\Services\\ITestResultService.cs",
+              "RelativeToolTip": "Services\\ITestResultService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T06:45:06.508Z",
+              "WhenOpened": "2025-07-22T15:47:51.549Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ServiceDAO.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\AppData\\Local\\SourceServer\\cc8f6eab50a3834c4585f78e3110768176eb3da36c25ac5ce26bd6397b77cbb5\\DNASystem\\DataAccessLayer\\ServiceDAO.cs",
-              "ToolTip": "C:\\Users\\admin\\AppData\\Local\\SourceServer\\cc8f6eab50a3834c4585f78e3110768176eb3da36c25ac5ce26bd6397b77cbb5\\DNASystem\\DataAccessLayer\\ServiceDAO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T08:26:45.454Z"
+              "DocumentIndex": 6,
+              "Title": "KitWindow.xaml",
+              "DocumentMoniker": "D:\\PRN212-DNA\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\KitWindow.xaml",
+              "RelativeDocumentMoniker": "DNASystem\\KitWindow.xaml",
+              "ToolTip": "D:\\PRN212-DNA\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\KitWindow.xaml",
+              "RelativeToolTip": "DNASystem\\KitWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-22T14:38:35.825Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "DnasystemContext.cs",
-              "DocumentMoniker": "D:\\PRN212-DNA\\DNASystem (1)\\DNASystem\\DataAccessLayer\\DnasystemContext.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer\\DnasystemContext.cs",
-              "ToolTip": "D:\\PRN212-DNA\\DNASystem (1)\\DNASystem\\DataAccessLayer\\DnasystemContext.cs",
-              "RelativeToolTip": "DataAccessLayer\\DnasystemContext.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAACgAAAA5AAAAAAAAAA==",
+              "Title": "CreateAndUpdateServiceWindow.xaml.cs",
+              "DocumentMoniker": "D:\\PRN212-DNA\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\CreateAndUpdateServiceWindow.xaml.cs",
+              "RelativeDocumentMoniker": "DNASystem\\CreateAndUpdateServiceWindow.xaml.cs",
+              "ToolTip": "D:\\PRN212-DNA\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\CreateAndUpdateServiceWindow.xaml.cs",
+              "RelativeToolTip": "DNASystem\\CreateAndUpdateServiceWindow.xaml.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAkwEwAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T08:25:14.329Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "AdminHomePage.xaml",
-              "DocumentMoniker": "D:\\PRN212-DNA\\DNASystem (1)\\DNASystem\\DNASystem\\AdminHomePage.xaml",
-              "RelativeDocumentMoniker": "DNASystem\\AdminHomePage.xaml",
-              "ToolTip": "D:\\PRN212-DNA\\DNASystem (1)\\DNASystem\\DNASystem\\AdminHomePage.xaml",
-              "RelativeToolTip": "DNASystem\\AdminHomePage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-13T08:24:27.362Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "AdminWindow.xaml",
-              "DocumentMoniker": "D:\\PRN212-DNA\\DNASystem (1)\\DNASystem\\DNASystem\\AdminWindow.xaml",
-              "RelativeDocumentMoniker": "DNASystem\\AdminWindow.xaml",
-              "ToolTip": "D:\\PRN212-DNA\\DNASystem (1)\\DNASystem\\DNASystem\\AdminWindow.xaml",
-              "RelativeToolTip": "DNASystem\\AdminWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-13T08:22:11.419Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "UserManagementPage.xaml",
-              "DocumentMoniker": "D:\\PRN212-DNA\\DNASystem (1)\\DNASystem\\DNASystem\\UserManagementPage.xaml",
-              "RelativeDocumentMoniker": "DNASystem\\UserManagementPage.xaml",
-              "ToolTip": "D:\\PRN212-DNA\\DNASystem (1)\\DNASystem\\DNASystem\\UserManagementPage.xaml",
-              "RelativeToolTip": "DNASystem\\UserManagementPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-13T08:22:02.079Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "App.xaml",
-              "DocumentMoniker": "D:\\PRN212-DNA\\DNASystem (1)\\DNASystem\\DNASystem\\App.xaml",
-              "RelativeDocumentMoniker": "DNASystem\\App.xaml",
-              "ToolTip": "D:\\PRN212-DNA\\DNASystem (1)\\DNASystem\\DNASystem\\App.xaml",
-              "RelativeToolTip": "DNASystem\\App.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-13T07:59:22.307Z",
+              "WhenOpened": "2025-07-22T16:13:42.215Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\PRN212-DNA\\DNASystem (1)\\DNASystem\\BusinessObjects\\User.cs",
-              "RelativeDocumentMoniker": "BusinessObjects\\User.cs",
-              "ToolTip": "D:\\PRN212-DNA\\DNASystem (1)\\DNASystem\\BusinessObjects\\User.cs",
-              "RelativeToolTip": "BusinessObjects\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "ServiceService.cs",
+              "DocumentMoniker": "D:\\PRN212-DNA\\SE1848-PRN212-Group4\\DNASystem\\Services\\ServiceService.cs",
+              "RelativeDocumentMoniker": "Services\\ServiceService.cs",
+              "ToolTip": "D:\\PRN212-DNA\\SE1848-PRN212-Group4\\DNASystem\\Services\\ServiceService.cs",
+              "RelativeToolTip": "Services\\ServiceService.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAIwBQAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T08:47:16.569Z"
+              "WhenOpened": "2025-07-22T15:51:22.079Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\PRN212-DNA\\DNASystem (1)\\DNASystem\\DNASystem\\appsettings.json",
-              "RelativeDocumentMoniker": "DNASystem\\appsettings.json",
-              "ToolTip": "D:\\PRN212-DNA\\DNASystem (1)\\DNASystem\\DNASystem\\appsettings.json",
-              "RelativeToolTip": "DNASystem\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-17T06:35:45.513Z",
+              "Title": "Kit.cs",
+              "DocumentMoniker": "D:\\PRN212-DNA\\SE1848-PRN212-Group4\\DNASystem\\BusinessObjects\\Kit.cs",
+              "RelativeDocumentMoniker": "BusinessObjects\\Kit.cs",
+              "ToolTip": "D:\\PRN212-DNA\\SE1848-PRN212-Group4\\DNASystem\\BusinessObjects\\Kit.cs",
+              "RelativeToolTip": "BusinessObjects\\Kit.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T14:41:55.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TestResultDAO.cs",
+              "DocumentMoniker": "D:\\PRN212-DNA\\SE1848-PRN212-Group4\\DNASystem\\DataAccessLayer\\TestResultDAO.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\TestResultDAO.cs",
+              "ToolTip": "D:\\PRN212-DNA\\SE1848-PRN212-Group4\\DNASystem\\DataAccessLayer\\TestResultDAO.cs",
+              "RelativeToolTip": "DataAccessLayer\\TestResultDAO.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAQwDYAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T15:43:36.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "KitDAO.cs",
+              "DocumentMoniker": "D:\\PRN212-DNA\\SE1848-PRN212-Group4\\DNASystem\\DataAccessLayer\\KitDAO.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\KitDAO.cs",
+              "ToolTip": "D:\\PRN212-DNA\\SE1848-PRN212-Group4\\DNASystem\\DataAccessLayer\\KitDAO.cs",
+              "RelativeToolTip": "DataAccessLayer\\KitDAO.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAswBsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T15:41:52.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IKitService.cs",
+              "DocumentMoniker": "D:\\PRN212-DNA\\SE1848-PRN212-Group4\\DNASystem\\Services\\IKitService.cs",
+              "RelativeDocumentMoniker": "Services\\IKitService.cs",
+              "ToolTip": "D:\\PRN212-DNA\\SE1848-PRN212-Group4\\DNASystem\\Services\\IKitService.cs",
+              "RelativeToolTip": "Services\\IKitService.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBAAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T15:46:16.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ServiceRepository.cs",
+              "DocumentMoniker": "D:\\PRN212-DNA\\SE1848-PRN212-Group4\\DNASystem\\Repositories\\ServiceRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\ServiceRepository.cs",
+              "ToolTip": "D:\\PRN212-DNA\\SE1848-PRN212-Group4\\DNASystem\\Repositories\\ServiceRepository.cs",
+              "RelativeToolTip": "Repositories\\ServiceRepository.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAzwB0AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T15:50:29.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IServiceService.cs",
+              "DocumentMoniker": "D:\\PRN212-DNA\\SE1848-PRN212-Group4\\DNASystem\\Services\\IServiceService.cs",
+              "RelativeDocumentMoniker": "Services\\IServiceService.cs",
+              "ToolTip": "D:\\PRN212-DNA\\SE1848-PRN212-Group4\\DNASystem\\Services\\IServiceService.cs",
+              "RelativeToolTip": "Services\\IServiceService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T15:50:24.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ServiceDAO.cs",
+              "DocumentMoniker": "D:\\PRN212-DNA\\SE1848-PRN212-Group4\\DNASystem\\DataAccessLayer\\ServiceDAO.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\ServiceDAO.cs",
+              "ToolTip": "D:\\PRN212-DNA\\SE1848-PRN212-Group4\\DNASystem\\DataAccessLayer\\ServiceDAO.cs",
+              "RelativeToolTip": "DataAccessLayer\\ServiceDAO.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCMAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T15:41:17.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IKitRepository.cs",
+              "DocumentMoniker": "D:\\PRN212-DNA\\SE1848-PRN212-Group4\\DNASystem\\Repositories\\IKitRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IKitRepository.cs",
+              "ToolTip": "D:\\PRN212-DNA\\SE1848-PRN212-Group4\\DNASystem\\Repositories\\IKitRepository.cs",
+              "RelativeToolTip": "Repositories\\IKitRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T15:45:54.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "TestResultRepository.cs",
+              "DocumentMoniker": "D:\\PRN212-DNA\\SE1848-PRN212-Group4\\DNASystem\\Repositories\\TestResultRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\TestResultRepository.cs",
+              "ToolTip": "D:\\PRN212-DNA\\SE1848-PRN212-Group4\\DNASystem\\Repositories\\TestResultRepository.cs",
+              "RelativeToolTip": "Repositories\\TestResultRepository.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwCQAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T15:47:38.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "KitRepository.cs",
+              "DocumentMoniker": "D:\\PRN212-DNA\\SE1848-PRN212-Group4\\DNASystem\\Repositories\\KitRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\KitRepository.cs",
+              "ToolTip": "D:\\PRN212-DNA\\SE1848-PRN212-Group4\\DNASystem\\Repositories\\KitRepository.cs",
+              "RelativeToolTip": "Repositories\\KitRepository.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwCQAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T15:46:03.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ITestResultRepository.cs",
+              "DocumentMoniker": "D:\\PRN212-DNA\\SE1848-PRN212-Group4\\DNASystem\\Repositories\\ITestResultRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\ITestResultRepository.cs",
+              "ToolTip": "D:\\PRN212-DNA\\SE1848-PRN212-Group4\\DNASystem\\Repositories\\ITestResultRepository.cs",
+              "RelativeToolTip": "Repositories\\ITestResultRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T15:47:23.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "BookingDAO.cs",
+              "DocumentMoniker": "D:\\PRN212-DNA\\SE1848-PRN212-Group4\\DNASystem\\DataAccessLayer\\BookingDAO.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\BookingDAO.cs",
+              "ToolTip": "D:\\PRN212-DNA\\SE1848-PRN212-Group4\\DNASystem\\DataAccessLayer\\BookingDAO.cs",
+              "RelativeToolTip": "DataAccessLayer\\BookingDAO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T15:15:05.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\PRN212-DNA\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\App.xaml",
+              "RelativeDocumentMoniker": "DNASystem\\App.xaml",
+              "ToolTip": "D:\\PRN212-DNA\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\App.xaml",
+              "RelativeToolTip": "DNASystem\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-22T15:05:13.771Z",
               "EditorCaption": ""
             }
           ]

@@ -76,7 +76,7 @@ namespace DNASystem
             else if (user != null && user.Password.Equals(txtPassword.Password) && user.RoleId.Equals("R003"))
             {
                 this.Hide();
-                SatffWindow staffWindow = new SatffWindow();
+                SatffWindow staffWindow = new SatffWindow(user);
                 staffWindow.ShowDialog();
             }else
             {

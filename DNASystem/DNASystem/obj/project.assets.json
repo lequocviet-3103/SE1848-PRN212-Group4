@@ -3160,11 +3160,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\PRN212-DNA\\DNASystem (1)\\DNASystem\\DNASystem\\DNASystem.csproj",
+      "projectUniqueName": "D:\\PRN212-DNA\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\DNASystem.csproj",
       "projectName": "DNASystem",
-      "projectPath": "D:\\PRN212-DNA\\DNASystem (1)\\DNASystem\\DNASystem\\DNASystem.csproj",
+      "projectPath": "D:\\PRN212-DNA\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\DNASystem.csproj",
       "packagesPath": "C:\\Users\\LE QUOC VIET\\.nuget\\packages\\",
-      "outputPath": "D:\\PRN212-DNA\\DNASystem (1)\\DNASystem\\DNASystem\\obj\\",
+      "outputPath": "D:\\PRN212-DNA\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3185,11 +3185,11 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "D:\\PRN212-DNA\\DNASystem (1)\\DNASystem\\BusinessObjects\\BusinessObjects.csproj": {
-              "projectPath": "D:\\PRN212-DNA\\DNASystem (1)\\DNASystem\\BusinessObjects\\BusinessObjects.csproj"
+            "D:\\PRN212-DNA\\SE1848-PRN212-Group4\\DNASystem\\BusinessObjects\\BusinessObjects.csproj": {
+              "projectPath": "D:\\PRN212-DNA\\SE1848-PRN212-Group4\\DNASystem\\BusinessObjects\\BusinessObjects.csproj"
             },
-            "D:\\PRN212-DNA\\DNASystem (1)\\DNASystem\\Services\\Services.csproj": {
-              "projectPath": "D:\\PRN212-DNA\\DNASystem (1)\\DNASystem\\Services\\Services.csproj"
+            "D:\\PRN212-DNA\\SE1848-PRN212-Group4\\DNASystem\\Services\\Services.csproj": {
+              "projectPath": "D:\\PRN212-DNA\\SE1848-PRN212-Group4\\DNASystem\\Services\\Services.csproj"
             }
           }
         }

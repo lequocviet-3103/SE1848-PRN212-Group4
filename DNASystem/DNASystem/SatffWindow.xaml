@@ -5,9 +5,59 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DNASystem"
         mc:Ignorable="d"
-        Title="SatffWindow" Height="450" Width="800">
-    <Grid>
-        <Label Content="staff" HorizontalAlignment="Left" Margin="118,74,0,0" VerticalAlignment="Top"/>
+        Title="Danh sách Đặt lịch" Height="450" Width="900" Loaded="Window_Loaded">
+    <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
+        <StackPanel Margin="0" Background="White" ScrollViewer.HorizontalScrollBarVisibility="Auto" ScrollViewer.VerticalScrollBarVisibility="Auto">
+            <StackPanel HorizontalAlignment="Center" Margin="0,10">
+                <TextBlock Text="Danh sách đặt dịch vụ xét nghiệm DNA" FontSize="24" FontWeight="Bold" Foreground="#1E90FF" TextAlignment="Center"/>
+            </StackPanel>
+            <!-- Nút quay về -->
+            <Grid Margin="15,30,0,0" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*"/>
+                    <!-- Menu bên trái -->
+                    <ColumnDefinition Width="4*"/>
+                    <!-- Nội dung thay đổi -->
+                    <ColumnDefinition Width="0.5*"/>
+                </Grid.ColumnDefinitions>
 
-    </Grid>
+                <!-- MENU BÊN TRÁI -->
+                <StackPanel Grid.Column="0" Background="#E0F0FF">
+                    <TextBlock Text="☰ Menu" FontSize="16" FontWeight="Bold" Margin="10"/>
+                    <Button Content="📋 Danh sách đặt lịch" Margin="10"/>
+                    <Button Content="👤 Danh sách khách hàng" Margin="10"/>
+                </StackPanel>
+                <!-- Tiêu đề -->
+
+                <Border Grid.Column="1" BorderBrush="LightGray" BorderThickness="1" CornerRadius="5" Padding="15" Margin="0,0,0,0">
+                    <ListView ItemsSource="{Binding Appointments}" Margin="0,30,-6,0" x:Name="lvBooking" MaxHeight="400">
+                        <ListView.View>
+                            <GridView >
+                                <GridViewColumn Header="Mã đặt lịch" Width="80" DisplayMemberBinding="{Binding BookingId}" />
+                                <GridViewColumn Header="Khách hàng" Width="150" DisplayMemberBinding="{Binding Customer.Fullname}" />
+                                <GridViewColumn Header="Dịch vụ" Width="150" DisplayMemberBinding="{Binding Service.Name}" />
+                                <GridViewColumn Header="Ngày đặt" Width="120" DisplayMemberBinding="{Binding Date}" />
+                                <GridViewColumn Header="Địa chỉ" Width="100" DisplayMemberBinding="{Binding Address}" />
+                                <GridViewColumn Header="Phương thức" Width="100" DisplayMemberBinding="{Binding Method}" />
+                                <GridViewColumn Header="Trạng thái" Width="100" DisplayMemberBinding="{Binding Status}" />
+                                
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    
+                </Border>
+                <!-- Bảng danh sách đặt lịch -->
+                <Border Grid.Column="2" BorderBrush="LightGray" BorderThickness="1" CornerRadius="5" Padding="0" Margin="0">
+                    <StackPanel Orientation="Vertical" VerticalAlignment="Top" HorizontalAlignment="Stretch">
+                        <Button x:Name="btnAddKit" Content="Tạo kit" Height="40"  Margin="0,10, 0, 30" Click="btnAddKit_Click"/>
+                        <Button x:Name="btnAddTest" Content="Tạo Kết Quả Xét Nghiệm" Height="40"  Margin="0,10, 0, 30" Click="btnAddTest_Click"/>
+                        <Button Content="Đóng" Height="40"  Margin="0,10, 0, 30"/>
+                    </StackPanel>
+                </Border>
+
+
+            </Grid>
+            
+        </StackPanel>
+    </ScrollViewer>
 </Window>
