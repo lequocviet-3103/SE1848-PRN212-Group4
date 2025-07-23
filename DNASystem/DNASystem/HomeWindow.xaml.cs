@@ -22,12 +22,17 @@ namespace DNASystem
     /// </summary>
     public partial class HomeWindow : Window
     {
+        public User currentuser { get; set; }
+        ContextMenu userMenu = new ContextMenu();
         private readonly IServiceService serviceService;
-        public HomeWindow()
+        public HomeWindow(User user)
         {
             InitializeComponent();
             serviceService = new ServiceService();
-            this.WindowState = WindowState.Maximized;   // Toàn màn hình
+            this.WindowState = WindowState.Maximized;
+            currentuser = user;
+            txtWelcomeUser.Text = $"Welcome, "+ currentuser.Fullname;
+            
 
             btnHuyetThong.IsChecked = true;
             LoadServices("Huyết thống");
@@ -138,6 +143,43 @@ namespace DNASystem
                 bookingWindow.Show();
                 this.Hide();
             }
+        }
+
+        private void MenuProfile_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void MenuLogout_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnUserMenu_Click(object sender, RoutedEventArgs e)
+        {
+            UserPopup.IsOpen = true;
+        }
+        
+
+        private void btnProfile_Click(object sender, RoutedEventArgs e)
+        {
+            CustomerProfileWindow profileWindow = new CustomerProfileWindow(currentuser);
+            profileWindow.Show();
+            this.Close();
+        }
+
+        private void btnHistory_Click(object sender, RoutedEventArgs e)
+        {
+            TestHistoryWindow testHistoryWindow = new TestHistoryWindow(currentuser);
+            testHistoryWindow.Show();
+            this.Close();
+        }
+
+        private void btnLogout_Click(object sender, RoutedEventArgs e)
+        {
+            LoginWindow loginWindow = new LoginWindow();
+            loginWindow.Show();
+            this.Close();
         }
     }
 }

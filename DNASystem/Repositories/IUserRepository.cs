@@ -11,5 +11,6 @@ namespace Repositories
         public List<User> GetAllUsers();
 
         public bool DeleteUser(string userId);
+        public void UpdateUser(User user);
     }
 }

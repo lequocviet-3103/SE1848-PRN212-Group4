@@ -20,7 +20,7 @@ namespace DNASystem
             this.WindowState = WindowState.Maximized;   // Toàn màn hình
   
             // Khởi tạo BookingService (bạn có thể dùng DI nếu có)
-            bookingService = new BookingService(new BookingRepository());
+            bookingService = new BookingService();
 
             // Gán dữ liệu dịch vụ lên UI
             txtServiceName.Text = selectedService.Name;
@@ -49,9 +49,9 @@ namespace DNASystem
                 var booking = new Booking
                 {
                     BookingId = bookingService.GenerateNewBookingId(),
-                    CustomerId = "U001", // nếu bạn có login, truyền từ constructor
+                    CustomerId = "U001", 
                     Date = dpNgayDat.SelectedDate.Value,
-                    StaffId = null, // để null, sẽ cập nhật sau nếu cần
+                    StaffId = null, 
                     ServiceId = selectedService.ServiceId,
                     Address = txtSampleAddress.Text.Trim(),
                     Method = rbHome.IsChecked == true ? "Tự thu mẫu" : "Tại cơ sở y tế",
@@ -71,7 +71,7 @@ namespace DNASystem
         }
         private void btnQuayVe_Click(object sender, RoutedEventArgs e)
         {
-            var home = new HomeWindow();
+            HomeWindow home = new HomeWindow();
             home.Show();
             this.Close();
         }

@@ -72,9 +72,37 @@ namespace DataAccessLayer
         public void DeleteBooking(string bookingId)
         {
             using var context = new DnasystemContext();
-            var booking = context.Bookings.FirstOrDefault(b => b.BookingId == bookingId);
+            var booking = context.Bookings
+                        .Include(b => b.Invoices)
+                         .Include(b => b.Kits)
+                         .Include(b => b.TestResults)
+                         .FirstOrDefault(b => b.BookingId == bookingId);
             if (booking != null)
             {
+                if (booking.Invoices != null)
+                {
+                    foreach (var invoice in booking.Invoices.ToList())
+                    {
+                        invoice.BookingId = null;
+                    }
+                }
+
+                if (booking.Kits != null)
+                {
+                    foreach (var kit in booking.Kits.ToList())
+                    {
+                        kit.BookingId = null;
+                    }
+                }
+
+                if (booking.TestResults != null)
+                {
+                    foreach (var result in booking.TestResults.ToList())
+                    {
+                        result.BookingId = null;
+                    }
+                }
+
                 context.Bookings.Remove(booking);
                 context.SaveChanges();
             }
@@ -91,14 +119,14 @@ namespace DataAccessLayer
 
             if (lastBooking == null)
             {
-                return "B001";
+                return "BK001";
             }
 
             var numberPart = int.TryParse(lastBooking.BookingId.Substring(1), out int number)
                 ? number
                 : 0;
 
-            return "B" + (number + 1).ToString("D3");
+            return "BK" + (number + 1).ToString("D3");
         }
     }
 }
