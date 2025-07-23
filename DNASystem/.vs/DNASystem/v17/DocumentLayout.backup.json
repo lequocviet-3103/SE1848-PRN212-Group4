@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\PRN212-DNA\\SE1848-PRN212-Group4\\DNASystem\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|d:\\prn212-dna\\se1848-prn212-group4\\dnasystem\\dnasystem\\kitwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|solutionrelative:dnasystem\\kitwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|d:\\prn212-dna\\se1848-prn212-group4\\dnasystem\\dnasystem\\testresultwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|solutionrelative:dnasystem\\testresultwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|d:\\prn212-dna\\se1848-prn212-group4\\dnasystem\\dnasystem\\testresultwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|solutionrelative:dnasystem\\testresultwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|d:\\prn212-dna\\se1848-prn212-group4\\dnasystem\\dnasystem\\kitwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|solutionrelative:dnasystem\\kitwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|d:\\prn212-dna\\se1848-prn212-group4\\dnasystem\\dnasystem\\satffwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -102,11 +102,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "TestResultWindow.xaml.cs",
               "DocumentMoniker": "D:\\PRN212-DNA\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\TestResultWindow.xaml.cs",
               "RelativeDocumentMoniker": "DNASystem\\TestResultWindow.xaml.cs",
@@ -119,15 +119,14 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "TestResultWindow.xaml",
               "DocumentMoniker": "D:\\PRN212-DNA\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\TestResultWindow.xaml",
               "RelativeDocumentMoniker": "DNASystem\\TestResultWindow.xaml",
               "ToolTip": "D:\\PRN212-DNA\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\TestResultWindow.xaml",
               "RelativeToolTip": "DNASystem\\TestResultWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-22T17:18:38.032Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-22T17:18:38.032Z"
             },
             {
               "$type": "Document",
@@ -139,8 +138,7 @@
               "RelativeToolTip": "DNASystem\\SatffWindow.xaml.cs",
               "ViewState": "AgIAADQAAAAAAAAAAAArwEgAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T14:35:03.422Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-22T14:35:03.422Z"
             },
             {
               "$type": "Document",
@@ -151,25 +149,24 @@
               "ToolTip": "D:\\PRN212-DNA\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\SatffWindow.xaml",
               "RelativeToolTip": "DNASystem\\SatffWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-22T15:06:36.349Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-22T15:06:36.349Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "KitWindow.xaml.cs",
               "DocumentMoniker": "D:\\PRN212-DNA\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\KitWindow.xaml.cs",
               "RelativeDocumentMoniker": "DNASystem\\KitWindow.xaml.cs",
               "ToolTip": "D:\\PRN212-DNA\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\KitWindow.xaml.cs",
               "RelativeToolTip": "DNASystem\\KitWindow.xaml.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAqwEoAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAADwvycAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-22T14:39:25.166Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "TestResult.cs",
               "DocumentMoniker": "D:\\PRN212-DNA\\SE1848-PRN212-Group4\\DNASystem\\BusinessObjects\\TestResult.cs",
               "RelativeDocumentMoniker": "BusinessObjects\\TestResult.cs",
@@ -177,8 +174,7 @@
               "RelativeToolTip": "BusinessObjects\\TestResult.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T15:46:33.161Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-22T15:46:33.161Z"
             },
             {
               "$type": "Document",
@@ -190,8 +186,7 @@
               "RelativeToolTip": "Services\\ITestResultService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T15:47:51.549Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-22T15:47:51.549Z"
             },
             {
               "$type": "Document",
@@ -202,8 +197,7 @@
               "ToolTip": "D:\\PRN212-DNA\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\KitWindow.xaml",
               "RelativeToolTip": "DNASystem\\KitWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-22T14:38:35.825Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-22T14:38:35.825Z"
             },
             {
               "$type": "Document",
@@ -215,8 +209,7 @@
               "RelativeToolTip": "DNASystem\\CreateAndUpdateServiceWindow.xaml.cs",
               "ViewState": "AgIAACsAAAAAAAAAAAAkwEwAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T16:13:42.215Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-22T16:13:42.215Z"
             },
             {
               "$type": "Document",
@@ -228,8 +221,7 @@
               "RelativeToolTip": "Services\\ServiceService.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAIwBQAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T15:51:22.079Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-22T15:51:22.079Z"
             },
             {
               "$type": "Document",
@@ -241,8 +233,7 @@
               "RelativeToolTip": "BusinessObjects\\Kit.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T14:41:55.177Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-22T14:41:55.177Z"
             },
             {
               "$type": "Document",
@@ -254,8 +245,7 @@
               "RelativeToolTip": "DataAccessLayer\\TestResultDAO.cs",
               "ViewState": "AgIAACYAAAAAAAAAAAAQwDYAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T15:43:36.747Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-22T15:43:36.747Z"
             },
             {
               "$type": "Document",
@@ -267,8 +257,7 @@
               "RelativeToolTip": "DataAccessLayer\\KitDAO.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAswBsAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T15:41:52.95Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-22T15:41:52.95Z"
             },
             {
               "$type": "Document",
@@ -280,8 +269,7 @@
               "RelativeToolTip": "Services\\IKitService.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAQwBAAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T15:46:16.939Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-22T15:46:16.939Z"
             },
             {
               "$type": "Document",
@@ -293,8 +281,7 @@
               "RelativeToolTip": "Repositories\\ServiceRepository.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAzwB0AAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T15:50:29.324Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-22T15:50:29.324Z"
             },
             {
               "$type": "Document",
@@ -306,8 +293,7 @@
               "RelativeToolTip": "Services\\IServiceService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T15:50:24.798Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-22T15:50:24.798Z"
             },
             {
               "$type": "Document",
@@ -319,8 +305,7 @@
               "RelativeToolTip": "DataAccessLayer\\ServiceDAO.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAAwCMAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T15:41:17.033Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-22T15:41:17.033Z"
             },
             {
               "$type": "Document",
@@ -332,8 +317,7 @@
               "RelativeToolTip": "Repositories\\IKitRepository.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T15:45:54.749Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-22T15:45:54.749Z"
             },
             {
               "$type": "Document",
@@ -345,8 +329,7 @@
               "RelativeToolTip": "Repositories\\TestResultRepository.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAQwCQAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T15:47:38.259Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-22T15:47:38.259Z"
             },
             {
               "$type": "Document",
@@ -358,8 +341,7 @@
               "RelativeToolTip": "Repositories\\KitRepository.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAYwCQAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T15:46:03.529Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-22T15:46:03.529Z"
             },
             {
               "$type": "Document",
@@ -371,8 +353,7 @@
               "RelativeToolTip": "Repositories\\ITestResultRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T15:47:23.509Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-22T15:47:23.509Z"
             },
             {
               "$type": "Document",
@@ -384,8 +365,7 @@
               "RelativeToolTip": "DataAccessLayer\\BookingDAO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T15:15:05.702Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-22T15:15:05.702Z"
             },
             {
               "$type": "Document",
@@ -396,8 +376,7 @@
               "ToolTip": "D:\\PRN212-DNA\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\App.xaml",
               "RelativeToolTip": "DNASystem\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-22T15:05:13.771Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-22T15:05:13.771Z"
             }
           ]
         }
