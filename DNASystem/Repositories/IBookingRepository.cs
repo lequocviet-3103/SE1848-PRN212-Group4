@@ -11,5 +11,6 @@ namespace Repositories.Interfaces
         void UpdateBooking(Booking booking);
         void DeleteBooking(string bookingId);
         string GenerateNewBookingId();
+        public void UpdateStatus(string bookingId, string newStatus);
     }
 }

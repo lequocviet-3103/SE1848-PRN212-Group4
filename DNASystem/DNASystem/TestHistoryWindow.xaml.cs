@@ -97,5 +97,76 @@ namespace DNASystem
 
 
         }
+
+        private void ActionButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (sender is Button btn && btn.Tag != null)
+            {
+                var bookingItem = btn.Tag;
+                var props = bookingItem.GetType().GetProperties();
+
+                string bookingId = props.FirstOrDefault(p => p.Name == "BookingId")?.GetValue(bookingItem)?.ToString();
+                string action = btn.Content.ToString();
+
+                if (string.IsNullOrEmpty(bookingId)) return;
+
+                switch (action)
+                {
+                    case "Check-in":
+                        bookingService.UpdateStatus(bookingId, "Đã Check-in");
+                        MessageBox.Show("Đã check-in thành công!");
+                        break;
+
+                    case "Đã nhận Kit":
+                        bookingService.UpdateStatus(bookingId, "Đã nhận Kit");
+                        MessageBox.Show("Đã cập nhật trạng thái nhận Kit.");
+                        break;
+
+                    case "Gửi tới phòng khám":
+                        bookingService.UpdateStatus(bookingId, "Đã gửi mẫu");
+                        MessageBox.Show("Mẫu đã được gửi tới phòng khám.");
+                        break;
+
+                    default:
+                        break;
+                }
+
+                LoadData(); 
+            }
+        }
+
+        private void ActionButton_Loaded(object sender, RoutedEventArgs e)
+        {
+            if (sender is Button btn && btn.Tag != null)
+            {
+                var bookingItem = btn.Tag;
+                var props = bookingItem.GetType().GetProperties();
+
+                string method = props.FirstOrDefault(p => p.Name == "Method")?.GetValue(bookingItem)?.ToString();
+                string status = props.FirstOrDefault(p => p.Name == "Status")?.GetValue(bookingItem)?.ToString();
+                string kitStatus = props.FirstOrDefault(p => p.Name == "KitStatus")?.GetValue(bookingItem)?.ToString();
+
+                if (method == "Tại phòng khám" && status == "Đang chờ mẫu")
+                {
+                    btn.Content = "Check-in";
+                    btn.Visibility = Visibility.Visible;
+                }
+                else if (method == "Tại nhà" && status == "Đang chờ mẫu" && kitStatus =="Đang chờ mẫu")
+                {
+                    btn.Content = "Đã nhận Kit";
+                    btn.Visibility = Visibility.Visible;
+                }
+                else if (method == "Tại nhà" && status == "Đã nhận Kit")
+                {
+                    btn.Content = "Gửi tới phòng khám";
+                    btn.Visibility = Visibility.Visible;
+                }
+                else
+                {
+                    btn.Visibility = Visibility.Collapsed;
+                }
+            }
+
+        }
     }
 }

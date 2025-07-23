@@ -3,44 +3,48 @@
   "WorkspaceRootPath": "D:\\PRN212-Group_Project\\PRN212\\SE1848-PRN212-Group4\\DNASystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|d:\\prn212-group_project\\prn212\\se1848-prn212-group4\\dnasystem\\dnasystem\\bookingwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|solutionrelative:dnasystem\\bookingwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|d:\\prn212-group_project\\prn212\\se1848-prn212-group4\\dnasystem\\dnasystem\\testhistorywindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|solutionrelative:dnasystem\\testhistorywindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|d:\\prn212-group_project\\prn212\\se1848-prn212-group4\\dnasystem\\dnasystem\\testhistorywindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|solutionrelative:dnasystem\\testhistorywindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|d:\\prn212-group_project\\prn212\\se1848-prn212-group4\\dnasystem\\dnasystem\\usermanagementpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|solutionrelative:dnasystem\\usermanagementpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E22B87F5-4E76-460A-993B-A0AD8449FAA6}|Services\\Services.csproj|d:\\prn212-group_project\\prn212\\se1848-prn212-group4\\dnasystem\\services\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E22B87F5-4E76-460A-993B-A0AD8449FAA6}|Services\\Services.csproj|solutionrelative:services\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|d:\\prn212-group_project\\prn212\\se1848-prn212-group4\\dnasystem\\dnasystem\\testhistorywindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|solutionrelative:dnasystem\\testhistorywindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{E22B87F5-4E76-460A-993B-A0AD8449FAA6}|Services\\Services.csproj|d:\\prn212-group_project\\prn212\\se1848-prn212-group4\\dnasystem\\services\\ibookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E22B87F5-4E76-460A-993B-A0AD8449FAA6}|Services\\Services.csproj|solutionrelative:services\\ibookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C03CF4E-A3B5-4271-8429-F453A4776EC0}|Repositories\\Repositories.csproj|d:\\prn212-group_project\\prn212\\se1848-prn212-group4\\dnasystem\\repositories\\bookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C03CF4E-A3B5-4271-8429-F453A4776EC0}|Repositories\\Repositories.csproj|solutionrelative:repositories\\bookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C03CF4E-A3B5-4271-8429-F453A4776EC0}|Repositories\\Repositories.csproj|d:\\prn212-group_project\\prn212\\se1848-prn212-group4\\dnasystem\\repositories\\ibookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C03CF4E-A3B5-4271-8429-F453A4776EC0}|Repositories\\Repositories.csproj|solutionrelative:repositories\\ibookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FE60582F-949F-4047-96D6-D54801D9254A}|DataAccessLayer\\DataAccessLayer.csproj|d:\\prn212-group_project\\prn212\\se1848-prn212-group4\\dnasystem\\dataaccesslayer\\bookingdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FE60582F-949F-4047-96D6-D54801D9254A}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\bookingdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|d:\\prn212-group_project\\prn212\\se1848-prn212-group4\\dnasystem\\dnasystem\\customerprofilewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|solutionrelative:dnasystem\\customerprofilewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|d:\\prn212-group_project\\prn212\\se1848-prn212-group4\\dnasystem\\dnasystem\\bookingwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|solutionrelative:dnasystem\\bookingwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FE60582F-949F-4047-96D6-D54801D9254A}|DataAccessLayer\\DataAccessLayer.csproj|d:\\prn212-group_project\\prn212\\se1848-prn212-group4\\dnasystem\\dataaccesslayer\\userdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE60582F-949F-4047-96D6-D54801D9254A}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\userdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F49F04D-9F2A-4AD2-A2BB-A64AA0D620E6}|BusinessObjects\\BusinessObjects.csproj|d:\\prn212-group_project\\prn212\\se1848-prn212-group4\\dnasystem\\businessobjects\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F49F04D-9F2A-4AD2-A2BB-A64AA0D620E6}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|d:\\prn212-group_project\\prn212\\se1848-prn212-group4\\dnasystem\\dnasystem\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|solutionrelative:dnasystem\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|d:\\prn212-group_project\\prn212\\se1848-prn212-group4\\dnasystem\\dnasystem\\bookingwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|solutionrelative:dnasystem\\bookingwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|d:\\prn212-group_project\\prn212\\se1848-prn212-group4\\dnasystem\\dnasystem\\homewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|solutionrelative:dnasystem\\homewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F49F04D-9F2A-4AD2-A2BB-A64AA0D620E6}|BusinessObjects\\BusinessObjects.csproj|d:\\prn212-group_project\\prn212\\se1848-prn212-group4\\dnasystem\\businessobjects\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F49F04D-9F2A-4AD2-A2BB-A64AA0D620E6}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,49 +54,70 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "UserManagementPage.xaml.cs",
-              "DocumentMoniker": "D:\\PRN212-Group_Project\\PRN212\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\UserManagementPage.xaml.cs",
-              "RelativeDocumentMoniker": "DNASystem\\UserManagementPage.xaml.cs",
-              "ToolTip": "D:\\PRN212-Group_Project\\PRN212\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\UserManagementPage.xaml.cs",
-              "RelativeToolTip": "DNASystem\\UserManagementPage.xaml.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Title": "BookingService.cs",
+              "DocumentMoniker": "D:\\PRN212-Group_Project\\PRN212\\SE1848-PRN212-Group4\\DNASystem\\Services\\BookingService.cs",
+              "RelativeDocumentMoniker": "Services\\BookingService.cs",
+              "ToolTip": "D:\\PRN212-Group_Project\\PRN212\\SE1848-PRN212-Group4\\DNASystem\\Services\\BookingService.cs",
+              "RelativeToolTip": "Services\\BookingService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBsAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T19:02:10.633Z",
+              "WhenOpened": "2025-07-23T07:04:45.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IBookingService.cs",
+              "DocumentMoniker": "D:\\PRN212-Group_Project\\PRN212\\SE1848-PRN212-Group4\\DNASystem\\Services\\IBookingService.cs",
+              "RelativeDocumentMoniker": "Services\\IBookingService.cs",
+              "ToolTip": "D:\\PRN212-Group_Project\\PRN212\\SE1848-PRN212-Group4\\DNASystem\\Services\\IBookingService.cs",
+              "RelativeToolTip": "Services\\IBookingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T07:04:36.216Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "BookingDAO.cs",
-              "DocumentMoniker": "D:\\PRN212-Group_Project\\PRN212\\SE1848-PRN212-Group4\\DNASystem\\DataAccessLayer\\BookingDAO.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer\\BookingDAO.cs",
-              "ToolTip": "D:\\PRN212-Group_Project\\PRN212\\SE1848-PRN212-Group4\\DNASystem\\DataAccessLayer\\BookingDAO.cs",
-              "RelativeToolTip": "DataAccessLayer\\BookingDAO.cs",
-              "ViewState": "AgIAAEoAAAAAAAAAAAAiwGcAAAARAAAAAAAAAA==",
+              "Title": "BookingRepository.cs",
+              "DocumentMoniker": "D:\\PRN212-Group_Project\\PRN212\\SE1848-PRN212-Group4\\DNASystem\\Repositories\\BookingRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\BookingRepository.cs",
+              "ToolTip": "D:\\PRN212-Group_Project\\PRN212\\SE1848-PRN212-Group4\\DNASystem\\Repositories\\BookingRepository.cs",
+              "RelativeToolTip": "Repositories\\BookingRepository.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwBoAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T18:45:20.507Z",
+              "WhenOpened": "2025-07-23T07:04:11.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IBookingRepository.cs",
+              "DocumentMoniker": "D:\\PRN212-Group_Project\\PRN212\\SE1848-PRN212-Group4\\DNASystem\\Repositories\\IBookingRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IBookingRepository.cs",
+              "ToolTip": "D:\\PRN212-Group_Project\\PRN212\\SE1848-PRN212-Group4\\DNASystem\\Repositories\\IBookingRepository.cs",
+              "RelativeToolTip": "Repositories\\IBookingRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T07:04:04.258Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "BookingWindow.xaml.cs",
-              "DocumentMoniker": "D:\\PRN212-Group_Project\\PRN212\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\BookingWindow.xaml.cs",
-              "RelativeDocumentMoniker": "DNASystem\\BookingWindow.xaml.cs",
-              "ToolTip": "D:\\PRN212-Group_Project\\PRN212\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\BookingWindow.xaml.cs",
-              "RelativeToolTip": "DNASystem\\BookingWindow.xaml.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAYwAwAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T18:45:13.5Z",
+              "Title": "TestHistoryWindow.xaml",
+              "DocumentMoniker": "D:\\PRN212-Group_Project\\PRN212\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\TestHistoryWindow.xaml",
+              "RelativeDocumentMoniker": "DNASystem\\TestHistoryWindow.xaml",
+              "ToolTip": "D:\\PRN212-Group_Project\\PRN212\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\TestHistoryWindow.xaml",
+              "RelativeToolTip": "DNASystem\\TestHistoryWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-23T06:52:57.398Z",
               "EditorCaption": ""
             },
             {
@@ -103,73 +128,22 @@
               "RelativeDocumentMoniker": "DNASystem\\TestHistoryWindow.xaml.cs",
               "ToolTip": "D:\\PRN212-Group_Project\\PRN212\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\TestHistoryWindow.xaml.cs",
               "RelativeToolTip": "DNASystem\\TestHistoryWindow.xaml.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAgwF8AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAiwIUAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T18:24:48.079Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TestHistoryWindow.xaml",
-              "DocumentMoniker": "D:\\PRN212-Group_Project\\PRN212\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\TestHistoryWindow.xaml",
-              "RelativeDocumentMoniker": "DNASystem\\TestHistoryWindow.xaml",
-              "ToolTip": "D:\\PRN212-Group_Project\\PRN212\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\TestHistoryWindow.xaml",
-              "RelativeToolTip": "DNASystem\\TestHistoryWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-22T18:23:54.994Z",
+              "WhenOpened": "2025-07-23T06:54:43.083Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "UserDAO.cs",
-              "DocumentMoniker": "D:\\PRN212-Group_Project\\PRN212\\SE1848-PRN212-Group4\\DNASystem\\DataAccessLayer\\UserDAO.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer\\UserDAO.cs",
-              "ToolTip": "D:\\PRN212-Group_Project\\PRN212\\SE1848-PRN212-Group4\\DNASystem\\DataAccessLayer\\UserDAO.cs",
-              "RelativeToolTip": "DataAccessLayer\\UserDAO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "BookingDAO.cs",
+              "DocumentMoniker": "D:\\PRN212-Group_Project\\PRN212\\SE1848-PRN212-Group4\\DNASystem\\DataAccessLayer\\BookingDAO.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\BookingDAO.cs",
+              "ToolTip": "D:\\PRN212-Group_Project\\PRN212\\SE1848-PRN212-Group4\\DNASystem\\DataAccessLayer\\BookingDAO.cs",
+              "RelativeToolTip": "DataAccessLayer\\BookingDAO.cs",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAgwIMAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T18:51:33.903Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CustomerProfileWindow.xaml.cs",
-              "DocumentMoniker": "D:\\PRN212-Group_Project\\PRN212\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\CustomerProfileWindow.xaml.cs",
-              "RelativeDocumentMoniker": "DNASystem\\CustomerProfileWindow.xaml.cs",
-              "ToolTip": "D:\\PRN212-Group_Project\\PRN212\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\CustomerProfileWindow.xaml.cs",
-              "RelativeToolTip": "DNASystem\\CustomerProfileWindow.xaml.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T18:51:43.099Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "LoginWindow.xaml.cs",
-              "DocumentMoniker": "D:\\PRN212-Group_Project\\PRN212\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\LoginWindow.xaml.cs",
-              "RelativeDocumentMoniker": "DNASystem\\LoginWindow.xaml.cs",
-              "ToolTip": "D:\\PRN212-Group_Project\\PRN212\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\LoginWindow.xaml.cs",
-              "RelativeToolTip": "DNASystem\\LoginWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T18:45:46.651Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Booking.cs",
-              "DocumentMoniker": "D:\\PRN212-Group_Project\\PRN212\\SE1848-PRN212-Group4\\DNASystem\\BusinessObjects\\Booking.cs",
-              "RelativeDocumentMoniker": "BusinessObjects\\Booking.cs",
-              "ToolTip": "D:\\PRN212-Group_Project\\PRN212\\SE1848-PRN212-Group4\\DNASystem\\BusinessObjects\\Booking.cs",
-              "RelativeToolTip": "BusinessObjects\\Booking.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAYwCMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T18:23:22.611Z",
+              "WhenOpened": "2025-07-23T07:02:34.122Z",
               "EditorCaption": ""
             },
             {
@@ -180,9 +154,47 @@
               "RelativeDocumentMoniker": "DNASystem\\HomeWindow.xaml.cs",
               "ToolTip": "D:\\PRN212-Group_Project\\PRN212\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\HomeWindow.xaml.cs",
               "RelativeToolTip": "DNASystem\\HomeWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T18:45:44.908Z",
+              "WhenOpened": "2025-07-23T06:34:12.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\PRN212-Group_Project\\PRN212\\SE1848-PRN212-Group4\\DNASystem\\BusinessObjects\\User.cs",
+              "RelativeDocumentMoniker": "BusinessObjects\\User.cs",
+              "ToolTip": "D:\\PRN212-Group_Project\\PRN212\\SE1848-PRN212-Group4\\DNASystem\\BusinessObjects\\User.cs",
+              "RelativeToolTip": "BusinessObjects\\User.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T06:34:02.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BookingWindow.xaml",
+              "DocumentMoniker": "D:\\PRN212-Group_Project\\PRN212\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\BookingWindow.xaml",
+              "RelativeDocumentMoniker": "DNASystem\\BookingWindow.xaml",
+              "ToolTip": "D:\\PRN212-Group_Project\\PRN212\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\BookingWindow.xaml",
+              "RelativeToolTip": "DNASystem\\BookingWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-23T06:24:17.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BookingWindow.xaml.cs",
+              "DocumentMoniker": "D:\\PRN212-Group_Project\\PRN212\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\BookingWindow.xaml.cs",
+              "RelativeDocumentMoniker": "DNASystem\\BookingWindow.xaml.cs",
+              "ToolTip": "D:\\PRN212-Group_Project\\PRN212\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\BookingWindow.xaml.cs",
+              "RelativeToolTip": "DNASystem\\BookingWindow.xaml.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAiwEQAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T06:24:15.892Z",
               "EditorCaption": ""
             }
           ]

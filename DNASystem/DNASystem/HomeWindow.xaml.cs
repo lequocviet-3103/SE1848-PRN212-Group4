@@ -138,8 +138,7 @@ namespace DNASystem
         {
             if (sender is Button btn && btn.DataContext is Service selectedService)
             {
-                // Gọi BookingWindow, truyền selectedService nếu cần
-                var bookingWindow = new BookingWindow(selectedService);
+                var bookingWindow = new BookingWindow(selectedService,currentuser);
                 bookingWindow.Show();
                 this.Hide();
             }

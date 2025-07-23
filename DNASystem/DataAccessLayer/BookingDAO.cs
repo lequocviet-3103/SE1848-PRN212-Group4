@@ -113,7 +113,7 @@ namespace DataAccessLayer
             using var context = new DnasystemContext();
 
             var lastBooking = context.Bookings
-                .Where(b => b.BookingId.StartsWith("B"))
+                .Where(b => b.BookingId.StartsWith("BK"))
                 .OrderByDescending(b => b.BookingId)
                 .FirstOrDefault();
 
@@ -122,11 +122,23 @@ namespace DataAccessLayer
                 return "BK001";
             }
 
-            var numberPart = int.TryParse(lastBooking.BookingId.Substring(1), out int number)
+            var numberPart = int.TryParse(lastBooking.BookingId.Substring(2), out int number)
                 ? number
                 : 0;
 
             return "BK" + (number + 1).ToString("D3");
         }
+
+        public void UpdateStatus(string bookingId, string newStatus)
+        {
+            using var context = new DnasystemContext();
+            var booking = context.Bookings.FirstOrDefault(b => b.BookingId == bookingId);
+            if (booking != null)
+            {
+                booking.Status = newStatus;
+                context.SaveChanges();
+            }
+        }
+
     }
 }

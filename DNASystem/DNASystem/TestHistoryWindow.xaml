@@ -5,7 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DNASystem"
         mc:Ignorable="d"
-        Title="TestHistoryWindow" Height="450" Width="736" Loaded="Window_Loaded" >
+        Title="TestHistoryWindow" Height="450" Width="882" Loaded="Window_Loaded" >
+    <Window.Resources>
+        <BooleanToVisibilityConverter x:Key="BoolToVisibilityConverter"/>
+    </Window.Resources>
+
     <Grid Margin="20">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
@@ -37,6 +41,20 @@
                 <DataGridTextColumn Header="Phương thức" Binding="{Binding Method}" Width="150" />
                 <DataGridTextColumn Header="Trạng thái" Binding="{Binding Status}" Width="70" />
                 <DataGridTextColumn Header="Trạng thái Kit" Binding="{Binding KitStatus}" Width="100" />
+
+                <DataGridTemplateColumn Header="Hành động" Width="120">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Content="{Binding}"
+                    Click="ActionButton_Click"
+                    Tag="{Binding}" 
+                    Loaded="ActionButton_Loaded"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+
+
+
             </DataGrid.Columns>
         </DataGrid>
 

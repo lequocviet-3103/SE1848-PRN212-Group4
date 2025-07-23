@@ -22,5 +22,10 @@ namespace Services
         public void UpdateBooking(Booking booking) => _bookingRepository.UpdateBooking(booking);
 
         public string GenerateNewBookingId() => _bookingRepository.GenerateNewBookingId();
+
+        public void UpdateStatus(string bookingId, string newStatus)
+        {
+            _bookingRepository.UpdateStatus(bookingId, newStatus);
+        }
     }
 }

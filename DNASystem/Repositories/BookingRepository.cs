@@ -21,5 +21,10 @@ namespace Repositories
         public void UpdateBooking(Booking booking) => dao.UpdateBooking(booking);
 
         public string GenerateNewBookingId() => dao.GenerateNewBookingId();
+
+        public void UpdateStatus(string bookingId, string newStatus)
+        {
+            dao.UpdateStatus(bookingId, newStatus);
+        }
     }
 }
