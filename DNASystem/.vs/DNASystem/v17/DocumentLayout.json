@@ -66,8 +66,7 @@
               "RelativeToolTip": "Services\\BookingService.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAAwBsAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T07:04:45.423Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-23T07:04:45.423Z"
             },
             {
               "$type": "Document",
@@ -79,8 +78,7 @@
               "RelativeToolTip": "Services\\IBookingService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T07:04:36.216Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-23T07:04:36.216Z"
             },
             {
               "$type": "Document",
@@ -92,8 +90,7 @@
               "RelativeToolTip": "Repositories\\BookingRepository.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAzwBoAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T07:04:11.46Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-23T07:04:11.46Z"
             },
             {
               "$type": "Document",
@@ -105,8 +102,7 @@
               "RelativeToolTip": "Repositories\\IBookingRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T07:04:04.258Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-23T07:04:04.258Z"
             },
             {
               "$type": "Document",
@@ -117,8 +113,7 @@
               "ToolTip": "D:\\PRN212-Group_Project\\PRN212\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\TestHistoryWindow.xaml",
               "RelativeToolTip": "DNASystem\\TestHistoryWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-23T06:52:57.398Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-23T06:52:57.398Z"
             },
             {
               "$type": "Document",
@@ -143,8 +138,7 @@
               "RelativeToolTip": "DataAccessLayer\\BookingDAO.cs",
               "ViewState": "AgIAAHEAAAAAAAAAAAAgwIMAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T07:02:34.122Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-23T07:02:34.122Z"
             },
             {
               "$type": "Document",
@@ -156,8 +150,7 @@
               "RelativeToolTip": "DNASystem\\HomeWindow.xaml.cs",
               "ViewState": "AgIAABkAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T06:34:12.873Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-23T06:34:12.873Z"
             },
             {
               "$type": "Document",
@@ -169,8 +162,7 @@
               "RelativeToolTip": "BusinessObjects\\User.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAQwBsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T06:34:02.146Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-23T06:34:02.146Z"
             },
             {
               "$type": "Document",
@@ -181,8 +173,7 @@
               "ToolTip": "D:\\PRN212-Group_Project\\PRN212\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\BookingWindow.xaml",
               "RelativeToolTip": "DNASystem\\BookingWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-23T06:24:17.101Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-23T06:24:17.101Z"
             },
             {
               "$type": "Document",
@@ -194,8 +185,7 @@
               "RelativeToolTip": "DNASystem\\BookingWindow.xaml.cs",
               "ViewState": "AgIAADgAAAAAAAAAAAAiwEQAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T06:24:15.892Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-23T06:24:15.892Z"
             }
           ]
         }
