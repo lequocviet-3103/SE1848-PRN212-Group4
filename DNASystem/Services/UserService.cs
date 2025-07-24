@@ -55,5 +55,10 @@ namespace Services
                 return false;
             }
         }
+
+        public void UpdateUser(User user)
+        {
+            iUserRepository.UpdateUser(user);
+        }
     }
 }

@@ -85,20 +85,20 @@ namespace DataAccessLayer
             using var context = new DnasystemContext();
 
             var lastBooking = context.Bookings
-                .Where(b => b.BookingId.StartsWith("B"))
+                .Where(b => b.BookingId.StartsWith("BK"))
                 .OrderByDescending(b => b.BookingId)
                 .FirstOrDefault();
 
             if (lastBooking == null)
             {
-                return "B001";
+                return "BK001";
             }
 
-            var numberPart = int.TryParse(lastBooking.BookingId.Substring(1), out int number)
+            var numberPart = int.TryParse(lastBooking.BookingId.Substring(2), out int number)
                 ? number
                 : 0;
 
-            return "B" + (number + 1).ToString("D3");
+            return "BK" + (number + 1).ToString("D3");
         }
 
         public void UpdateBookingStatus(string bookingId, string newStatus)

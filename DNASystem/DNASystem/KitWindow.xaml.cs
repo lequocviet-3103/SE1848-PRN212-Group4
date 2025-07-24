@@ -34,7 +34,7 @@ namespace DNASystem
         {
             InitializeComponent();
             this.user = am;
-            bookingService = new BookingService(new BookingRepository());
+            bookingService = new BookingService();
             kitService = new KitService();
         }
         //hello every one, this is a comment to test the code snippet

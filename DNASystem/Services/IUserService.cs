@@ -17,5 +17,6 @@ namespace Services
         public bool DeleteUser(string userId);
 
         public bool AddUser(User user);
+        public void UpdateUser(User user);
     }
 }

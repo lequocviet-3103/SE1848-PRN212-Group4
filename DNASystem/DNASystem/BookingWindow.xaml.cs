@@ -9,20 +9,17 @@ namespace DNASystem
     public partial class BookingWindow : Window
     {
         private readonly Service selectedService;
-        private readonly BookingService bookingService;
-        private readonly string? customerId;
+        BookingService bookingService = new BookingService();
+        UserService userService = new UserService();
+        User curruntuser = new User();
 
-        public BookingWindow(Service service, string? currentCustomerId = null)
+        public BookingWindow(Service service, User user)
         {
             InitializeComponent();
             selectedService = service;
-            customerId = currentCustomerId;
-            this.WindowState = WindowState.Maximized;   // Toàn màn hình
-  
-            // Khởi tạo BookingService (bạn có thể dùng DI nếu có)
-            bookingService = new BookingService(new BookingRepository());
 
-            // Gán dữ liệu dịch vụ lên UI
+            this.WindowState = WindowState.Maximized;
+            curruntuser = user;
             txtServiceName.Text = selectedService.Name;
             txtPrice.Text = selectedService.Price.HasValue
                 ? selectedService.Price.Value.ToString("N0") + " VNĐ"
@@ -35,7 +32,16 @@ namespace DNASystem
         {
             try
             {
-                // Kiểm tra dữ liệu bắt buộc
+                var staffList = userService.GetAllUsers()
+                               .Where(u => !string.IsNullOrEmpty(u.RoleId) && u.RoleId == "R003")
+                               .ToList();
+
+                if (staffList == null)
+                {
+                    MessageBox.Show("Không có nhân viên nào khả dụng để gán!", "Lỗi", MessageBoxButton.OK, MessageBoxImage.Error);
+                    return;
+                }
+
                 if (string.IsNullOrWhiteSpace(txtFullName.Text) ||
                     string.IsNullOrWhiteSpace(txtPhone.Text) ||
                     dpNgayDat.SelectedDate == null ||
@@ -45,17 +51,21 @@ namespace DNASystem
                     return;
                 }
 
-                // Tạo đối tượng Booking
+
+                var random = new Random();
+                var randomStaff = staffList[random.Next(staffList.Count)];
+
+
                 var booking = new Booking
                 {
                     BookingId = bookingService.GenerateNewBookingId(),
-                    CustomerId = "U001", // nếu bạn có login, truyền từ constructor
+                    CustomerId = curruntuser.UserId,
                     Date = dpNgayDat.SelectedDate.Value,
-                    StaffId = null, // để null, sẽ cập nhật sau nếu cần
+                    StaffId = randomStaff.UserId,
                     ServiceId = selectedService.ServiceId,
                     Address = txtSampleAddress.Text.Trim(),
-                    Method = rbHome.IsChecked == true ? "Tự thu mẫu" : "Tại cơ sở y tế",
-                    Status = "Chờ xác nhận"
+                    Method = rbHome.IsChecked == true ? "Tại nhà" : "Tại phòng khám",
+                    Status = "Đang chờ mẫu"
                 };
 
                 bookingService.AddBooking(booking);
@@ -66,15 +76,43 @@ namespace DNASystem
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Đã xảy ra lỗi khi đặt dịch vụ: " + ex.Message, "Lỗi", MessageBoxButton.OK, MessageBoxImage.Error);
+                string error = ex.InnerException?.Message ?? ex.Message;
+                MessageBox.Show("Đã xảy ra lỗi khi đặt dịch vụ: " + error, "Lỗi", MessageBoxButton.OK, MessageBoxImage.Error);
+
             }
         }
         private void btnQuayVe_Click(object sender, RoutedEventArgs e)
         {
-            var home = new HomeWindow();
+            HomeWindow home = new HomeWindow(curruntuser);
             home.Show();
             this.Close();
         }
 
+        private void Method_Checked(object sender, RoutedEventArgs e)
+        {
+            if (txtSampleAddress == null || curruntuser == null)
+                return;
+
+            if (rbHome.IsChecked == true)
+            {
+                txtSampleAddress.Text = curruntuser.Address;
+                txtSampleAddress.IsReadOnly = false;
+            }
+            else
+            {
+                txtSampleAddress.Text = "273 An Dương Vương, Quận 5, TP.HCM";
+                txtSampleAddress.IsReadOnly = true;
+            }
+        }
+
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            txtFullName.Text = curruntuser.Fullname;
+            txtPhone.Text = curruntuser.Phone;
+            txtEmail.Text = curruntuser.Email;
+            rbHome.IsChecked = true;
+            txtSampleAddress.Text = curruntuser.Address;
+            dpDOB.SelectedDate = curruntuser.Birthdate.Value.ToDateTime(TimeOnly.MinValue);
+        }
     }
 }

@@ -37,5 +37,10 @@ namespace Repositories
         {
             return UserDAO.DeleteUser(userId);
         }
+
+        public void UpdateUser(User user)
+        {
+            userDAO.UpdateUser(user);
+        }
     }
 }

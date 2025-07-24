@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
 D:\PRN212-DNA\SE1848-PRN212-Group4\DNASystem\DNASystem\App.xaml
-18-1128978559
+20284658530
 
-23-1581522971
-237675213088
-AboutUsWindow.xaml;AccountCreationWindow.xaml;AddUserWindow.xaml;AdminHomePage.xaml;AdminWindow.xaml;BlogWindow.xaml;BookingWindow.xaml;ContactWindow.xaml;CreateAndUpdateServiceWindow.xaml;DNATestingServiceLanding.xaml;HomeWindow.xaml;KitWindow.xaml;LoginWindow.xaml;MainWindow.xaml;RegisterWindow.xaml;SatffWindow.xaml;TestResultWindow.xaml;UserManagementPage.xaml;
+25-1129424143
+200-1952207667
+AboutUsWindow.xaml;AccountCreationWindow.xaml;AddUserWindow.xaml;AdminHomePage.xaml;AdminWindow.xaml;BlogWindow.xaml;BookingWindow.xaml;ContactWindow.xaml;CreateAndUpdateServiceWindow.xaml;CustomerProfileWindow.xaml;DNATestingServiceLanding.xaml;HomeWindow.xaml;KitWindow.xaml;LoginWindow.xaml;MainWindow.xaml;RegisterWindow.xaml;SatffWindow.xaml;TestHistoryWindow.xaml;TestResultWindow.xaml;UserManagementPage.xaml;
 
 True
 

@@ -35,7 +35,7 @@ namespace DNASystem
             InitializeComponent();
             this.user = am;
             testResultService = new TestResultService();
-            bookingService = new BookingService(new BookingRepository());
+            bookingService = new BookingService();
         }
 
         private void SaveButton_Click(object sender, RoutedEventArgs e)

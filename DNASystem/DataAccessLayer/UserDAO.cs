@@ -5,6 +5,7 @@ namespace DataAccessLayer
 {
     public class UserDAO
     {
+        DnasystemContext context;
         public User GetAccountByUsername(string username)
         {
             using var context = new DnasystemContext();
@@ -69,6 +70,11 @@ namespace DataAccessLayer
                 return false;
             }
         }
-
+        public void UpdateUser(User user)
+        {
+            context = new DnasystemContext();
+            context.Update(user);
+            context.SaveChanges();
+        }
     }
 }

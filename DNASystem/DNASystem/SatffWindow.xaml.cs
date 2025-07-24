@@ -36,7 +36,7 @@ namespace DNASystem
         {
             InitializeComponent();
             user = am;
-            bookingService = new BookingService(new BookingRepository());
+            bookingService = new BookingService();
             kitService = new KitService();
             serviceService = new ServiceService();
             userService = new UserService();
@@ -47,31 +47,6 @@ namespace DNASystem
             LoadDataBooking();
         }
 
-        private void LoadDataBooking1()
-        {
-            var booking = bookingService.GetAllBookings();
-            var kits = kitService.GetKits();
-            var display = booking.Select(b => 
-            {
-                var kit = kits.FirstOrDefault(k => k.BookingId == b.BookingId);
-                var user = userService.GetAllUsers().FirstOrDefault(u => u.UserId == b.CustomerId);
-                var service = serviceService.GetAllServices().FirstOrDefault(s => s.ServiceId == b.ServiceId);
-                return new ViewBooking
-                {
-                    BookingId = b.BookingId,
-                    Fullname = user.Fullname,
-                    ServiceName = service.Name,
-                    Date = b.Date,
-                    Address = user.Address,
-                    Method = b.Method,
-                    Status = b.Status,
-                    KitStatus = kits.FirstOrDefault(k => k.BookingId == b.BookingId)?.Status ?? "Chưa có Kit"
-                };
-            
-            }).ToList();
-            lvBooking.ItemsSource = null;
-            lvBooking.ItemsSource = display;
-        }
 
         private void LoadDataBooking()
         {
@@ -100,12 +75,12 @@ namespace DNASystem
                     kitStatus = kitProps.FirstOrDefault(p => p.Name == "Status")?.GetValue(firstKit)?.ToString();
                 }
 
-                if (method == "Tại phòng khám" && status == "Đã check in")
+                if (method == "Tại phòng khám" && status == "Đã Check-in" && kitStatus == "Đã lấy mẫu")
                 {
                     btn.Content = "Đang thực hiện";
                     btn.Visibility = Visibility.Visible;
                 }
-                else if (method == "Tại nhà" && status == "Đã gửi mẫu" && kitStatus == "Đang lấy mẫu")
+                else if (method == "Tại nhà" && status == "Đã gửi mẫu" && kitStatus == "Ðang lấy mẫu")
                 {
                     btn.Content = "Đã lấy mẫu";
                     btn.Visibility = Visibility.Visible;

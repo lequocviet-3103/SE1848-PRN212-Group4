@@ -70,7 +70,7 @@ namespace DNASystem
             else if (user != null && user.Password.Equals(txtPassword.Password) && user.RoleId.Equals("R002"))
             {
                 this.Hide();
-                HomeWindow cusWindow = new HomeWindow();
+                HomeWindow cusWindow = new HomeWindow(user);
                 cusWindow.ShowDialog();
             }
             else if (user != null && user.Password.Equals(txtPassword.Password) && user.RoleId.Equals("R003"))

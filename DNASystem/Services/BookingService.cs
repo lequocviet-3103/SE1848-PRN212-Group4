@@ -1,4 +1,5 @@
 ﻿using BusinessObjects;
+using Repositories;
 using Repositories.Interfaces;
 using Services.Interfaces;
 
@@ -8,9 +9,9 @@ namespace Services
     {
         private readonly IBookingRepository _bookingRepository;
 
-        public BookingService(IBookingRepository bookingRepository)
+       public BookingService()
         {
-            _bookingRepository = bookingRepository;
+            _bookingRepository =new BookingRepository() ;
         }
 
         public void AddBooking(Booking booking) => _bookingRepository.AddBooking(booking);
