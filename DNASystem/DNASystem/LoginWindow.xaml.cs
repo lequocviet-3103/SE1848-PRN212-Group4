@@ -63,22 +63,24 @@ namespace DNASystem
             User user = iUserService.GetAccountByUsername(txtTenDangNhap.Text);
             if (user != null && user.Password.Equals(txtPassword.Password) && user.RoleId.Equals("R001"))
             {
-                this.Hide();
+            
                 AdminWindow adminWindow = new AdminWindow();
                 adminWindow.ShowDialog();
+                Close();
             }
             else if (user != null && user.Password.Equals(txtPassword.Password) && user.RoleId.Equals("R002"))
             {
-                this.Hide();
                 HomeWindow cusWindow = new HomeWindow(user);
                 cusWindow.ShowDialog();
+                Close();
             }
             else if (user != null && user.Password.Equals(txtPassword.Password) && user.RoleId.Equals("R003"))
             {
-                this.Hide();
                 SatffWindow staffWindow = new SatffWindow(user);
                 staffWindow.ShowDialog();
-            }else
+                Close();
+            }
+            else
             {
                 MessageBox.Show("Tên đăng nhập hoặc mật khẩu không đúng!", "Thông báo", MessageBoxButton.OK, MessageBoxImage.Warning);
             }
@@ -88,6 +90,7 @@ namespace DNASystem
         {
             RegisterWindow registerWindow = new RegisterWindow();   
             registerWindow.ShowDialog();
+            Close();
         }
 
         private void btnQuenMatKhau_Click(object sender, RoutedEventArgs e)

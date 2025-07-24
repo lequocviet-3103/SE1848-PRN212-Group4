@@ -530,3 +530,7 @@ D:\PRN212-Group_Project\PRN212\SE1848-PRN212-Group4\DNASystem\DNASystem\obj\Debu
 D:\PRN212-Group_Project\PRN212\SE1848-PRN212-Group4\DNASystem\DNASystem\obj\Debug\net8.0-windows\DNASystem.csproj.Up2Date
 D:\PRN212-Group_Project\PRN212\SE1848-PRN212-Group4\DNASystem\DNASystem\obj\Debug\net8.0-windows\DNASystem.genruntimeconfig.cache
 D:\PRN212-Group_Project\PRN212\SE1848-PRN212-Group4\DNASystem\DNASystem\obj\Debug\net8.0-windows\ref\DNASystem.dll
+D:\PRN212-DNA\SE1848-PRN212-Group4\DNASystem\DNASystem\obj\Debug\net8.0-windows\CustomerProfileWindow.g.cs
+D:\PRN212-DNA\SE1848-PRN212-Group4\DNASystem\DNASystem\obj\Debug\net8.0-windows\TestHistoryWindow.g.cs
+D:\PRN212-DNA\SE1848-PRN212-Group4\DNASystem\DNASystem\obj\Debug\net8.0-windows\CustomerProfileWindow.baml
+D:\PRN212-DNA\SE1848-PRN212-Group4\DNASystem\DNASystem\obj\Debug\net8.0-windows\TestHistoryWindow.baml

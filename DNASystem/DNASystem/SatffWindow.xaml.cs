@@ -80,11 +80,11 @@ namespace DNASystem
                     btn.Content = "Đang thực hiện";
                     btn.Visibility = Visibility.Visible;
                 }
-                else if (method == "Tại nhà" && status == "Đã gửi mẫu" && kitStatus == "Ðang lấy mẫu")
-                {
+                 else if (method == "Tại nhà" && status == "Đã gửi mẫu" && kitStatus == "Ðang lấy mẫu")
+                 {
                     btn.Content = "Đã lấy mẫu";
                     btn.Visibility = Visibility.Visible;
-                }
+                 }
                 else
                 {
                     btn.Visibility = Visibility.Collapsed;
@@ -145,7 +145,11 @@ namespace DNASystem
                         bookingService.UpdateBookingStatus(bookingId, "Đã thực hiện");
                         MessageBox.Show("Đã cập nhật trạng thái nhận Kit.");
                         break;
-
+                    case "Đang thực hiện":
+                        kitService.UpdateKitStatus(bookingId, "Đã lấy mẫu");
+                        bookingService.UpdateBookingStatus(bookingId, "Đang thực hiện");
+                        MessageBox.Show("Đã cập nhật trạng thái nhận Kit.");
+                        break;
 
                     default:
                         break;

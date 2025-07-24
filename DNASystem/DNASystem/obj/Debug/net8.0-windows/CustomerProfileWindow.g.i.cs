@@ -117,7 +117,7 @@ namespace DNASystem {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/DNASystem;V1.0.0.0;component/customerprofilewindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/DNASystem;component/customerprofilewindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\CustomerProfileWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
