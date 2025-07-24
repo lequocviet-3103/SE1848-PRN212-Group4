@@ -15,5 +15,6 @@ namespace Services
 
         public void UpdateKit(Kit kit);
         public void DeleteKit(Kit kit);
+        public void UpdateKitStatus(string kitId, string newStatus);
     }
 }

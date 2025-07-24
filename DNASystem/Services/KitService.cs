@@ -37,6 +37,10 @@ namespace Services
         {
             kitRepository.DeleteKit(kit);
         }
+        public void UpdateKitStatus(string kitId, string newStatus)
+        {
+            kitRepository.UpdateKitStatus(kitId, newStatus);
+        }
 
     }
 }

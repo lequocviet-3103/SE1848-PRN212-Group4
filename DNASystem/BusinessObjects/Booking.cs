@@ -32,4 +32,6 @@ public partial class Booking
     public virtual User? Staff { get; set; }
 
     public virtual ICollection<TestResult> TestResults { get; set; } = new List<TestResult>();
+    public string? FirstKitStatus => Kits.FirstOrDefault()?.Status;
+
 }

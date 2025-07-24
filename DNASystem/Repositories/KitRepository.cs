@@ -36,5 +36,10 @@ namespace Repositories
         {
             return kitDAO.GenerateNewKitId();
         }
+
+        public void UpdateKitStatus(string kitId, string newStatus)
+        {
+            kitDAO.UpdateKitStatus(kitId, newStatus);
+        }
     }
 }

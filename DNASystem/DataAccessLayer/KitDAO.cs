@@ -35,6 +35,19 @@ namespace DataAccessLayer
             context.Kits.Update(kit);
             context.SaveChanges();
         }
+
+        public void UpdateKitStatus(string kitId, string newStatus)
+        {
+            using (var context = new DnasystemContext())
+            {
+                var kit = context.Kits.FirstOrDefault(k => k.BookingId == kitId);
+                if (kit != null)
+                {
+                    kit.Status = newStatus;
+                    context.SaveChanges();
+                }
+            }
+        }
         public void DeleteKit(Kit kit)
         {
             using var context = new DnasystemContext();

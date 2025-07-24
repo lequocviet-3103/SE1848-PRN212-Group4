@@ -72,10 +72,8 @@
                 <StackPanel Margin="0,5">
                     <TextBlock Text="Status" Foreground="Black"/>
                     <ComboBox x:Name="cbStatus" Margin="0,5,0,0" >
-                        <ComboBoxItem Content="Pending" />
-                        <ComboBoxItem Content="In Progress"/>
-                        <ComboBoxItem Content="Completed"/>
-                        <ComboBoxItem Content="Cancelled"/>
+                        <ComboBoxItem Content="Trùng nhau" />
+                        <ComboBoxItem Content="Không trùng nhau"/>
 
                     </ComboBox>
                 </StackPanel>

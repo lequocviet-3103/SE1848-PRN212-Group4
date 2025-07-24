@@ -37,7 +37,7 @@ namespace DNASystem
             bookingService = new BookingService(new BookingRepository());
             kitService = new KitService();
         }
-        //hello
+        //hello every one, this is a comment to test the code snippet
         private void BackButton_Click(object sender, RoutedEventArgs e)
         {
 

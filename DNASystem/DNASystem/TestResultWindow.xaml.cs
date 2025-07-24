@@ -1,4 +1,5 @@
 ﻿using BusinessObjects;
+using Repositories;
 using Services;
 using System;
 using System.Collections.Generic;
@@ -24,6 +25,7 @@ namespace DNASystem
         public User user { get; set; }
         public Booking EditedOne { get; set; }
         private TestResultService testResultService;
+        private BookingService bookingService;
         public TestResultWindow()
         {
             InitializeComponent();
@@ -33,6 +35,7 @@ namespace DNASystem
             InitializeComponent();
             this.user = am;
             testResultService = new TestResultService();
+            bookingService = new BookingService(new BookingRepository());
         }
 
         private void SaveButton_Click(object sender, RoutedEventArgs e)
@@ -46,6 +49,7 @@ namespace DNASystem
                 testResult.Description = txtDescription.Text;
                 testResult.Status = cbStatus.Text;
             testResultService.AddTestResult(testResult);
+            bookingService.UpdateBookingStatus(EditedOne.BookingId, "Hoàn thành");
             MessageBox.Show("Thêm kết quả xét nghiệm thành công!", "Thông báo", MessageBoxButton.OK, MessageBoxImage.Information);
             Close();
         }
@@ -60,6 +64,7 @@ namespace DNASystem
             FillElement();
         }
 
+        
         private void FillElement()
         {
             txtBookingId.Text = EditedOne.BookingId;

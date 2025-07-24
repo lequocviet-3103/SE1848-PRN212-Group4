@@ -60,11 +60,8 @@
                 <StackPanel Margin="0,5">
                     <TextBlock Text="Status" Foreground="Black"/>
                     <ComboBox x:Name="cbStatus" Margin="0,5,0,0" >
-                        <ComboBoxItem Content="Pending" />
-                        <ComboBoxItem Content="In Progress"/>
-                        <ComboBoxItem Content="Completed"/>
-                        <ComboBoxItem Content="Cancelled"/>
-                        
+                        <ComboBoxItem Content="Đang lấy mẫu" />
+                        <ComboBoxItem Content="Đã lấy mẫu"/>
                     </ComboBox> 
                 </StackPanel>
 

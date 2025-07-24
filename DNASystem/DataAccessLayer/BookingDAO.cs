@@ -100,5 +100,18 @@ namespace DataAccessLayer
 
             return "B" + (number + 1).ToString("D3");
         }
+
+        public void UpdateBookingStatus(string bookingId, string newStatus)
+        {
+            using (var context = new DnasystemContext())
+            {
+                var booking = context.Bookings.FirstOrDefault(b => b.BookingId == bookingId);
+                if (booking != null)
+                {
+                    booking.Status = newStatus;
+                    context.SaveChanges();
+                }
+            }
+        }
     }
 }
