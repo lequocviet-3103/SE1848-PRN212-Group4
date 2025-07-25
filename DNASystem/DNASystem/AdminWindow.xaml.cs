@@ -26,6 +26,7 @@ namespace DNASystem
         {
             InitializeComponent();
             iServiceService = new ServiceService();
+            this.WindowState = WindowState.Maximized;
         }
 
         public void LoadServicesList()

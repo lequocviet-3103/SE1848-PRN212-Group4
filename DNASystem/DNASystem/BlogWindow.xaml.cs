@@ -22,6 +22,7 @@ namespace DNASystem
         public BlogWindow()
         {
             InitializeComponent();
+            this.WindowState = WindowState.Maximized;
         }
 
         private void Window_Loaded(object sender, RoutedEventArgs e)

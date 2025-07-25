@@ -24,10 +24,12 @@ namespace DNASystem
 
         public User currentuser = new User();
         public BookingService bookingService = new BookingService();
+        public TestResultService testResultService = new TestResultService();
         public TestHistoryWindow(User user)
         {
             InitializeComponent();
             currentuser = user;
+            this.WindowState = WindowState.Maximized;
         }
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
@@ -125,6 +127,10 @@ namespace DNASystem
                         MessageBox.Show("Mẫu đã được gửi tới phòng khám.");
                         break;
 
+                    case "Xem kết quả":
+                        ViewTestResultWindow viewTestResultWindow = new ViewTestResultWindow(currentuser, bookingId);
+                        viewTestResultWindow.ShowDialog();
+                        break;
                     default:
                         break;
                 }
@@ -149,7 +155,7 @@ namespace DNASystem
                     btn.Content = "Check-in";
                     btn.Visibility = Visibility.Visible;
                 }
-                else if (method == "Tại nhà" && status == "Đang chờ mẫu" && kitStatus == "Ðang lấy mẫu")
+                else if (method == "Tại nhà" && status == "Đang chờ mẫu" && kitStatus == "Đang lấy mẫu")
                 {
                     btn.Content = "Đã nhận Kit";
                     btn.Visibility = Visibility.Visible;
@@ -157,6 +163,10 @@ namespace DNASystem
                 else if (method == "Tại nhà" && status == "Đã nhận Kit")
                 {
                     btn.Content = "Gửi tới phòng khám";
+                    btn.Visibility = Visibility.Visible;
+                } else if (status=="Hoàn thành")
+                {
+                    btn.Content = "Xem kết quả";
                     btn.Visibility = Visibility.Visible;
                 }
                 else

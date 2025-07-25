@@ -26,6 +26,7 @@ namespace DNASystem
                 UpdateTotalUsers();
             };
             cbRole.SelectionChanged += cbRole_SelectionChanged;
+
         }
 
         private void LoadUsers()

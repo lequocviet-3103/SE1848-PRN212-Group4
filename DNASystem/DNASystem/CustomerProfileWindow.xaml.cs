@@ -28,6 +28,7 @@ namespace DNASystem
             InitializeComponent();
             currentUser = user;
             LoadUserInfo();
+            this.WindowState = WindowState.Maximized;
         }
 
         private void LoadUserInfo()

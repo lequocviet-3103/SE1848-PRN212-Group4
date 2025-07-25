@@ -149,7 +149,7 @@ namespace DNASystem {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/DNASystem;component/blogwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/DNASystem;V1.0.0.0;component/blogwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\BlogWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

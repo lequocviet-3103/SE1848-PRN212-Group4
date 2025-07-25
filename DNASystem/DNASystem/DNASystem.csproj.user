@@ -26,6 +26,12 @@
     <Compile Update="SatffWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="StaffProfileWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="StaffViewTestResultWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="TestHistoryWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -33,6 +39,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="UserManagementPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ViewTestResultWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>

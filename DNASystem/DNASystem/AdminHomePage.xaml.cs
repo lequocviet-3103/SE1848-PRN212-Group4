@@ -30,6 +30,7 @@ namespace DNASystem
                 HorizontalAlignment = HorizontalAlignment.Center,
                 VerticalAlignment = VerticalAlignment.Center
             };
+
         }
 
         private void UserManagement_Click(object sender, RoutedEventArgs e)

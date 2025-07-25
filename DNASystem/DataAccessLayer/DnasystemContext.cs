@@ -163,7 +163,7 @@ public partial class DnasystemContext : DbContext
                 .HasColumnName("staffID");
             entity.Property(e => e.Status)
                 .HasMaxLength(50)
-                .IsUnicode(false)
+                .IsUnicode()
                 .HasColumnName("status");
 
             entity.HasOne(d => d.Booking).WithMany(p => p.Kits)

@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DNASystem"
         mc:Ignorable="d"
-        Title="AboutUsWindow" Height="1250" Width="800">
+        Title="AboutUsWindow" Height="1250" Width="800" WindowStartupLocation="CenterScreen">
     <Window.Resources>
         <Style x:Key="TextLikeButton" TargetType="Button">
             <Setter Property="Background" Value="Transparent"/>

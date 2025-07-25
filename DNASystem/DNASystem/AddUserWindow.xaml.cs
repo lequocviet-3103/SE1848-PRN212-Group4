@@ -24,6 +24,7 @@ namespace DNASystem
         public AddUserWindow()
         {
             InitializeComponent();
+            this.WindowState = WindowState.Maximized;
         }
 
         private string GetRoleIdFromName(string? roleName)

@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DNASystem"
         mc:Ignorable="d"
-        Title="AccountCreationWindow" Height="1050" Width="800">
+        Title="AccountCreationWindow" Height="1050" Width="800" WindowStartupLocation="CenterScreen">
     <Window.Resources>
         <Style x:Key="TextLikeButton" TargetType="Button">
             <Setter Property="Background" Value="Transparent"/>

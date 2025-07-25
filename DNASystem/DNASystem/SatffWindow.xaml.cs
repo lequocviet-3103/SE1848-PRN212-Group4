@@ -40,6 +40,8 @@ namespace DNASystem
             kitService = new KitService();
             serviceService = new ServiceService();
             userService = new UserService();
+            txtWelcomeUser.Text = $"Welcome, " + user.Fullname;
+            this.WindowState = WindowState.Maximized;
         }
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
@@ -75,12 +77,12 @@ namespace DNASystem
                     kitStatus = kitProps.FirstOrDefault(p => p.Name == "Status")?.GetValue(firstKit)?.ToString();
                 }
 
-                if (method == "Tại phòng khám" && status == "Đã Check-in" && kitStatus == "Đã lấy mẫu")
+                if (method == "Tại phòng khám" && status == "Đã Check-in" && kitStatus == "Đang lấy mẫu")
                 {
                     btn.Content = "Đang thực hiện";
                     btn.Visibility = Visibility.Visible;
                 }
-                 else if (method == "Tại nhà" && status == "Đã gửi mẫu" && kitStatus == "Ðang lấy mẫu")
+                 else if (method == "Tại nhà" && status == "Đã gửi mẫu" && kitStatus == "Đang lấy mẫu")
                  {
                     btn.Content = "Đã lấy mẫu";
                     btn.Visibility = Visibility.Visible;
@@ -142,7 +144,7 @@ namespace DNASystem
                 {
                     case "Đã lấy mẫu":
                         kitService.UpdateKitStatus(bookingId, "Đã lấy mẫu");
-                        bookingService.UpdateBookingStatus(bookingId, "Đã thực hiện");
+                        bookingService.UpdateBookingStatus(bookingId, "Đang thực hiện");
                         MessageBox.Show("Đã cập nhật trạng thái nhận Kit.");
                         break;
                     case "Đang thực hiện":
@@ -157,6 +159,45 @@ namespace DNASystem
 
                 LoadDataBooking();
             }
+        }
+
+        private void btnViewResult_Click(object sender, RoutedEventArgs e)
+        {
+            Booking selected = lvBooking.SelectedItem as Booking;
+            if (selected == null)
+            {
+                MessageBox.Show("Chọn khách hàng để xem kết quả xét nghiệm!", "Xem kết quả xét nghiệm", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+            else if (selected.Status != "Hoàn thành")
+            {
+                MessageBox.Show("Booking này chưa có kết quả!", "Thông báo", MessageBoxButton.OK, MessageBoxImage.Information);
+            }
+            else
+            {
+                StaffViewTestResultWindow testResult = new StaffViewTestResultWindow(user, selected);
+                testResult.EditedOne = selected;
+                testResult.ShowDialog();
+                LoadDataBooking();
+            }
+        }
+
+        private void btnUserMenu_Click(object sender, RoutedEventArgs e)
+        {
+            UserPopupStaff.IsOpen = true;
+        }
+
+        private void btnProfile_Click(object sender, RoutedEventArgs e)
+        {
+            StaffProfileWindow profileWindow = new StaffProfileWindow(user);
+            profileWindow.ShowDialog();
+            Close();
+        }
+
+        private void btnLogout_Click(object sender, RoutedEventArgs e)
+        {
+            LoginWindow loginWindow = new LoginWindow();
+            loginWindow.Show();
+            this.Close();
         }
     }
 }

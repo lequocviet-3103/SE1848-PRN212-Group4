@@ -26,6 +26,7 @@ namespace DNASystem
         {
             InitializeComponent();
             iUserService = new UserService();
+            this.WindowState = WindowState.Maximized;
         }
 
         private void btnTrangChu_Click(object sender, RoutedEventArgs e)

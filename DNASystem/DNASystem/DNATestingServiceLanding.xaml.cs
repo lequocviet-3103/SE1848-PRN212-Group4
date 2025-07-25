@@ -22,6 +22,7 @@ namespace DNASystem
         public DNATestingServiceLanding()
         {
             InitializeComponent();
+            this.WindowState = WindowState.Maximized;
         }
 
         private void btnXetNghiemHuyetThong_Click(object sender, RoutedEventArgs e)

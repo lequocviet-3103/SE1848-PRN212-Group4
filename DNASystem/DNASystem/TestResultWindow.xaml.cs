@@ -36,22 +36,34 @@ namespace DNASystem
             this.user = am;
             testResultService = new TestResultService();
             bookingService = new BookingService();
+            this.WindowState = WindowState.Maximized;
         }
 
         private void SaveButton_Click(object sender, RoutedEventArgs e)
         {
-            TestResult testResult = new TestResult();
-                testResult.CustomerId = txtCustomerId.Text;
-                testResult.StaffId = txtStaffId.Text;
-                testResult.BookingId = txtBookingId.Text;
-                testResult.ServiceId = txtServiceId.Text;
-                testResult.Date = (DateTime)dpReceiveDate.SelectedDate;
-                testResult.Description = txtDescription.Text;
-                testResult.Status = cbStatus.Text;
-            testResultService.AddTestResult(testResult);
-            bookingService.UpdateBookingStatus(EditedOne.BookingId, "Hoàn thành");
-            MessageBox.Show("Thêm kết quả xét nghiệm thành công!", "Thông báo", MessageBoxButton.OK, MessageBoxImage.Information);
-            Close();
+            try
+            {
+                TestResult testResult = new TestResult
+                {
+                    CustomerId = txtCustomerId.Text,
+                    StaffId = txtStaffId.Text,
+                    BookingId = txtBookingId.Text,
+                    ServiceId = txtServiceId.Text,
+                    Date = (DateTime)dpReceiveDate.SelectedDate,
+                    Description = txtDescription.Text,
+                    Status = cbStatus.Text
+                };
+
+                testResultService.AddTestResult(testResult);
+                bookingService.UpdateBookingStatus(EditedOne.BookingId, "Hoàn thành");
+
+                MessageBox.Show("Thêm kết quả xét nghiệm thành công!", "Thông báo", MessageBoxButton.OK, MessageBoxImage.Information);
+                Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Đã xảy ra lỗi khi lưu kết quả xét nghiệm:\n{ex.Message}", "Lỗi", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
         }
 
         private void BackButton_Click(object sender, RoutedEventArgs e)

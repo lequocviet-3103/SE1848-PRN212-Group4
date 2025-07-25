@@ -26,6 +26,7 @@ namespace DNASystem
                 : "Chưa có giá";
             txtDescription.Text = selectedService.Description;
             txtServiceType.Text = selectedService.Type;
+            this.WindowState = WindowState.Maximized;
         }
 
         private void btnXacNhan_Click(object sender, RoutedEventArgs e)
