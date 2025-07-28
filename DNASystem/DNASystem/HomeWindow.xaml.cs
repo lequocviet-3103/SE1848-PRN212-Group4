@@ -23,6 +23,7 @@ namespace DNASystem
     public partial class HomeWindow : Window
     {
         public User currentuser { get; set; }
+        public Service selectedService { get; set; }
         ContextMenu userMenu = new ContextMenu();
         private readonly IServiceService serviceService;
         public HomeWindow(User user)
@@ -38,21 +39,22 @@ namespace DNASystem
             LoadServices("Huyết thống");
         }
 
+
         private void LoadServices(string type)
         {
             try
             {
-                if (serviceService == null)
-                {
-
-                    return;
-                }
+                if (serviceService == null) return;
 
                 var services = serviceService.GetServicesByType(type);
 
-                if (services == null)
+                if (services == null || !services.Any())
                 {
-                    MessageBox.Show("❌ Services list is NULL");
+                    // fallback: load mẫu nếu rỗng
+                    icServiceList.ItemsSource = new List<Service>
+            {
+                new Service { Name = "Xét nghiệm cha con", Description = "Mẫu dữ liệu", Price = 123456 }
+            };
                 }
                 else
                 {
@@ -67,37 +69,44 @@ namespace DNASystem
 
         private void btnTrangChu_Click(object sender, RoutedEventArgs e)
         {
-
+            HomeWindow homeWindow = new HomeWindow(currentuser);
+            homeWindow.Show();
+            this.Close();
         }
 
         private void btnDichVu_Click(object sender, RoutedEventArgs e)
         {
-
+            DNATestingServiceLanding dNATestingServiceLanding = new DNATestingServiceLanding(currentuser);
+            dNATestingServiceLanding.Show();
+            this.Close();
         }
 
         private void btnVeChungToi_Click(object sender, RoutedEventArgs e)
         {
-
+            AboutUsWindow AboutUsWindow = new AboutUsWindow(currentuser);
+            AboutUsWindow.Show();
+            this.Close();
         }
 
         private void btnBlog_Click(object sender, RoutedEventArgs e)
         {
-
+            BlogWindow blogWindow = new BlogWindow(currentuser);
+            blogWindow.Show();
+            this.Close();
         }
 
         private void btnLienHe_Click(object sender, RoutedEventArgs e)
         {
-
-        }
-
-        private void btnDangNhap_Click(object sender, RoutedEventArgs e)
-        {
-
+            ContactWindow contactWindow = new ContactWindow(currentuser);
+            contactWindow.Show();
+            this.Close();
         }
 
         private void btnDangKy_Click(object sender, RoutedEventArgs e)
         {
-
+            BookingWindow bookingWindow = new BookingWindow(selectedService, currentuser);
+            bookingWindow.Show();
+            this.Close();
         }
 
         private void ServiceTab_Checked(object sender, RoutedEventArgs e)
@@ -114,24 +123,8 @@ namespace DNASystem
             }
         }
 
-        private void btnXemChiTietChaCon_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void btnXemChiTietMeCon_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void btnXemChiTietAnhEm_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
         private void btnDangKyTuVan_Click(object sender, RoutedEventArgs e)
         {
-
         }
 
         private void btnChiTiet_Click(object sender, RoutedEventArgs e)
@@ -142,16 +135,6 @@ namespace DNASystem
                 bookingWindow.Show();
                 this.Hide();
             }
-        }
-
-        private void MenuProfile_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void MenuLogout_Click(object sender, RoutedEventArgs e)
-        {
-
         }
 
         private void btnUserMenu_Click(object sender, RoutedEventArgs e)
@@ -179,6 +162,13 @@ namespace DNASystem
             LoginWindow loginWindow = new LoginWindow();
             loginWindow.Show();
             this.Close();
+        }
+
+        public class ServiceItem
+        {
+            public string Name { get; set; }
+            public string Description { get; set; }
+            public int Price { get; set; }
         }
     }
 }

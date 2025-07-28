@@ -50,7 +50,7 @@ namespace DNASystem
 
         private void Dashboard_Click(object sender, RoutedEventArgs e)
         {
-
+            MainContent.Content = new DashboardPage();
         }
     }
 }

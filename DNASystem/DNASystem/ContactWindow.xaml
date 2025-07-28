@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DNASystem"
         mc:Ignorable="d"
-        Title="ContactForm" Height="1450" Width="1200">
+        Title="ContactForm" Height="1440" Width="1200">
     <Window.Resources>
         <Style x:Key="ServiceTabToggle" TargetType="ToggleButton">
             <Setter Property="Margin" Value="5"/>
@@ -75,11 +75,11 @@
                 </Grid.ColumnDefinitions>
 
                 <TextBlock Grid.Column="0" Text="DNA Testing VN"
-   FontSize="18" FontWeight="Bold"
-   VerticalAlignment="Center" Margin="20,0"/>
+           FontSize="18" FontWeight="Bold"
+           VerticalAlignment="Center" Margin="20,0"/>
 
                 <StackPanel Grid.Column="2" Orientation="Horizontal"
-    VerticalAlignment="Center" Margin="0,0,10,0" >
+            VerticalAlignment="Center" Margin="0,0,10,0" >
                     <Button x:Name="btnTrangChu" Content="Trang chủ" Style="{StaticResource TextLikeButton}" Margin="10,0" Foreground="Black" Click="btnTrangChu_Click"/>
                     <Button x:Name="btnDichVu" Content="Dịch vụ" Style="{StaticResource TextLikeButton}" Margin="10,0" Foreground="Black" Click="btnDichVu_Click"/>
                     <Button x:Name="btnVeChungToi" Content="Về chúng tôi" Style="{StaticResource TextLikeButton}" Margin="10,0" Foreground="Black" Click="btnVeChungToi_Click"/>
@@ -88,12 +88,41 @@
                 </StackPanel>
 
                 <StackPanel Grid.Column="3" Orientation="Horizontal"
-    VerticalAlignment="Center" Margin="10,0,20,0">
-                    <Button x:Name="btnDangNhapHeader" Content="Đăng nhập" Background="White"
-    Foreground="Black" Padding="10,5" Margin="5,0" Click="btnDangNhap_Click"/>
-                    <Button x:Name="btnDangKyHeader" Content="Đăng ký ngay" Background="#00BFFF"
-    Foreground="White" Padding="10,5" Margin="5,0" Click="btnDangKy_Click"/>
+                    VerticalAlignment="Center" Margin="10,0,20,0" HorizontalAlignment="Right">
+                    <Button x:Name="btnUserMenu" Background="Transparent"
+                    BorderBrush="Transparent" Foreground="Black"
+                    Padding="10,5" Margin="5,0" Cursor="Hand"
+                    Click="btnUserMenu_Click">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock x:Name="txtWelcomeUser" Text="{Binding CurrentUserName, StringFormat='Welcome, {0}'}"  />
+                            <TextBlock Text=" 👤" Margin="5,0,0,0"/>
+                        </StackPanel>
+                    </Button>
                 </StackPanel>
+
+                <Popup x:Name="UserPopup"
+           PlacementTarget="{Binding ElementName=btnUserMenu}"
+           Placement="Bottom"
+           StaysOpen="False">
+                    <Border Background="White" BorderBrush="#ccc" BorderThickness="1" CornerRadius="5"
+        Padding="10" Width="160">
+                        <Border.Effect>
+                            <DropShadowEffect Color="Black" BlurRadius="8" ShadowDepth="2"/>
+                        </Border.Effect>
+                        <StackPanel>
+                            <Button x:Name="btnProfile" Content="Thông tin cá nhân" 
+                Background="Transparent" BorderThickness="0" HorizontalContentAlignment="Left"
+                Padding="5" Cursor="Hand" Click="btnProfile_Click"/>
+                            <Button x:Name="btnHistory" Content="Lịch sử xét nghiệm" 
+Background="Transparent" BorderThickness="0" HorizontalContentAlignment="Left"
+Padding="5" Cursor="Hand" Click="btnHistory_Click"/>
+
+                            <Button x:Name="btnLogout" Content="Đăng xuất" 
+                Background="Transparent" BorderThickness="0" HorizontalContentAlignment="Left"
+                Padding="5" Cursor="Hand" Click="btnLogout_Click"/>
+                        </StackPanel>
+                    </Border>
+                </Popup>
             </Grid>
 
             <!-- BANNER -->
@@ -178,8 +207,6 @@ Chủ nhật nghỉ" TextWrapping="Wrap" />
                 </Border>
                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,10">
                     <TextBlock Text="123 đường Cầu Giấy, Quận Cầu Giấy, Hà Nội" VerticalAlignment="Center" Margin="0,0,10,0"/>
-                    <Button x:Name="btnChiDuong" Content="Chỉ đường" Background="White" Foreground="Black" Margin="5,0" Padding="10,5" Click="btnChiDuong_Click"/>
-                    <Button x:Name="btnGoiNgay" Content="Gọi ngay" Background="#1D4ED8" Foreground="White" Margin="5,0" Padding="10,5" Click="btnGoiNgay_Click"/>
                 </StackPanel>
             </StackPanel>
 

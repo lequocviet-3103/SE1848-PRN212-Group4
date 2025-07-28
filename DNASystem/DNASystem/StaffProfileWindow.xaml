@@ -295,7 +295,7 @@
 
                         <!-- Gender -->
                         <TextBlock Text="⚧ Giới tính" Style="{StaticResource ModernLabel}"/>
-                        <ComboBox x:Name="cboGender" Style="{StaticResource ModernComboBox}" SelectedValuePath="Content">
+                        <ComboBox x:Name="cboGender"  SelectedValuePath="Content">
                             <ComboBoxItem Content="Nam"/>
                             <ComboBoxItem Content="Nữ"/>
                             <ComboBoxItem Content="Khác"/>
@@ -303,19 +303,19 @@
 
                         <!-- Email -->
                         <TextBlock Text="📧 Email" Style="{StaticResource ModernLabel}"/>
-                        <TextBox x:Name="txtEmail" Style="{StaticResource ModernTextBox}"/>
+                        <TextBox x:Name="txtEmail"/>
 
                         <!-- Phone -->
                         <TextBlock Text="📱 Số điện thoại" Style="{StaticResource ModernLabel}"/>
-                        <TextBox x:Name="txtPhone" Style="{StaticResource ModernTextBox}"/>
+                        <TextBox x:Name="txtPhone"/>
 
                         <!-- Birth Date -->
                         <TextBlock Text="🎂 Ngày sinh" Style="{StaticResource ModernLabel}"/>
-                        <DatePicker x:Name="dtpBirthdate" Style="{StaticResource ModernDatePicker}"/>
+                        <DatePicker x:Name="dtpBirthdate"/>
 
                         <!-- Address -->
                         <TextBlock Text="🏠 Địa chỉ" Style="{StaticResource ModernLabel}"/>
-                        <TextBox x:Name="txtAddress" Style="{StaticResource ModernTextBox}"/>
+                        <TextBox x:Name="txtAddress" />
                     </StackPanel>
                 </ScrollViewer>
 

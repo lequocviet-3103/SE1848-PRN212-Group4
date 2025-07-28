@@ -271,8 +271,6 @@
                         <Separator Background="#4A5F7A" Margin="10,0" Height="1"/>
                         <Button Content="📋 Danh sách đặt lịch" 
                                Style="{StaticResource MenuButtonStyle}"/>
-                        <Button Content="👤 Danh sách khách hàng" 
-                               Style="{StaticResource MenuButtonStyle}"/>
                     </StackPanel>
                 </Border>
 
@@ -354,13 +352,19 @@
                                Margin="0,5" 
                                Click="btnViewResult_Click"
                                Style="{StaticResource ActionButtonStyle}"/>
+                        <Button x:Name="btnViewInvoice" 
+        Content="🧾 Xem Hóa Đơn" 
+        Height="45" 
+        Margin="0,5" 
+        Click="btnViewInvoice_Click"
+        Style="{StaticResource ActionButtonStyle}"/>
 
                         <Separator Background="#BDC3C7" Margin="0,15" Height="1"/>
 
                         <Button Content="❌ Đóng" 
                                Height="45"
                                Margin="0,5"
-                               Style="{StaticResource CloseButtonStyle}"/>
+                               Style="{StaticResource CloseButtonStyle}" Click="Button_Click"/>
                     </StackPanel>
                 </Border>
             </Grid>

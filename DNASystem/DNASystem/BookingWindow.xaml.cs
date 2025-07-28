@@ -12,6 +12,8 @@ namespace DNASystem
         BookingService bookingService = new BookingService();
         UserService userService = new UserService();
         User curruntuser = new User();
+        InvoiceService invoiceService = new InvoiceService();
+        InvoiceDetailService invoiceDetailService = new InvoiceDetailService();
 
         public BookingWindow(Service service, User user)
         {
@@ -68,12 +70,31 @@ namespace DNASystem
                     Method = rbHome.IsChecked == true ? "Tại nhà" : "Tại phòng khám",
                     Status = "Đang chờ mẫu"
                 };
-
                 bookingService.AddBooking(booking);
 
-                MessageBox.Show("Đặt dịch vụ thành công!", "Thành công", MessageBoxButton.OK, MessageBoxImage.Information);
-                btnQuayVe_Click(sender, e);
-                this.Close();
+                var invoice = new Invoice
+                {
+                    InvoiceId = invoiceService.GenerateNewInvoiceId(),
+                    BookingId = booking.BookingId,
+                    Date = DateTime.Now,
+                    Price = selectedService.Price ?? 0
+
+                };
+                invoiceService.AddInvoice(invoice);
+                //chi tiet hoa don
+                var invoiceDetail = new InvoiceDetail
+                {
+                    InvoicedetailId = invoiceDetailService.GenerateNewInvoiceDetailId(),
+                    InvoiceId = invoice.InvoiceId,
+                    ServiceId = selectedService.ServiceId,
+                    Quantity = 1
+                };
+                invoiceDetailService.AddInvoiceDetail(invoiceDetail);
+
+
+                InvoiceWindow invoiceWindow = new InvoiceWindow(invoiceService, invoice.InvoiceId);
+                invoiceWindow.ShowDialog();
+
             }
             catch (Exception ex)
             {

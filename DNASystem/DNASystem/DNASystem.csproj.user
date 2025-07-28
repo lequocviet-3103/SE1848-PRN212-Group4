@@ -17,6 +17,12 @@
     <Compile Update="CustomerProfileWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="DashboardPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="InvoiceWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="KitWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>

@@ -26,6 +26,8 @@ namespace DNASystem
         private readonly KitService kitService;
         private readonly UserService userService;
         private readonly ServiceService serviceService;
+        private readonly InvoiceService invoiceService;
+
         public User user { get; set; }
         public SatffWindow()
         {
@@ -42,6 +44,8 @@ namespace DNASystem
             userService = new UserService();
             txtWelcomeUser.Text = $"Welcome, " + user.Fullname;
             this.WindowState = WindowState.Maximized;
+            invoiceService = new InvoiceService();
+
         }
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
@@ -198,6 +202,43 @@ namespace DNASystem
             LoginWindow loginWindow = new LoginWindow();
             loginWindow.Show();
             this.Close();
+        }
+
+        private void btnViewInvoice_Click(object sender, RoutedEventArgs e)
+        {
+            Booking selected = lvBooking.SelectedItem as Booking;
+
+            if (selected == null)
+            {
+                MessageBox.Show("Chọn khách hàng để xem hóa đơn!", "Xem hóa đơn", MessageBoxButton.OK, MessageBoxImage.Error);
+                return;
+            }
+
+            try
+            {
+                // Tìm invoice tương ứng với booking đã chọn
+                var invoice = invoiceService.GetAllInvoices()
+                                            .FirstOrDefault(i => i.BookingId == selected.BookingId);
+
+                if (invoice == null)
+                {
+                    MessageBox.Show("Không tìm thấy hóa đơn tương ứng với booking này.", "Thông báo", MessageBoxButton.OK, MessageBoxImage.Information);
+                    return;
+                }
+
+                // Truyền InvoiceId
+                var invoiceWindow = new InvoiceWindow(invoiceService, invoice.InvoiceId);
+                invoiceWindow.ShowDialog();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Đã xảy ra lỗi khi xem hóa đơn: " + ex.Message, "Lỗi", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Close();
         }
     }
 }

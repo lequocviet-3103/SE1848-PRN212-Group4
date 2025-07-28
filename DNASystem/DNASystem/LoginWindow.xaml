@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DNASystem"
         mc:Ignorable="d"
-        Title="LoginWindow" Height="880" Width="1000">
+        Title="LoginWindow" Height="770" Width="1000">
     <Window.Resources>
         <Style x:Key="TextLikeButton" TargetType="Button">
             <Setter Property="Background" Value="Transparent"/>
@@ -77,17 +77,10 @@
                     <TextBox x:Name="txtTenDangNhap" Margin="0,5" Height="35"/>
                     <PasswordBox x:Name="txtPassword" Margin="0,5" Height="35"/>
 
-                    <CheckBox x:Name="chkGhiNhoDangNhap" Content="Ghi nhớ đăng nhập" Margin="0,10,0,0" Checked="chkGhiNhoDangNhap_Checked"/>
+                    <CheckBox x:Name="chkGhiNhoDangNhap" Content="Ghi nhớ đăng nhập" Margin="0,10,0,0" Checked="chkGhiNhoDangNhap_Checked" Unchecked="chkGhiNhoDangNhap_Unchecked"/>
 
                     <Button x:Name="btnDangNhap" Content="Đăng nhập" Background="#7A5AF8" Foreground="White" Height="40" Margin="0,10,0,0" Click="btnDangNhap_Click"/>
                     <Button x:Name="btnQuenMatKhau" Content="Quên mật khẩu" Background="Transparent" BorderThickness="0" Foreground="#00BFFF" FontSize="12" Cursor="Hand" HorizontalAlignment="Right" Margin="0,5,0,10" Click="btnQuenMatKhau_Click"/>
-
-                    <Separator Margin="0,10"/>
-                    <TextBlock Text="Hoặc đăng nhập với" FontSize="12" Foreground="Gray" HorizontalAlignment="Center" Margin="0,5"/>
-                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10">
-                        <Button x:Name="btnGoogle" Content="Google" Width="100" Margin="10,0" Click="btnGoogle_Click"/>
-                        <Button x:Name="btnFacebook" Content="Facebook" Width="100" Margin="10,0" Click="btnFacebook_Click"/>
-                    </StackPanel>
                 </StackPanel>
             </Border>
 

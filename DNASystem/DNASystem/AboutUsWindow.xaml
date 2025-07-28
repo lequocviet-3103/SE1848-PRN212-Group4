@@ -36,8 +36,6 @@
     <ScrollViewer VerticalScrollBarVisibility="Auto">
         <StackPanel>
 
-            <!-- Header giữ nguyên -->
-            <!-- Header giữ nguyên -->
             <Grid Height="60" Background="White" VerticalAlignment="Top">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="Auto"/>
@@ -60,12 +58,41 @@
                 </StackPanel>
 
                 <StackPanel Grid.Column="3" Orientation="Horizontal"
-            VerticalAlignment="Center" Margin="10,0,20,0">
-                    <Button x:Name="btnDangNhapHeader" Content="Đăng nhập" Background="White"
-            Foreground="Black" Padding="10,5" Margin="5,0" Click="btnDangNhap_Click"/>
-                    <Button x:Name="btnDangKyHeader" Content="Đăng ký ngay" Background="#00BFFF"
-            Foreground="White" Padding="10,5" Margin="5,0" Click="btnDangKy_Click"/>
+                    VerticalAlignment="Center" Margin="10,0,20,0" HorizontalAlignment="Right">
+                    <Button x:Name="btnUserMenu" Background="Transparent"
+                    BorderBrush="Transparent" Foreground="Black"
+                    Padding="10,5" Margin="5,0" Cursor="Hand"
+                    Click="btnUserMenu_Click">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock x:Name="txtWelcomeUser" Text="{Binding CurrentUserName, StringFormat='Welcome, {0}'}"  />
+                            <TextBlock Text=" 👤" Margin="5,0,0,0"/>
+                        </StackPanel>
+                    </Button>
                 </StackPanel>
+
+                <Popup x:Name="UserPopup"
+           PlacementTarget="{Binding ElementName=btnUserMenu}"
+           Placement="Bottom"
+           StaysOpen="False">
+                    <Border Background="White" BorderBrush="#ccc" BorderThickness="1" CornerRadius="5"
+        Padding="10" Width="160">
+                        <Border.Effect>
+                            <DropShadowEffect Color="Black" BlurRadius="8" ShadowDepth="2"/>
+                        </Border.Effect>
+                        <StackPanel>
+                            <Button x:Name="btnProfile" Content="Thông tin cá nhân" 
+                Background="Transparent" BorderThickness="0" HorizontalContentAlignment="Left"
+                Padding="5" Cursor="Hand" Click="btnProfile_Click"/>
+                            <Button x:Name="btnHistory" Content="Lịch sử xét nghiệm" 
+Background="Transparent" BorderThickness="0" HorizontalContentAlignment="Left"
+Padding="5" Cursor="Hand" Click="btnHistory_Click"/>
+
+                            <Button x:Name="btnLogout" Content="Đăng xuất" 
+                Background="Transparent" BorderThickness="0" HorizontalContentAlignment="Left"
+                Padding="5" Cursor="Hand" Click="btnLogout_Click"/>
+                        </StackPanel>
+                    </Border>
+                </Popup>
             </Grid>
 
 
