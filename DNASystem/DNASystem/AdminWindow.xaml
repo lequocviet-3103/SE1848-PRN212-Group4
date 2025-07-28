@@ -179,7 +179,15 @@
 
                 <StackPanel Grid.Column="1" Orientation="Horizontal">
                     <Border Background="#ede9fe" CornerRadius="8" Padding="12,8" Margin="0,0,8,0">
-                        <TextBlock Text="👤 Admin" FontFamily="Segoe UI" FontWeight="Medium" Foreground="{StaticResource PrimaryColor}"/>
+                        <Button Content="👤 Admin"
+        FontFamily="Segoe UI"
+        FontWeight="Medium"
+        Foreground="{StaticResource PrimaryColor}"
+        Background="Transparent"
+        BorderThickness="0"
+        Cursor="Hand"
+        Padding="0"
+        Click="AdminButton_Click"/>
                     </Border>
                     <Border Background="#f0fdf4" CornerRadius="8" Padding="12,8">
                         <TextBlock Text="🟢 Online" FontFamily="Segoe UI" FontWeight="Medium" Foreground="#059669"/>
@@ -323,5 +331,6 @@
                 </Border>
             </Grid>
         </Border>
+        <ContentControl x:Name="MainContent" Grid.Row="3"/>
     </Grid>
 </Window>

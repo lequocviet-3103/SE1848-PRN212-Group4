@@ -85,6 +85,9 @@ namespace DNASystem
             Close();
         }
 
-        
+        private void AdminButton_Click(object sender, RoutedEventArgs e)
+        {
+            MainContent.Content = new AdminHomePage();
+        }
     }
 }

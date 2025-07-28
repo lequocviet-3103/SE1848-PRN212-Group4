@@ -218,8 +218,13 @@
                         Foreground="#dc2626"
                         Margin="0,16,0,0">
                     <StackPanel Orientation="Horizontal">
-                        <TextBlock Text="🚪" Style="{StaticResource IconTextBlock}" Foreground="#dc2626"/>
-                        <TextBlock Text="Đăng xuất" Foreground="#dc2626"/>
+                        <Button Style="{StaticResource SidebarButton}" Foreground="#dc2626" Click="Logout_Click">
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="🚪" Style="{StaticResource IconTextBlock}" Foreground="#dc2626"/>
+                                <TextBlock Text="Đăng xuất" Foreground="#dc2626"/>
+                            </StackPanel>
+                        </Button>
+
                     </StackPanel>
                 </Button>
             </Grid>

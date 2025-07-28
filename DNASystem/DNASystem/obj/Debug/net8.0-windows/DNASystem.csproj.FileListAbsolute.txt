@@ -947,7 +947,6 @@ D:\Ki5\PRN212\ProjectGroup\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\D
 D:\Ki5\PRN212\ProjectGroup\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DNASystem\obj\Debug\net8.0-windows\KitWindow.baml
 D:\Ki5\PRN212\ProjectGroup\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DNASystem\obj\Debug\net8.0-windows\UserManagementPage.baml
 D:\Ki5\PRN212\ProjectGroup\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DNASystem\obj\Debug\net8.0-windows\AboutUsWindow.g.cs
-D:\Ki5\PRN212\ProjectGroup\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DNASystem\obj\Debug\net8.0-windows\AccountCreationWindow.g.cs
 D:\Ki5\PRN212\ProjectGroup\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DNASystem\obj\Debug\net8.0-windows\AddUserWindow.g.cs
 D:\Ki5\PRN212\ProjectGroup\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DNASystem\obj\Debug\net8.0-windows\AdminHomePage.g.cs
 D:\Ki5\PRN212\ProjectGroup\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DNASystem\obj\Debug\net8.0-windows\AdminWindow.g.cs
@@ -974,7 +973,6 @@ D:\Ki5\PRN212\ProjectGroup\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\D
 D:\Ki5\PRN212\ProjectGroup\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DNASystem\obj\Debug\net8.0-windows\DNASystem_MarkupCompile.cache
 D:\Ki5\PRN212\ProjectGroup\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DNASystem\obj\Debug\net8.0-windows\DNASystem_MarkupCompile.lref
 D:\Ki5\PRN212\ProjectGroup\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DNASystem\obj\Debug\net8.0-windows\AboutUsWindow.baml
-D:\Ki5\PRN212\ProjectGroup\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DNASystem\obj\Debug\net8.0-windows\AccountCreationWindow.baml
 D:\Ki5\PRN212\ProjectGroup\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DNASystem\obj\Debug\net8.0-windows\AddUserWindow.baml
 D:\Ki5\PRN212\ProjectGroup\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DNASystem\obj\Debug\net8.0-windows\AdminHomePage.baml
 D:\Ki5\PRN212\ProjectGroup\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DNASystem\obj\Debug\net8.0-windows\AdminWindow.baml
@@ -1256,3 +1254,5 @@ D:\PRN212-DNA\SE1848-PRN212-Group4\DNASystem\DNASystem\obj\Debug\net8.0-windows\
 D:\PRN212-DNA\SE1848-PRN212-Group4\DNASystem\DNASystem\obj\Debug\net8.0-windows\StaffProfileWindow.baml
 D:\PRN212-DNA\SE1848-PRN212-Group4\DNASystem\DNASystem\obj\Debug\net8.0-windows\StaffViewTestResultWindow.baml
 D:\PRN212-DNA\SE1848-PRN212-Group4\DNASystem\DNASystem\obj\Debug\net8.0-windows\ViewTestResultWindow.baml
+D:\Ki5\PRN212\ProjectGroup\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DNASystem\obj\Debug\net8.0-windows\InvoiceWindow.g.cs
+D:\Ki5\PRN212\ProjectGroup\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DNASystem\obj\Debug\net8.0-windows\InvoiceWindow.baml

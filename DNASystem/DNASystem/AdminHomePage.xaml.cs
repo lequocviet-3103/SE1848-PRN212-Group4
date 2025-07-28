@@ -52,5 +52,20 @@ namespace DNASystem
         {
             MainContent.Content = new DashboardPage();
         }
+
+        private void Logout_Click(object sender, RoutedEventArgs e)
+        {
+            // Tìm cửa sổ cha chứa AdminHomePage
+            Window parentWindow = Window.GetWindow(this);
+            if (parentWindow != null)
+            {
+                // Mở lại cửa sổ đăng nhập
+                var loginWindow = new LoginWindow();
+                loginWindow.Show();
+
+                // Đóng cửa sổ admin hiện tại
+                parentWindow.Close();
+            }
+        }
     }
 }
