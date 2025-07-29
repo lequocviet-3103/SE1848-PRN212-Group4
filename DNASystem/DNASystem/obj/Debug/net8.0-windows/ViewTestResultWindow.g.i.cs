@@ -125,7 +125,7 @@ namespace DNASystem {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/DNASystem;V1.0.0.0;component/viewtestresultwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/DNASystem;component/viewtestresultwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\ViewTestResultWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
